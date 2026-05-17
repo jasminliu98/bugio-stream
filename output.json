@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "bg-7a50d83a1e",
-          "name": "Atalanta vs Bologna | 06:00 18/05",
+          "name": "Atalanta vs Bologna | 23:00 17/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -89,7 +89,7 @@
         },
         {
           "id": "bg-a376802c08",
-          "name": "Newcastle vs West Ham | 06:30 18/05",
+          "name": "Newcastle vs West Ham | 23:30 17/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -160,16 +160,16 @@
         },
         {
           "id": "bg-8289889263",
-          "name": "Sevilla vs Real Madrid | 07:00 18/05",
+          "name": "Sevilla vs Real Madrid | 00:00 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -217,7 +217,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/541.png",
             "start_time": "2026-05-18T00:00:00",
             "blv": "BLV Dế Lửa",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -231,16 +231,16 @@
         },
         {
           "id": "bg-5dedb42b34",
-          "name": "Atletico Madrid vs Girona | 07:00 18/05",
+          "name": "Atletico Madrid vs Girona | 00:00 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -288,7 +288,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/547.png",
             "start_time": "2026-05-18T00:00:00",
             "blv": "BLV Tiểu Hạc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -302,7 +302,7 @@
         },
         {
           "id": "bg-1d0787d664",
-          "name": "Paris FC vs Paris Saint Germain | 09:00 18/05",
+          "name": "Paris FC vs Paris Saint Germain | 02:00 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -373,7 +373,7 @@
         },
         {
           "id": "bg-1d3b7f1f8a",
-          "name": "Lyon vs Lens | 09:00 18/05",
+          "name": "Lyon vs Lens | 02:00 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -399,11 +399,11 @@
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-431938c7dc",
+                          "id": "lnk-448842e236",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -429,7 +429,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/80.png",
             "logo_b": "https://media.api-sports.io/football/teams/116.png",
             "start_time": "2026-05-18T02:00:00",
-            "blv": "BLV Tiểu Bảo",
+            "blv": "BLV Lềnh",
             "is_live": false,
             "cate_type": "football"
           },
@@ -444,7 +444,7 @@
         },
         {
           "id": "bg-c5c1bda119",
-          "name": "Barcelona vs Real Betis | 09:15 18/05",
+          "name": "Barcelona vs Real Betis | 02:15 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -512,6 +512,290 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-6adbe8b2ab",
+          "name": "Zorya Luhansk vs Polessya | 17:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6adbe8b2ab",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6adbe8b2ab",
+                  "name": "Zorya Luhansk vs Polessya",
+                  "streams": [
+                    {
+                      "id": "st-6adbe8b2ab",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Zorya Luhansk",
+            "team_b": "Polessya",
+            "logo_a": "https://media.api-sports.io/football/teams/599.png",
+            "logo_b": "https://media.api-sports.io/football/teams/6496.png",
+            "start_time": "2026-05-18T17:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6adbe8b2ab_88ddd57e_20260517.png?v=88ddd57e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-9a02387b02",
+          "name": "Tanjong Pagar vs Hougang United | 18:30 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a02387b02",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-9a02387b02",
+                  "name": "Tanjong Pagar vs Hougang United",
+                  "streams": [
+                    {
+                      "id": "st-9a02387b02",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Tanjong Pagar",
+            "team_b": "Hougang United",
+            "logo_a": "https://media.api-sports.io/football/teams/10077.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4205.png",
+            "start_time": "2026-05-18T18:30:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9a02387b02_0f6ab1fc_20260517.png?v=0f6ab1fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-b87517992f",
+          "name": "Shirak vs FC Urartu | 20:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b87517992f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b87517992f",
+                  "name": "Shirak vs FC Urartu",
+                  "streams": [
+                    {
+                      "id": "st-b87517992f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Shirak",
+            "team_b": "FC Urartu",
+            "logo_a": "https://media.api-sports.io/football/teams/3686.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2276.png",
+            "start_time": "2026-05-18T20:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b87517992f_ab1f2246_20260517.png?v=ab1f2246",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-4ff3e35002",
+          "name": "Gandzasar vs Pyunik Yerevan | 22:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ff3e35002",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4ff3e35002",
+                  "name": "Gandzasar vs Pyunik Yerevan",
+                  "streams": [
+                    {
+                      "id": "st-4ff3e35002",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c23e936057",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubaxa/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Gandzasar",
+            "team_b": "Pyunik Yerevan",
+            "logo_a": "https://media.api-sports.io/football/teams/688.png",
+            "logo_b": "https://media.api-sports.io/football/teams/709.png",
+            "start_time": "2026-05-18T22:00:00",
+            "blv": "BLV Tiểu Bà Xã",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4ff3e35002_5b7f15b6_20260517.png?v=5b7f15b6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -524,7 +808,7 @@
       "channels": [
         {
           "id": "bg-137bdd55f1",
-          "name": "Jiangsu - VietinBank | 21:00 18/05",
+          "name": "Jiangsu - VietinBank | 14:00 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -595,7 +879,7 @@
         },
         {
           "id": "bg-2912bbeedc",
-          "name": "Gunma Green Wings - Suwon City | 23:00 18/05",
+          "name": "Gunma Green Wings - Suwon City | 16:00 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -666,7 +950,7 @@
         },
         {
           "id": "bg-45c68484c6",
-          "name": "LP Bank Ninh Bình vs Hà Nội Tasco Auto | 02:00 19/05",
+          "name": "LP Bank Ninh Bình vs Hà Nội Tasco Auto | 19:00 18/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
