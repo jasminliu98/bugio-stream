@@ -1,0 +1,12 @@
+{
+  "id": "bugio",
+  "url": "https://sv1.bugio9.live",
+  "name": "BugioTV",
+  "color": "#e53935",
+  "grid_number": 3,
+  "image": {
+    "type": "cover",
+    "url": "https://sv1.bugio9.live/favicon.ico"
+  },
+  "groups": []
+}
