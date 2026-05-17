@@ -8,5 +8,734 @@
     "type": "cover",
     "url": "https://sv1.bugio9.live/favicon.ico"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-7a50d83a1e",
+          "name": "Atalanta vs Bologna | 06:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a50d83a1e",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-7a50d83a1e",
+                  "name": "Atalanta vs Bologna",
+                  "streams": [
+                    {
+                      "id": "st-7a50d83a1e",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c23e936057",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubaxa/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Atalanta",
+            "team_b": "Bologna",
+            "logo_a": "https://media.api-sports.io/football/teams/499.png",
+            "logo_b": "https://media.api-sports.io/football/teams/500.png",
+            "start_time": "2026-05-17T23:00:00",
+            "blv": "BLV Tiểu Bà Xã",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7a50d83a1e_22e6ea0b_20260517.png?v=22e6ea0b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-a376802c08",
+          "name": "Newcastle vs West Ham | 06:30 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a376802c08",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a376802c08",
+                  "name": "Newcastle vs West Ham",
+                  "streams": [
+                    {
+                      "id": "st-a376802c08",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Newcastle",
+            "team_b": "West Ham",
+            "logo_a": "https://media.api-sports.io/football/teams/34.png",
+            "logo_b": "https://media.api-sports.io/football/teams/48.png",
+            "start_time": "2026-05-17T23:30:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a376802c08_92a0df54_20260517.png?v=92a0df54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-8289889263",
+          "name": "Sevilla vs Real Madrid | 07:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8289889263",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8289889263",
+                  "name": "Sevilla vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-8289889263",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-032da4a79f",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Sevilla",
+            "team_b": "Real Madrid",
+            "logo_a": "https://media.api-sports.io/football/teams/536.png",
+            "logo_b": "https://media.api-sports.io/football/teams/541.png",
+            "start_time": "2026-05-18T00:00:00",
+            "blv": "BLV Dế Lửa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8289889263_259c825e_20260517.png?v=259c825e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-5dedb42b34",
+          "name": "Atletico Madrid vs Girona | 07:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5dedb42b34",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-5dedb42b34",
+                  "name": "Atletico Madrid vs Girona",
+                  "streams": [
+                    {
+                      "id": "st-5dedb42b34",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Atletico Madrid",
+            "team_b": "Girona",
+            "logo_a": "https://media.api-sports.io/football/teams/530.png",
+            "logo_b": "https://media.api-sports.io/football/teams/547.png",
+            "start_time": "2026-05-18T00:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5dedb42b34_1307ab0a_20260517.png?v=1307ab0a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-1d0787d664",
+          "name": "Paris FC vs Paris Saint Germain | 09:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d0787d664",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1d0787d664",
+                  "name": "Paris FC vs Paris Saint Germain",
+                  "streams": [
+                    {
+                      "id": "st-1d0787d664",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Paris FC",
+            "team_b": "Paris Saint Germain",
+            "logo_a": "https://media.api-sports.io/football/teams/114.png",
+            "logo_b": "https://media.api-sports.io/football/teams/85.png",
+            "start_time": "2026-05-18T02:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1d0787d664_ffe2dca6_20260517.png?v=ffe2dca6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-1d3b7f1f8a",
+          "name": "Lyon vs Lens | 09:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d3b7f1f8a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1d3b7f1f8a",
+                  "name": "Lyon vs Lens",
+                  "streams": [
+                    {
+                      "id": "st-1d3b7f1f8a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-431938c7dc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Lens",
+            "logo_a": "https://media.api-sports.io/football/teams/80.png",
+            "logo_b": "https://media.api-sports.io/football/teams/116.png",
+            "start_time": "2026-05-18T02:00:00",
+            "blv": "BLV Tiểu Bảo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1d3b7f1f8a_74a9de4b_20260517.png?v=74a9de4b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-c5c1bda119",
+          "name": "Barcelona vs Real Betis | 09:15 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5c1bda119",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c5c1bda119",
+                  "name": "Barcelona vs Real Betis",
+                  "streams": [
+                    {
+                      "id": "st-c5c1bda119",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c23e936057",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubaxa/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Barcelona",
+            "team_b": "Real Betis",
+            "logo_a": "https://media.api-sports.io/football/teams/529.png",
+            "logo_b": "https://media.api-sports.io/football/teams/543.png",
+            "start_time": "2026-05-18T02:15:00",
+            "blv": "BLV Tiểu Bà Xã",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c5c1bda119_e7573287_20260517.png?v=e7573287",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-137bdd55f1",
+          "name": "Jiangsu - VietinBank | 21:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-137bdd55f1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-137bdd55f1",
+                  "name": "Jiangsu - VietinBank",
+                  "streams": [
+                    {
+                      "id": "st-137bdd55f1",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-431938c7dc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền nữ quốc tế VTV9 - Bình Điền",
+            "team_a": "Jiangsu",
+            "team_b": "VietinBank",
+            "logo_a": "https://volleybox.net/media/upload/teams/17789412912WPAz.png",
+            "logo_b": "https://volleybox.net/media/upload/teams/17419474287dBJJ.png",
+            "start_time": "2026-05-18T14:00:00",
+            "blv": "BLV Tiểu Bảo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-137bdd55f1_d24fb625_20260517.png?v=d24fb625",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-2912bbeedc",
+          "name": "Gunma Green Wings - Suwon City | 23:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2912bbeedc",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2912bbeedc",
+                  "name": "Gunma Green Wings - Suwon City",
+                  "streams": [
+                    {
+                      "id": "st-2912bbeedc",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-032da4a79f",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền nữ quốc tế VTV9 - Bình Điền",
+            "team_a": "Gunma Green Wings",
+            "team_b": "Suwon City",
+            "logo_a": "https://volleybox.net/media/upload/teams/1777819091J2hRi.png",
+            "logo_b": "https://volleybox.net/media/upload/teams/1692811749m3Gdn.png",
+            "start_time": "2026-05-18T16:00:00",
+            "blv": "BLV Dế Lửa",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2912bbeedc_296ec88c_20260517.png?v=296ec88c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-45c68484c6",
+          "name": "LP Bank Ninh Bình vs Hà Nội Tasco Auto | 02:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45c68484c6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-45c68484c6",
+                  "name": "LP Bank Ninh Bình vs Hà Nội Tasco Auto",
+                  "streams": [
+                    {
+                      "id": "st-45c68484c6",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-431938c7dc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền nữ quốc tế VTV9 - Bình Điền",
+            "team_a": "LP Bank Ninh Bình",
+            "team_b": "Hà Nội Tasco Auto",
+            "logo_a": "https://volleybox.net/media/upload/teams/1741947201Tnk8q.png",
+            "logo_b": "https://volleybox.net/media/upload/teams/1759242031Tpo0W.png",
+            "start_time": "2026-05-18T19:00:00",
+            "blv": "BLV Tiểu Bảo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-45c68484c6_b7e20051_20260517.png?v=b7e20051",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
