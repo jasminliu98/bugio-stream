@@ -56,7 +56,7 @@ API_LIST   = "https://sv.bugiotv.xyz/internal/api/matches"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v1"
+THUMB_VERSION = "v2"
 
 # Phân loại theo tournamentName
 VOLLEYBALL_KEYWORDS = ["bóng chuyền", "volleyball", "vtv", "binh dien", "bình điền"]
