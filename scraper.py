@@ -53,7 +53,7 @@ HEADERS = {
 }
 
 BASE_URL   = "https://sv1.bugio9.live"
-API_LIST   = "https://api.livestats.online/api/v1/fixtures"
+API_LIST   = "https://sv.bugiotv.xyz/internal/api/matches"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
