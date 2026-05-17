@@ -11,11 +11,153 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "bg-7a50d83a1e",
+          "name": "Atalanta vs Bologna | 06:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a50d83a1e",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-7a50d83a1e",
+                  "name": "Atalanta vs Bologna",
+                  "streams": [
+                    {
+                      "id": "st-7a50d83a1e",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c23e936057",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubaxa/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Atalanta",
+            "team_b": "Bologna",
+            "logo_a": "https://media.api-sports.io/football/teams/499.png",
+            "logo_b": "https://media.api-sports.io/football/teams/500.png",
+            "start_time": "2026-05-17T23:00:00",
+            "blv": "BLV Tiểu Bà Xã",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7a50d83a1e_22e6ea0b_20260517.png?v=22e6ea0b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-a376802c08",
+          "name": "Newcastle vs West Ham | 06:30 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a376802c08",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a376802c08",
+                  "name": "Newcastle vs West Ham",
+                  "streams": [
+                    {
+                      "id": "st-a376802c08",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Newcastle",
+            "team_b": "West Ham",
+            "logo_a": "https://media.api-sports.io/football/teams/34.png",
+            "logo_b": "https://media.api-sports.io/football/teams/48.png",
+            "start_time": "2026-05-17T23:30:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a376802c08_92a0df54_20260517.png?v=92a0df54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-8289889263",
           "name": "Sevilla vs Real Madrid | 07:00 18/05",
