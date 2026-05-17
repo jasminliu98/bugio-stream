@@ -151,7 +151,7 @@ def is_within_6h(start_time: str, cate_type: str = "football") -> bool:
         return True
     now   = now_vn()
     upper = now + timedelta(hours=6)
-    return lower <= kickoff <= upper
+    return kickoff <= upper
 
 
 def format_kickoff_display(start_time: str) -> tuple[str, str]:
