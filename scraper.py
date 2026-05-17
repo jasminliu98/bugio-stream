@@ -143,15 +143,14 @@ def parse_time_sort(start_time: str) -> int:
     return 999_999_999
 
 
-def is_within_24h(start_time: str, cate_type: str = "football") -> bool:
+def is_within_6h(start_time: str, cate_type: str = "football") -> bool:
     if cate_type != "football":
         return True
     kickoff = parse_kickoff(start_time)
     if kickoff is None:
         return True
     now   = now_vn()
-    lower = now - timedelta(hours=6)
-    upper = now + timedelta(hours=24)
+    upper = now + timedelta(hours=6)
     return lower <= kickoff <= upper
 
 
@@ -414,7 +413,7 @@ def get_matches() -> list:
         if cate_type == "football" and is_america_league(tournament):
             continue
 
-        if not is_within_24h(start_time, cate_type):
+        if not is_within_6h(start_time, cate_type):
             continue
 
         is_live   = calc_is_live(is_live_f, start_time)
