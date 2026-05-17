@@ -21,15 +21,14 @@ def now_vn() -> datetime:
 
 
 def parse_kickoff(start_time: str) -> datetime | None:
-    """Parse ISO startTime từ API (VD: 2026-05-17T21:00:00) về datetime VN."""
     if not start_time:
         return None
     try:
-        # API trả về giờ UTC, cộng thêm 7h cho VN
         dt = datetime.fromisoformat(start_time.replace("Z", ""))
         if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt.astimezone(VN_TZ)
+            # API trả về giờ VN sẵn, không phải UTC
+            dt = dt.replace(tzinfo=VN_TZ)  # ✅ Gán VN_TZ thay vì UTC
+        return dt
     except Exception:
         return None
 
