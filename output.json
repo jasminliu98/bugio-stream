@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-b87517992f",
-          "name": "Shirak vs FC Urartu | 20:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b87517992f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-b87517992f",
-                  "name": "Shirak vs FC Urartu",
-                  "streams": [
-                    {
-                      "id": "st-b87517992f",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Shirak",
-            "team_b": "FC Urartu",
-            "logo_a": "https://media.api-sports.io/football/teams/3686.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2276.png",
-            "start_time": "2026-05-18T20:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b87517992f_e34f69a5_20260518.png?v=e34f69a5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-4ff3e35002",
           "name": "Gandzasar vs Pyunik Yerevan | 22:00 18/05",
