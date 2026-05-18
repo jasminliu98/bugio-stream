@@ -233,82 +233,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-137bdd55f1",
-          "name": "Jiangsu - VietinBank | 14:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-137bdd55f1",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-137bdd55f1",
-                  "name": "Jiangsu - VietinBank",
-                  "streams": [
-                    {
-                      "id": "st-137bdd55f1",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-431938c7dc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bóng chuyền nữ quốc tế VTV9 - Bình Điền",
-            "team_a": "Jiangsu",
-            "team_b": "VietinBank",
-            "logo_a": "https://volleybox.net/media/upload/teams/17789412912WPAz.png",
-            "logo_b": "https://volleybox.net/media/upload/teams/17419474287dBJJ.png",
-            "start_time": "2026-05-18T14:00:00",
-            "blv": "BLV Tiểu Bảo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-137bdd55f1_279bd360_20260518.png?v=279bd360",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-2912bbeedc",
           "name": "Gunma Green Wings - Suwon City | 16:00 18/05",
