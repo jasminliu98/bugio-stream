@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-b28d8e3ccb",
+          "name": "Leganes vs Huesca | 01:30 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b28d8e3ccb",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b28d8e3ccb",
+                  "name": "Leganes vs Huesca",
+                  "streams": [
+                    {
+                      "id": "st-b28d8e3ccb",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c23e936057",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubaxa/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Segunda División",
+            "team_a": "Leganes",
+            "team_b": "Huesca",
+            "logo_a": "https://media.api-sports.io/football/teams/537.png",
+            "logo_b": "https://media.api-sports.io/football/teams/726.png",
+            "start_time": "2026-05-19T01:30:00",
+            "blv": "BLV Tiểu Bà Xã",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b28d8e3ccb_953e4290_20260518.png?v=953e4290",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
