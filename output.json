@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-22f2729737",
-          "name": "TKS Việt Nam W - Hồ Chí Minh W | 16:00 19/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-22f2729737",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-22f2729737",
-                  "name": "TKS Việt Nam W - Hồ Chí Minh W",
-                  "streams": [
-                    {
-                      "id": "st-22f2729737",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnamese Cup Women",
-            "team_a": "TKS Việt Nam W",
-            "team_b": "Hồ Chí Minh W",
-            "logo_a": "https://static.flashscore.com/res/image/data/KU9FsQjl-pIpxCY0B.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/bBNLVvgl-tEmn70ao.png",
-            "start_time": "2026-05-19T16:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-22f2729737_69ecac58_20260519.png?v=69ecac58",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-a5bad363fc",
           "name": "Sichuan Jiuniu vs Dalian Zhixing | 18:35 19/05",
