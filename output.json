@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-810bf83c7a",
+          "name": "Shorta vs Damascus Al-Ahli | 20:00 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-810bf83c7a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-810bf83c7a",
+                  "name": "Shorta vs Damascus Al-Ahli",
+                  "streams": [
+                    {
+                      "id": "st-810bf83c7a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Shorta",
+            "team_b": "Damascus Al-Ahli",
+            "logo_a": "https://media.api-sports.io/football/teams/9123.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27269.png",
+            "start_time": "2026-05-19T20:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-810bf83c7a_c9ab165b_20260519.png?v=c9ab165b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
