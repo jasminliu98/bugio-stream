@@ -375,82 +375,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-e6cc48e3a8",
-          "name": "BC Thông Tin - BĐ 19 vs Suwon (Hàn Quốc) | 17:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e6cc48e3a8",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-e6cc48e3a8",
-                  "name": "BC Thông Tin - BĐ 19 vs Suwon (Hàn Quốc)",
-                  "streams": [
-                    {
-                      "id": "st-e6cc48e3a8",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-431938c7dc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bóng chuyền nữ quốc tế VTV9 - Bình Điền",
-            "team_a": "BC Thông Tin - BĐ 19",
-            "team_b": "Suwon (Hàn Quốc)",
-            "logo_a": "https://volleybox.net/media/upload/teams/1753202671T0WYJ.png",
-            "logo_b": "https://volleybox.net/media/upload/teams/1692811749m3Gdn.png",
-            "start_time": "2026-05-20T17:00:00",
-            "blv": "BLV Tiểu Bảo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e6cc48e3a8_cad2fa0b_20260520.png?v=cad2fa0b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-1e8eec0db3",
           "name": "Jiangsu vs LP Bank Ninh Bình | 20:00 20/05",
