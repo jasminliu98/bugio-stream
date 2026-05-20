@@ -157,6 +157,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-79cc30c735",
+          "name": "Chongqing Tongliang Long vs Yunnan Yukun | 19:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79cc30c735",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-79cc30c735",
+                  "name": "Chongqing Tongliang Long vs Yunnan Yukun",
+                  "streams": [
+                    {
+                      "id": "st-79cc30c735",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c23e936057",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubaxa/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Chongqing Tongliang Long",
+            "team_b": "Yunnan Yukun",
+            "logo_a": "https://media.api-sports.io/football/teams/21262.png",
+            "logo_b": "https://media.api-sports.io/football/teams/21265.png",
+            "start_time": "2026-05-20T19:00:00",
+            "blv": "BLV Tiểu Bà Xã",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-79cc30c735_d43ebda6_20260520.png?v=d43ebda6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
