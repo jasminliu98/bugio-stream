@@ -370,6 +370,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-0f089a3bcf",
+          "name": "Start vs Bodo/Glimt | 23:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f089a3bcf",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-0f089a3bcf",
+                  "name": "Start vs Bodo/Glimt",
+                  "streams": [
+                    {
+                      "id": "st-0f089a3bcf",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eliteserien",
+            "team_a": "Start",
+            "team_b": "Bodo/Glimt",
+            "logo_a": "https://media.api-sports.io/football/teams/334.png",
+            "logo_b": "https://media.api-sports.io/football/teams/327.png",
+            "start_time": "2026-05-20T23:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0f089a3bcf_31fd8160_20260520.png?v=31fd8160",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
