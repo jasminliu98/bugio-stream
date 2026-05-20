@@ -115,11 +115,11 @@
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-c23e936057",
+                          "id": "lnk-448842e236",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubaxa/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -145,7 +145,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/21262.png",
             "logo_b": "https://media.api-sports.io/football/teams/21265.png",
             "start_time": "2026-05-20T19:00:00",
-            "blv": "BLV Tiểu Bà Xã",
+            "blv": "BLV Lềnh",
             "is_live": true,
             "cate_type": "football"
           },
