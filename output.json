@@ -370,6 +370,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-2edfeadfe6",
+          "name": "Al Khaleej Saihat vs Al-Ahli Jeddah | 01:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2edfeadfe6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2edfeadfe6",
+                  "name": "Al Khaleej Saihat vs Al-Ahli Jeddah",
+                  "streams": [
+                    {
+                      "id": "st-2edfeadfe6",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-431938c7dc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Al Khaleej Saihat",
+            "team_b": "Al-Ahli Jeddah",
+            "logo_a": "https://media.api-sports.io/football/teams/2928.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2929.png",
+            "start_time": "2026-05-21T01:00:00",
+            "blv": "BLV Tiểu Bảo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2edfeadfe6_d27502cc_20260520.png?v=d27502cc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
