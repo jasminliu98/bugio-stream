@@ -299,6 +299,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-af8d1eb220",
+          "name": "Chernihiv vs Dynamo Kyiv | 22:00 20/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af8d1eb220",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-af8d1eb220",
+                  "name": "Chernihiv vs Dynamo Kyiv",
+                  "streams": [
+                    {
+                      "id": "st-af8d1eb220",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup",
+            "team_a": "Chernihiv",
+            "team_b": "Dynamo Kyiv",
+            "logo_a": "https://media.api-sports.io/football/teams/14433.png",
+            "logo_b": "https://media.api-sports.io/football/teams/572.png",
+            "start_time": "2026-05-20T22:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-af8d1eb220_1df6d008_20260520.png?v=1df6d008",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
