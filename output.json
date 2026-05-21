@@ -10,6 +10,86 @@
   },
   "groups": [
     {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-926ec030f2",
+          "name": "Giresun W - Besiktas W | 17:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-926ec030f2",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-926ec030f2",
+                  "name": "Giresun W - Besiktas W",
+                  "streams": [
+                    {
+                      "id": "st-926ec030f2",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super Lig Thổ Nhĩ Kỳ ",
+            "team_a": "Giresun W",
+            "team_b": "Besiktas W",
+            "logo_a": "https://static.flashscore.com/res/image/data/MuH6zJYg-0E40mJo1.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/KGLt9DfM-tprtUH6d.png",
+            "start_time": "2026-05-21T17:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-926ec030f2_5eb770ca_20260521.png?v=5eb770ca",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền",
       "display": "vertical",
