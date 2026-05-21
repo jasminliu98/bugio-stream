@@ -157,6 +157,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-f720ec3e54",
+          "name": "Bouhaila - Esperance Tunis | 21:30 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f720ec3e54",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f720ec3e54",
+                  "name": "Bouhaila - Esperance Tunis",
+                  "streams": [
+                    {
+                      "id": "st-f720ec3e54",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup Tunisia ",
+            "team_a": "Bouhaila",
+            "team_b": "Esperance Tunis",
+            "logo_a": "https://static.flashscore.com/res/image/data/SM566Fhl-f76oETpp.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hOAuxACa-QwBpoY8M.png",
+            "start_time": "2026-05-21T21:30:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f720ec3e54_75fb8057_20260521.png?v=75fb8057",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -195,11 +266,11 @@
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-032da4a79f",
+                          "id": "lnk-431938c7dc",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -225,7 +296,7 @@
             "logo_a": "https://volleybox.net/media/upload/teams/1777819091J2hRi.png",
             "logo_b": "https://volleybox.net/media/upload/teams/17419474287dBJJ.png",
             "start_time": "2026-05-21T17:00:00",
-            "blv": "BLV Dế Lửa",
+            "blv": "BLV Tiểu Bảo",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
