@@ -157,6 +157,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-74249bfb36",
+          "name": "Viettel vs Pho Hien | 19:15 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-74249bfb36",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-74249bfb36",
+                  "name": "Viettel vs Pho Hien",
+                  "streams": [
+                    {
+                      "id": "st-74249bfb36",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Viettel",
+            "team_b": "Pho Hien",
+            "logo_a": "https://media.api-sports.io/football/teams/3681.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9166.png",
+            "start_time": "2026-05-22T19:15:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-74249bfb36_3edcefd2_20260522.png?v=3edcefd2",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
