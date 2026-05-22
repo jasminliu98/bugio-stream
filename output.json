@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-4b0a0290ad",
-          "name": "Machida Zelvia vs Urawa | 17:30 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b0a0290ad",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-4b0a0290ad",
-                  "name": "Machida Zelvia vs Urawa",
-                  "streams": [
-                    {
-                      "id": "st-4b0a0290ad",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Machida Zelvia",
-            "team_b": "Urawa",
-            "logo_a": "https://media.api-sports.io/football/teams/303.png",
-            "logo_b": "https://media.api-sports.io/football/teams/287.png",
-            "start_time": "2026-05-22T17:30:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4b0a0290ad_f9168230_20260522.png?v=f9168230",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-74249bfb36",
           "name": "Viettel vs Pho Hien | 19:15 22/05",
@@ -225,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-812214fb8e_0393ad68_20260522.png?v=0393ad68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-b8a03c5c15",
+          "name": "Rot-Weiß Essen vs SpVgg Greuther Fürth | 01:30 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8a03c5c15",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b8a03c5c15",
+                  "name": "Rot-Weiß Essen vs SpVgg Greuther Fürth",
+                  "streams": [
+                    {
+                      "id": "st-b8a03c5c15",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-032da4a79f",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "Rot-Weiß Essen",
+            "team_b": "SpVgg Greuther Fürth",
+            "logo_a": "https://media.api-sports.io/football/teams/1621.png",
+            "logo_b": "https://media.api-sports.io/football/teams/178.png",
+            "start_time": "2026-05-23T01:30:00",
+            "blv": "BLV Dế Lửa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b8a03c5c15_04fcbc32_20260522.png?v=04fcbc32",
             "width": 1600,
             "height": 1200
           }
