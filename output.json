@@ -115,11 +115,11 @@
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-a4a6a520ed",
+                          "id": "lnk-032da4a79f",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -145,7 +145,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/3681.png",
             "logo_b": "https://media.api-sports.io/football/teams/9166.png",
             "start_time": "2026-05-22T19:15:00",
-            "blv": "BLV Lavie",
+            "blv": "BLV Dế Lửa",
             "is_live": true,
             "cate_type": "football"
           },
