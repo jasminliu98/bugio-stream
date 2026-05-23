@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-7aa685b3b1",
-          "name": "Kyoto Sanga vs V-varen Nagasaki | 17:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7aa685b3b1",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-7aa685b3b1",
-                  "name": "Kyoto Sanga vs V-varen Nagasaki",
-                  "streams": [
-                    {
-                      "id": "st-7aa685b3b1",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Kyoto Sanga",
-            "team_b": "V-varen Nagasaki",
-            "logo_a": "https://media.api-sports.io/football/teams/302.png",
-            "logo_b": "https://media.api-sports.io/football/teams/285.png",
-            "start_time": "2026-05-23T17:00:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7aa685b3b1_0b55523a_20260523.png?v=0b55523a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-f0bf4a2da9",
           "name": "Phu Dong vs Ho Chi Minh | 18:00 23/05",
@@ -367,77 +296,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2cfa8f9e50_8f8ef639_20260523.png?v=8f8ef639",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-a68259547f",
-          "name": "Hull City vs Middlesbrough | 22:30 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a68259547f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-a68259547f",
-                  "name": "Hull City vs Middlesbrough",
-                  "streams": [
-                    {
-                      "id": "st-a68259547f",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-431938c7dc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieubao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Championship",
-            "team_a": "Hull City",
-            "team_b": "Middlesbrough",
-            "logo_a": "https://media.api-sports.io/football/teams/64.png",
-            "logo_b": "https://media.api-sports.io/football/teams/70.png",
-            "start_time": "2026-05-23T22:30:00",
-            "blv": "BLV Tiểu Bảo",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a68259547f_ce9233c9_20260523.png?v=ce9233c9",
             "width": 1600,
             "height": 1200
           }
