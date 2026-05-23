@@ -157,6 +157,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-f0bf4a2da9",
+          "name": "Phu Dong vs Ho Chi Minh | 18:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f0bf4a2da9",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f0bf4a2da9",
+                  "name": "Phu Dong vs Ho Chi Minh",
+                  "streams": [
+                    {
+                      "id": "st-f0bf4a2da9",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Phu Dong",
+            "team_b": "Ho Chi Minh",
+            "logo_a": "https://media.api-sports.io/football/teams/9167.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3672.png",
+            "start_time": "2026-05-23T18:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f0bf4a2da9_9dfe5a20_20260523.png?v=9dfe5a20",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-933670f1ac",
+          "name": "Da Nang vs Hai Phong | 18:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-933670f1ac",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-933670f1ac",
+                  "name": "Da Nang vs Hai Phong",
+                  "streams": [
+                    {
+                      "id": "st-933670f1ac",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Da Nang",
+            "team_b": "Hai Phong",
+            "logo_a": "https://media.api-sports.io/football/teams/3669.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3671.png",
+            "start_time": "2026-05-23T18:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-933670f1ac_6b525806_20260523.png?v=6b525806",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
