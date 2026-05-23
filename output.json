@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-9ac5a6d86e",
-          "name": "Bayern München vs VfB Stuttgart | 01:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ac5a6d86e",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-9ac5a6d86e",
-                  "name": "Bayern München vs VfB Stuttgart",
-                  "streams": [
-                    {
-                      "id": "st-9ac5a6d86e",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "DFB Pokal",
-            "team_a": "Bayern München",
-            "team_b": "VfB Stuttgart",
-            "logo_a": "https://media.api-sports.io/football/teams/157.png",
-            "logo_b": "https://media.api-sports.io/football/teams/172.png",
-            "start_time": "2026-05-24T01:00:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9ac5a6d86e_76b9b997_20260524.png?v=76b9b997",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-20cf775fa6",
           "name": "Real Madrid vs Athletic Club | 02:00 24/05",
