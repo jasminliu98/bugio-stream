@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-62459f4e22",
-          "name": "Mexico vs Ghana | 09:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-62459f4e22",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-62459f4e22",
-                  "name": "Mexico vs Ghana",
-                  "streams": [
-                    {
-                      "id": "st-62459f4e22",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Mexico",
-            "team_b": "Ghana",
-            "logo_a": "https://media.api-sports.io/football/teams/16.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1504.png",
-            "start_time": "2026-05-23T09:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-62459f4e22_07adb7d4_20260523.png?v=07adb7d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-aea94dc1e6",
           "name": "Kashima vs FC Tokyo | 15:30 23/05",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-aea94dc1e6_6d3d1e8f_20260523.png?v=6d3d1e8f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-7aa685b3b1",
+          "name": "Kyoto Sanga vs V-varen Nagasaki | 17:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7aa685b3b1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-7aa685b3b1",
+                  "name": "Kyoto Sanga vs V-varen Nagasaki",
+                  "streams": [
+                    {
+                      "id": "st-7aa685b3b1",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kyoto Sanga",
+            "team_b": "V-varen Nagasaki",
+            "logo_a": "https://media.api-sports.io/football/teams/302.png",
+            "logo_b": "https://media.api-sports.io/football/teams/285.png",
+            "start_time": "2026-05-23T17:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7aa685b3b1_0b55523a_20260523.png?v=0b55523a",
             "width": 1600,
             "height": 1200
           }
