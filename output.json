@@ -299,6 +299,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-02b5b45ce7",
+          "name": "Halmstad vs Orgryte IS | 20:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02b5b45ce7",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-02b5b45ce7",
+                  "name": "Halmstad vs Orgryte IS",
+                  "streams": [
+                    {
+                      "id": "st-02b5b45ce7",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Allsvenskan",
+            "team_a": "Halmstad",
+            "team_b": "Orgryte IS",
+            "logo_a": "https://media.api-sports.io/football/teams/766.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2166.png",
+            "start_time": "2026-05-23T20:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-02b5b45ce7_9acbaad7_20260523.png?v=9acbaad7",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
