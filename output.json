@@ -299,6 +299,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-aa108f56a1",
+          "name": "AC Milan vs Cagliari | 01:45 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa108f56a1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-aa108f56a1",
+                  "name": "AC Milan vs Cagliari",
+                  "streams": [
+                    {
+                      "id": "st-aa108f56a1",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "AC Milan",
+            "team_b": "Cagliari",
+            "logo_a": "https://media.api-sports.io/football/teams/489.png",
+            "logo_b": "https://media.api-sports.io/football/teams/490.png",
+            "start_time": "2026-05-25T01:45:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-aa108f56a1_06fc875d_20260524.png?v=06fc875d",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
