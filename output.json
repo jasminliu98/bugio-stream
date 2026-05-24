@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-cf040fc710",
-          "name": "Brighton vs Manchester United | 22:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf040fc710",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-cf040fc710",
-                  "name": "Brighton vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-cf040fc710",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Brighton",
-            "team_b": "Manchester United",
-            "logo_a": "https://media.api-sports.io/football/teams/51.png",
-            "logo_b": "https://media.api-sports.io/football/teams/33.png",
-            "start_time": "2026-05-24T22:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cf040fc710_e5fab860_20260524.png?v=e5fab860",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-77bdfcff53",
           "name": "Crystal Palace vs Arsenal | 22:00 24/05",
@@ -153,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-77bdfcff53_0e0712fb_20260524.png?v=0e0712fb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-77bdfcff53_0e0712fb_20260525.png?v=0e0712fb",
             "width": 1600,
             "height": 1200
           }
@@ -224,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b71155d90a_1369bfe9_20260524.png?v=1369bfe9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b71155d90a_1369bfe9_20260525.png?v=1369bfe9",
             "width": 1600,
             "height": 1200
           }
@@ -295,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-aa108f56a1_06fc875d_20260524.png?v=06fc875d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-aa108f56a1_06fc875d_20260525.png?v=06fc875d",
             "width": 1600,
             "height": 1200
           }
@@ -366,7 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-606c90a061_a796c14d_20260524.png?v=a796c14d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-606c90a061_a796c14d_20260525.png?v=a796c14d",
             "width": 1600,
             "height": 1200
           }
