@@ -86,6 +86,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-fb09f481d4",
+          "name": "Hồng Lĩnh Hà Tĩnh vs Công An Nhân Dân | 18:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb09f481d4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-fb09f481d4",
+                  "name": "Hồng Lĩnh Hà Tĩnh vs Công An Nhân Dân",
+                  "streams": [
+                    {
+                      "id": "st-fb09f481d4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hồng Lĩnh Hà Tĩnh",
+            "team_b": "Công An Nhân Dân",
+            "logo_a": "https://media.api-sports.io/football/teams/11134.png",
+            "logo_b": "https://media.api-sports.io/football/teams/16400.png",
+            "start_time": "2026-05-24T18:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fb09f481d4_7f3a8fa4_20260524.png?v=7f3a8fa4",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
