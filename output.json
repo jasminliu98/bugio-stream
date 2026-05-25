@@ -8,5 +8,86 @@
     "type": "cover",
     "url": "https://sv1.bugio9.live/favicon.ico"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-2fe5a27cde",
+          "name": "Croatia U17 vs Belgium U17 | 18:30 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2fe5a27cde",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2fe5a27cde",
+                  "name": "Croatia U17 vs Belgium U17",
+                  "streams": [
+                    {
+                      "id": "st-2fe5a27cde",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship - Qualification",
+            "team_a": "Croatia U17",
+            "team_b": "Belgium U17",
+            "logo_a": "https://media.api-sports.io/football/teams/17945.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17942.png",
+            "start_time": "2026-05-25T18:30:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2fe5a27cde_ef618fd2_20260525.png?v=ef618fd2",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
