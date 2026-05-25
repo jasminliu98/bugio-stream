@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-1f2b325dcd",
+          "name": "Estonia U17 vs Spain U17 | 00:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f2b325dcd",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1f2b325dcd",
+                  "name": "Estonia U17 vs Spain U17",
+                  "streams": [
+                    {
+                      "id": "st-1f2b325dcd",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship - Qualification",
+            "team_a": "Estonia U17",
+            "team_b": "Spain U17",
+            "logo_a": "https://media.api-sports.io/football/teams/17950.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12520.png",
+            "start_time": "2026-05-26T00:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1f2b325dcd_05ce67c4_20260525.png?v=05ce67c4",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
