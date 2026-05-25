@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-c348616cd8",
-          "name": "Lyngby vs AC Horsens | 23:00 25/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c348616cd8",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-c348616cd8",
-                  "name": "Lyngby vs AC Horsens",
-                  "streams": [
-                    {
-                      "id": "st-c348616cd8",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "1. Division",
-            "team_a": "Lyngby",
-            "team_b": "AC Horsens",
-            "logo_a": "https://media.api-sports.io/football/teams/625.png",
-            "logo_b": "https://media.api-sports.io/football/teams/404.png",
-            "start_time": "2026-05-25T23:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c348616cd8_6dedd043_20260526.png?v=6dedd043",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-1f2b325dcd",
           "name": "Estonia U17 vs Spain U17 | 00:00 26/05",
