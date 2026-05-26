@@ -157,6 +157,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-0b081776ba",
+          "name": "Montenegro U17 vs Denmark U17 | 23:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b081776ba",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-0b081776ba",
+                  "name": "Montenegro U17 vs Denmark U17",
+                  "streams": [
+                    {
+                      "id": "st-0b081776ba",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship - Qualification",
+            "team_a": "Montenegro U17",
+            "team_b": "Denmark U17",
+            "logo_a": "https://media.api-sports.io/football/teams/17966.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17948.png",
+            "start_time": "2026-05-26T23:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0b081776ba_b2f717b6_20260526.png?v=b2f717b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-0b846c55b4",
+          "name": "Morocco vs Burundi | 23:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b846c55b4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-0b846c55b4",
+                  "name": "Morocco vs Burundi",
+                  "streams": [
+                    {
+                      "id": "st-0b846c55b4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Morocco",
+            "team_b": "Burundi",
+            "logo_a": "https://media.api-sports.io/football/teams/31.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1528.png",
+            "start_time": "2026-05-26T23:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0b846c55b4_92065de5_20260526.png?v=92065de5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
