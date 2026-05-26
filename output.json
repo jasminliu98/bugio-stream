@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-e9257036da",
-          "name": "BFC Daugavpils vs Auda | 23:00 26/05",
+          "id": "bg-cf63547fad",
+          "name": "SpVgg Greuther Fürth vs Rot-Weiß Essen | 01:30 27/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,77 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9257036da",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-e9257036da",
-                  "name": "BFC Daugavpils vs Auda",
-                  "streams": [
-                    {
-                      "id": "st-e9257036da",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "BFC Daugavpils",
-            "team_b": "Auda",
-            "logo_a": "https://media.api-sports.io/football/teams/4149.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4135.png",
-            "start_time": "2026-05-26T23:00:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e9257036da_cecc600b_20260527.png?v=cecc600b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-cf63547fad",
-          "name": "SpVgg Greuther Fürth vs Rot-Weiß Essen | 01:30 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -146,7 +75,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1621.png",
             "start_time": "2026-05-27T01:30:00",
             "blv": "BLV Tiểu Trà Đá",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
