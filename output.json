@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-8164d892d7",
-          "name": "Mariehamn vs Lahti | 22:00 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8164d892d7",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-8164d892d7",
-                  "name": "Mariehamn vs Lahti",
-                  "streams": [
-                    {
-                      "id": "st-8164d892d7",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Suomen Cup",
-            "team_a": "Mariehamn",
-            "team_b": "Lahti",
-            "logo_a": "https://media.api-sports.io/football/teams/587.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1166.png",
-            "start_time": "2026-05-26T22:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8164d892d7_980a1c22_20260526.png?v=980a1c22",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-0b081776ba",
           "name": "Montenegro U17 vs Denmark U17 | 23:00 26/05",
