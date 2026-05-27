@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-68d3743587",
-          "name": "Buriram United vs Selangor | 19:00 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-68d3743587",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-68d3743587",
-                  "name": "Buriram United vs Selangor",
-                  "streams": [
-                    {
-                      "id": "st-68d3743587",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Club Championship",
-            "team_a": "Buriram United",
-            "team_b": "Selangor",
-            "logo_a": "https://media.api-sports.io/football/teams/2780.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2526.png",
-            "start_time": "2026-05-27T19:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-68d3743587_76780ce5_20260527.png?v=76780ce5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-723dadb8c6",
           "name": "Ararat-Armenia vs Gandzasar | 22:00 27/05",
