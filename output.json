@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-b607aa5b2f",
-          "name": "Altay vs FC Astana | 18:00 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b607aa5b2f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-b607aa5b2f",
-                  "name": "Altay vs FC Astana",
-                  "streams": [
-                    {
-                      "id": "st-b607aa5b2f",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Altay",
-            "team_b": "FC Astana",
-            "logo_a": "https://media.api-sports.io/football/teams/4544.png",
-            "logo_b": "https://media.api-sports.io/football/teams/562.png",
-            "start_time": "2026-05-27T18:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b607aa5b2f_7cf93692_20260527.png?v=7cf93692",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-68d3743587",
           "name": "Buriram United vs Selangor | 19:00 27/05",
@@ -367,6 +296,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1b33d16fc5_d9a132c9_20260527.png?v=d9a132c9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-7a9a322cbe",
+          "name": "Crystal Palace vs Rayo Vallecano | 02:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a9a322cbe",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-7a9a322cbe",
+                  "name": "Crystal Palace vs Rayo Vallecano",
+                  "streams": [
+                    {
+                      "id": "st-7a9a322cbe",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Conference League",
+            "team_a": "Crystal Palace",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://media.api-sports.io/football/teams/52.png",
+            "logo_b": "https://media.api-sports.io/football/teams/728.png",
+            "start_time": "2026-05-28T02:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7a9a322cbe_137a5ce1_20260527.png?v=137a5ce1",
             "width": 1600,
             "height": 1200
           }
