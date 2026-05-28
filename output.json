@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-1770ae9e1b",
-          "name": "Bangladesh W vs Maldives W | 21:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1770ae9e1b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-1770ae9e1b",
-                  "name": "Bangladesh W vs Maldives W",
-                  "streams": [
-                    {
-                      "id": "st-1770ae9e1b",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SAFF Championship Women",
-            "team_a": "Bangladesh W",
-            "team_b": "Maldives W",
-            "logo_a": "https://static.flashscore.com/res/image/data/vDW19LGG-0EYShBaD.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/KnrpXMDa-ldlFLEPm.png",
-            "start_time": "2026-05-28T21:00:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1770ae9e1b_a91c8465_20260528.png?v=a91c8465",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-3a44967767",
           "name": "Estonia U17 vs Croatia U17 | 23:00 28/05",
