@@ -157,6 +157,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-522e1ea438",
+          "name": "Welayta Dicha vs Negelle Arsi | 20:00 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-522e1ea438",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-522e1ea438",
+                  "name": "Welayta Dicha vs Negelle Arsi",
+                  "streams": [
+                    {
+                      "id": "st-522e1ea438",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Welayta Dicha",
+            "team_b": "Negelle Arsi",
+            "logo_a": "https://media.api-sports.io/football/teams/4124.png",
+            "logo_b": "https://media.api-sports.io/football/teams/26881.png",
+            "start_time": "2026-05-29T20:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-522e1ea438_95a13577_20260529.png?v=95a13577",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
