@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-769c3bce65",
-          "name": "Montenegro U17 vs Italy U17 | 18:30 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-769c3bce65",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-769c3bce65",
-                  "name": "Montenegro U17 vs Italy U17",
-                  "streams": [
-                    {
-                      "id": "st-769c3bce65",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 Championship",
-            "team_a": "Montenegro U17",
-            "team_b": "Italy U17",
-            "logo_a": "https://media.api-sports.io/football/teams/17966.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12510.png",
-            "start_time": "2026-05-29T18:30:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-769c3bce65_ab2b7f5b_20260529.png?v=ab2b7f5b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-d5036c6441",
           "name": "Shenyang Urban vs SHANGHAI SIPG | 18:35 29/05",
@@ -154,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d5036c6441_00bbc80e_20260529.png?v=00bbc80e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-522e1ea438",
-          "name": "Welayta Dicha vs Negelle Arsi | 20:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-522e1ea438",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-522e1ea438",
-                  "name": "Welayta Dicha vs Negelle Arsi",
-                  "streams": [
-                    {
-                      "id": "st-522e1ea438",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Welayta Dicha",
-            "team_b": "Negelle Arsi",
-            "logo_a": "https://media.api-sports.io/football/teams/4124.png",
-            "logo_b": "https://media.api-sports.io/football/teams/26881.png",
-            "start_time": "2026-05-29T20:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-522e1ea438_95a13577_20260529.png?v=95a13577",
             "width": 1600,
             "height": 1200
           }
