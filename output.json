@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -154,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0e4ceef65a_52b6313b_20260529.png?v=52b6313b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-502cbcfede",
+          "name": "Iraq vs Andorra | 23:00 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-502cbcfede",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-502cbcfede",
+                  "name": "Iraq vs Andorra",
+                  "streams": [
+                    {
+                      "id": "st-502cbcfede",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Iraq",
+            "team_b": "Andorra",
+            "logo_a": "https://media.api-sports.io/football/teams/1567.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1110.png",
+            "start_time": "2026-05-29T23:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-502cbcfede_ee5d8f41_20260529.png?v=ee5d8f41",
             "width": 1600,
             "height": 1200
           }
