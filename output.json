@@ -370,6 +370,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-457ded6f20",
+          "name": "Bosnia & Herzegovina vs FYR Macedonia | 01:30 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-457ded6f20",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-457ded6f20",
+                  "name": "Bosnia & Herzegovina vs FYR Macedonia",
+                  "streams": [
+                    {
+                      "id": "st-457ded6f20",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Bosnia & Herzegovina",
+            "team_b": "FYR Macedonia",
+            "logo_a": "https://media.api-sports.io/football/teams/1113.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1105.png",
+            "start_time": "2026-05-30T01:30:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-457ded6f20_2bdca1c4_20260529.png?v=2bdca1c4",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
