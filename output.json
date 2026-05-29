@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-54c3d58c5e",
-          "name": "Mexico W U17 vs England U17 | 22:00 29/05",
+          "id": "bg-eaae5e04a2",
+          "name": "Riga vs Grobiņa | 22:00 29/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,15 +32,15 @@
           ],
           "sources": [
             {
-              "id": "src-54c3d58c5e",
+              "id": "src-eaae5e04a2",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-54c3d58c5e",
-                  "name": "Mexico W U17 vs England U17",
+                  "id": "ct-eaae5e04a2",
+                  "name": "Riga vs Grobiņa",
                   "streams": [
                     {
-                      "id": "st-54c3d58c5e",
+                      "id": "st-eaae5e04a2",
                       "name": "BG",
                       "stream_links": [
                         {
@@ -68,11 +68,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Mexico W U17",
-            "team_b": "England U17",
-            "logo_a": "https://media.api-sports.io/football/teams/12513.png",
-            "logo_b": "https://media.api-sports.io/football/teams/17949.png",
+            "league": "Virsliga",
+            "team_a": "Riga",
+            "team_b": "Grobiņa",
+            "logo_a": "https://media.api-sports.io/football/teams/10124.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4138.png",
             "start_time": "2026-05-29T22:00:00",
             "blv": "BLV Lavie",
             "is_live": false,
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-54c3d58c5e_b8dd7839_20260529.png?v=b8dd7839",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-eaae5e04a2_6c9280ea_20260529.png?v=6c9280ea",
             "width": 1600,
             "height": 1200
           }
