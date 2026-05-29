@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-eaae5e04a2",
-          "name": "Riga vs Grobiņa | 22:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eaae5e04a2",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-eaae5e04a2",
-                  "name": "Riga vs Grobiņa",
-                  "streams": [
-                    {
-                      "id": "st-eaae5e04a2",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Virsliga",
-            "team_a": "Riga",
-            "team_b": "Grobiņa",
-            "logo_a": "https://media.api-sports.io/football/teams/10124.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4138.png",
-            "start_time": "2026-05-29T22:00:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-eaae5e04a2_6c9280ea_20260529.png?v=6c9280ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-0e4ceef65a",
           "name": "France U17 vs Denmark U17 | 23:00 29/05",
@@ -153,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0e4ceef65a_52b6313b_20260529.png?v=52b6313b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0e4ceef65a_52b6313b_20260530.png?v=52b6313b",
             "width": 1600,
             "height": 1200
           }
@@ -224,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-502cbcfede_ee5d8f41_20260529.png?v=ee5d8f41",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-502cbcfede_ee5d8f41_20260530.png?v=ee5d8f41",
             "width": 1600,
             "height": 1200
           }
@@ -295,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-457ded6f20_2bdca1c4_20260529.png?v=2bdca1c4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-457ded6f20_2bdca1c4_20260530.png?v=2bdca1c4",
             "width": 1600,
             "height": 1200
           }
@@ -366,7 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-43975bc2df_e6c8f903_20260529.png?v=e6c8f903",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-43975bc2df_e6c8f903_20260530.png?v=e6c8f903",
             "width": 1600,
             "height": 1200
           }
