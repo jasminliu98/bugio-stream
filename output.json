@@ -299,6 +299,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-0e4ceef65a",
+          "name": "France U17 vs Denmark U17 | 23:00 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0e4ceef65a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-0e4ceef65a",
+                  "name": "France U17 vs Denmark U17",
+                  "streams": [
+                    {
+                      "id": "st-0e4ceef65a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "France U17",
+            "team_b": "Denmark U17",
+            "logo_a": "https://media.api-sports.io/football/teams/12507.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17948.png",
+            "start_time": "2026-05-29T23:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0e4ceef65a_52b6313b_20260529.png?v=52b6313b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
