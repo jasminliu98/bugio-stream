@@ -370,6 +370,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-cf8d8c66b1",
+          "name": "Paris Saint Germain vs Arsenal | 23:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf8d8c66b1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-cf8d8c66b1",
+                  "name": "Paris Saint Germain vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-cf8d8c66b1",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Paris Saint Germain",
+            "team_b": "Arsenal",
+            "logo_a": "https://media.api-sports.io/football/teams/85.png",
+            "logo_b": "https://media.api-sports.io/football/teams/42.png",
+            "start_time": "2026-05-30T23:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cf8d8c66b1_26293982_20260530.png?v=26293982",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-e7e8f8e598",
+          "name": "Paris Saint Germain vs Arsenal | 23:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e7e8f8e598",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-e7e8f8e598",
+                  "name": "Paris Saint Germain vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-e7e8f8e598",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Paris Saint Germain",
+            "team_b": "Arsenal",
+            "logo_a": "https://media.api-sports.io/football/teams/85.png",
+            "logo_b": "https://media.api-sports.io/football/teams/42.png",
+            "start_time": "2026-05-30T23:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e7e8f8e598_26293982_20260530.png?v=26293982",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
