@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-e4a86b0d7b",
-          "name": "Chongqing Tongliang Long vs Beijing Guoan | 19:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e4a86b0d7b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-e4a86b0d7b",
-                  "name": "Chongqing Tongliang Long vs Beijing Guoan",
-                  "streams": [
-                    {
-                      "id": "st-e4a86b0d7b",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Chongqing Tongliang Long",
-            "team_b": "Beijing Guoan",
-            "logo_a": "https://media.api-sports.io/football/teams/21262.png",
-            "logo_b": "https://media.api-sports.io/football/teams/830.png",
-            "start_time": "2026-05-30T19:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e4a86b0d7b_f2949602_20260530.png?v=f2949602",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-f5e62af885",
           "name": "Real Sociedad II vs Cultural Leonesa | 21:15 30/05",
