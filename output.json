@@ -370,6 +370,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-f5e62af885",
+          "name": "Real Sociedad II vs Cultural Leonesa | 21:15 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5e62af885",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f5e62af885",
+                  "name": "Real Sociedad II vs Cultural Leonesa",
+                  "streams": [
+                    {
+                      "id": "st-f5e62af885",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Segunda División",
+            "team_a": "Real Sociedad II",
+            "team_b": "Cultural Leonesa",
+            "logo_a": "https://media.api-sports.io/football/teams/9585.png",
+            "logo_b": "https://media.api-sports.io/football/teams/725.png",
+            "start_time": "2026-05-30T21:15:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f5e62af885_de835585_20260530.png?v=de835585",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
