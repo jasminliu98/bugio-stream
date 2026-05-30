@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-68abef8ee1",
-          "name": "Gamba Osaka vs Tokyo Verdy | 14:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-68abef8ee1",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-68abef8ee1",
-                  "name": "Gamba Osaka vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "st-68abef8ee1",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Gamba Osaka",
-            "team_b": "Tokyo Verdy",
-            "logo_a": "https://media.api-sports.io/football/teams/293.png",
-            "logo_b": "https://media.api-sports.io/football/teams/306.png",
-            "start_time": "2026-05-30T14:00:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-68abef8ee1_3be0e16b_20260530.png?v=3be0e16b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-4a4526b1ec",
           "name": "PVF-CAND vs Xuan Thien Phu Tho | 16:00 30/05",
