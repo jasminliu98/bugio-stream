@@ -157,6 +157,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-6e616e79d4",
+          "name": "Germany vs Finland | 01:45 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e616e79d4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6e616e79d4",
+                  "name": "Germany vs Finland",
+                  "streams": [
+                    {
+                      "id": "st-6e616e79d4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Germany",
+            "team_b": "Finland",
+            "logo_a": "https://media.api-sports.io/football/teams/25.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1099.png",
+            "start_time": "2026-06-01T01:45:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6e616e79d4_613fcf98_20260531.png?v=613fcf98",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
