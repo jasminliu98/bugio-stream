@@ -8,5 +8,228 @@
     "type": "cover",
     "url": "https://sv1.bugio9.live/favicon.ico"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-d1942a3ab0",
+          "name": "Japan vs Iceland | 17:25 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d1942a3ab0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d1942a3ab0",
+                  "name": "Japan vs Iceland",
+                  "streams": [
+                    {
+                      "id": "st-d1942a3ab0",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Japan",
+            "team_b": "Iceland",
+            "logo_a": "https://media.api-sports.io/football/teams/12.png",
+            "logo_b": "https://media.api-sports.io/football/teams/18.png",
+            "start_time": "2026-05-31T17:25:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d1942a3ab0_e882faeb_20260531.png?v=e882faeb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-79e785d63f",
+          "name": "Công An Nhân Dân vs Binh Duong | 18:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79e785d63f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-79e785d63f",
+                  "name": "Công An Nhân Dân vs Binh Duong",
+                  "streams": [
+                    {
+                      "id": "st-79e785d63f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Công An Nhân Dân",
+            "team_b": "Binh Duong",
+            "logo_a": "https://media.api-sports.io/football/teams/16400.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3668.png",
+            "start_time": "2026-05-31T18:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-79e785d63f_b3a618cc_20260531.png?v=b3a618cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-4fb8a7a22a",
+          "name": "Switzerland vs Jordan | 20:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4fb8a7a22a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4fb8a7a22a",
+                  "name": "Switzerland vs Jordan",
+                  "streams": [
+                    {
+                      "id": "st-4fb8a7a22a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Switzerland",
+            "team_b": "Jordan",
+            "logo_a": "https://media.api-sports.io/football/teams/15.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1548.png",
+            "start_time": "2026-05-31T20:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4fb8a7a22a_7ff16341_20260531.png?v=7ff16341",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
