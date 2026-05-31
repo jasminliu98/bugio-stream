@@ -370,6 +370,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-8c53d30ad0",
+          "name": "Brazil vs Panama | 04:30 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c53d30ad0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8c53d30ad0",
+                  "name": "Brazil vs Panama",
+                  "streams": [
+                    {
+                      "id": "st-8c53d30ad0",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Brazil",
+            "team_b": "Panama",
+            "logo_a": "https://media.api-sports.io/football/teams/6.png",
+            "logo_b": "https://media.api-sports.io/football/teams/11.png",
+            "start_time": "2026-06-01T04:30:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8c53d30ad0_f1422731_20260531.png?v=f1422731",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
