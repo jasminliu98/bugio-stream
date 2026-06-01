@@ -228,6 +228,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-991327d635",
+          "name": "Indonesia U19 vs Myanmar U19 | 20:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-991327d635",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-991327d635",
+                  "name": "Indonesia U19 vs Myanmar U19",
+                  "streams": [
+                    {
+                      "id": "st-991327d635",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Indonesia U19",
+            "team_b": "Myanmar U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19149.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19152.png",
+            "start_time": "2026-06-01T20:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-991327d635_a2515fd7_20260601.png?v=a2515fd7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-64a7157cf3",
+          "name": "Tajikistan vs Palestine | 20:00 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-64a7157cf3",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-64a7157cf3",
+                  "name": "Tajikistan vs Palestine",
+                  "streams": [
+                    {
+                      "id": "st-64a7157cf3",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Tajikistan",
+            "team_b": "Palestine",
+            "logo_a": "https://media.api-sports.io/football/teams/1536.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1562.png",
+            "start_time": "2026-06-01T20:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-64a7157cf3_1dacbdae_20260601.png?v=1dacbdae",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
