@@ -86,6 +86,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-db8419f41d",
+          "name": "Denmark U17 vs Italy U17 | 18:30 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db8419f41d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-db8419f41d",
+                  "name": "Denmark U17 vs Italy U17",
+                  "streams": [
+                    {
+                      "id": "st-db8419f41d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-032da4a79f",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "Denmark U17",
+            "team_b": "Italy U17",
+            "logo_a": "https://media.api-sports.io/football/teams/17948.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12510.png",
+            "start_time": "2026-06-01T18:30:00",
+            "blv": "BLV Dế Lửa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-db8419f41d_b25c7619_20260601.png?v=b25c7619",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-4dc3ed26a2",
+          "name": "France U17 vs Montenegro U17 | 18:30 01/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4dc3ed26a2",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4dc3ed26a2",
+                  "name": "France U17 vs Montenegro U17",
+                  "streams": [
+                    {
+                      "id": "st-4dc3ed26a2",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U17 Championship",
+            "team_a": "France U17",
+            "team_b": "Montenegro U17",
+            "logo_a": "https://media.api-sports.io/football/teams/12507.png",
+            "logo_b": "https://media.api-sports.io/football/teams/17966.png",
+            "start_time": "2026-06-01T18:30:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4dc3ed26a2_7c433fbc_20260601.png?v=7c433fbc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
