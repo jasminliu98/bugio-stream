@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-991327d635",
-          "name": "Indonesia U19 vs Myanmar U19 | 20:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-991327d635",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-991327d635",
-                  "name": "Indonesia U19 vs Myanmar U19",
-                  "streams": [
-                    {
-                      "id": "st-991327d635",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Indonesia U19",
-            "team_b": "Myanmar U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19149.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19152.png",
-            "start_time": "2026-06-01T20:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-991327d635_a2515fd7_20260601.png?v=a2515fd7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-57cd30d908",
           "name": "Naft vs Newroz | 22:00 01/06",
