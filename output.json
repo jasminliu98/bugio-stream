@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-b3746c4a27",
-          "name": "Vietnam U19 vs Timor-Leste U19 | 16:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3746c4a27",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-b3746c4a27",
-                  "name": "Vietnam U19 vs Timor-Leste U19",
-                  "streams": [
-                    {
-                      "id": "st-b3746c4a27",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Vietnam U19",
-            "team_b": "Timor-Leste U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19157.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19156.png",
-            "start_time": "2026-06-01T16:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b3746c4a27_c35a4f43_20260601.png?v=c35a4f43",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-db8419f41d",
           "name": "Denmark U17 vs Italy U17 | 18:30 01/06",
