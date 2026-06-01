@@ -8,5 +8,86 @@
     "type": "cover",
     "url": "https://sv1.bugio9.live/favicon.ico"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-2458ab18be",
+          "name": "Austria vs Tunisia | 01:45 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2458ab18be",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2458ab18be",
+                  "name": "Austria vs Tunisia",
+                  "streams": [
+                    {
+                      "id": "st-2458ab18be",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Austria",
+            "team_b": "Tunisia",
+            "logo_a": "https://media.api-sports.io/football/teams/775.png",
+            "logo_b": "https://media.api-sports.io/football/teams/28.png",
+            "start_time": "2026-06-02T01:45:00",
+            "blv": "BLV Lavie",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2458ab18be_277ddc7a_20260602.png?v=277ddc7a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
