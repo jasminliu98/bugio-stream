@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-3fc0a5dc1f",
-          "name": "Malaysia U19 vs Singapore U19 | 20:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3fc0a5dc1f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-3fc0a5dc1f",
-                  "name": "Malaysia U19 vs Singapore U19",
-                  "streams": [
-                    {
-                      "id": "st-3fc0a5dc1f",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Malaysia U19",
-            "team_b": "Singapore U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19151.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19154.png",
-            "start_time": "2026-06-02T20:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3fc0a5dc1f_43924d96_20260602.png?v=43924d96",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-3e441eec34",
           "name": "Al Kahrabaa vs Al-Karma | 22:00 02/06",
