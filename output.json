@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-3e441eec34",
+          "name": "Al Kahrabaa vs Al-Karma | 22:00 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e441eec34",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-3e441eec34",
+                  "name": "Al Kahrabaa vs Al-Karma",
+                  "streams": [
+                    {
+                      "id": "st-3e441eec34",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Iraqi League",
+            "team_a": "Al Kahrabaa",
+            "team_b": "Al-Karma",
+            "logo_a": "https://media.api-sports.io/football/teams/11064.png",
+            "logo_b": "https://media.api-sports.io/football/teams/25063.png",
+            "start_time": "2026-06-02T22:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3e441eec34_dfd55583_20260602.png?v=dfd55583",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
