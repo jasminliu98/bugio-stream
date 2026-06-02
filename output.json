@@ -512,6 +512,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-34186e9eb7",
+          "name": "Wales vs Ghana | 01:45 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34186e9eb7",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-34186e9eb7",
+                  "name": "Wales vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-34186e9eb7",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Wales",
+            "team_b": "Ghana",
+            "logo_a": "https://media.api-sports.io/football/teams/767.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1504.png",
+            "start_time": "2026-06-03T01:45:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-34186e9eb7_640519d9_20260602.png?v=640519d9",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
