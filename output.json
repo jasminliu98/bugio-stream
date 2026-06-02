@@ -370,6 +370,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-429e4a44be",
+          "name": "Georgia vs Romania | 00:00 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-429e4a44be",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-429e4a44be",
+                  "name": "Georgia vs Romania",
+                  "streams": [
+                    {
+                      "id": "st-429e4a44be",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Georgia",
+            "team_b": "Romania",
+            "logo_a": "https://media.api-sports.io/football/teams/1104.png",
+            "logo_b": "https://media.api-sports.io/football/teams/774.png",
+            "start_time": "2026-06-03T00:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-429e4a44be_8e8c95ef_20260602.png?v=8e8c95ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-5cbba2d075",
+          "name": "Morocco vs Madagascar | 00:00 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5cbba2d075",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-5cbba2d075",
+                  "name": "Morocco vs Madagascar",
+                  "streams": [
+                    {
+                      "id": "st-5cbba2d075",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Morocco",
+            "team_b": "Madagascar",
+            "logo_a": "https://media.api-sports.io/football/teams/31.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1490.png",
+            "start_time": "2026-06-03T00:00:00",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5cbba2d075_036f43ff_20260602.png?v=036f43ff",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
