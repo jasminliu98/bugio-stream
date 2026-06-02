@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-31bd51a740",
-          "name": "Brunei vs Timoer-Lester | 19:15 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-31bd51a740",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-31bd51a740",
-                  "name": "Brunei vs Timoer-Lester",
-                  "streams": [
-                    {
-                      "id": "st-31bd51a740",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41910bf543",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asean Chipionship",
-            "team_a": "Brunei",
-            "team_b": "Timor-Lester",
-            "logo_a": "https://static.flashscore.com/res/image/data/b3MRYRwS-dCIdRhFh.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GtYFHjzB-vTJwRqL9.png",
-            "start_time": "2026-06-02T19:15:00",
-            "blv": "BLV khô Mực",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-31bd51a740_bf5f52fa_20260602.png?v=bf5f52fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-3fc0a5dc1f",
           "name": "Malaysia U19 vs Singapore U19 | 20:00 02/06",
