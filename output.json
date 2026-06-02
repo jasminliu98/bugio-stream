@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-b43a6403c1",
-          "name": "Thailand U19 vs Brunei U19 | 16:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b43a6403c1",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-b43a6403c1",
-                  "name": "Thailand U19 vs Brunei U19",
-                  "streams": [
-                    {
-                      "id": "st-b43a6403c1",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Thailand U19",
-            "team_b": "Brunei U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19147.png",
-            "start_time": "2026-06-02T16:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b43a6403c1_04976fa6_20260602.png?v=04976fa6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-31bd51a740",
           "name": "Brunei vs Timoer-Lester | 19:15 02/06",
