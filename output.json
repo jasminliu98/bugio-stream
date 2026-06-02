@@ -299,6 +299,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-db095bd14b",
+          "name": "Croatia vs Belgium | 23:00 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db095bd14b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-db095bd14b",
+                  "name": "Croatia vs Belgium",
+                  "streams": [
+                    {
+                      "id": "st-db095bd14b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Croatia",
+            "team_b": "Belgium",
+            "logo_a": "https://media.api-sports.io/football/teams/3.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1.png",
+            "start_time": "2026-06-02T23:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-db095bd14b_8f050597_20260602.png?v=8f050597",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-280cf18baf",
+          "name": "Croatia vs Belgium | 23:00 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-280cf18baf",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-280cf18baf",
+                  "name": "Croatia vs Belgium",
+                  "streams": [
+                    {
+                      "id": "st-280cf18baf",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-032da4a79f",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_delua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Croatia",
+            "team_b": "Belgium",
+            "logo_a": "https://media.api-sports.io/football/teams/3.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1.png",
+            "start_time": "2026-06-02T23:00:00",
+            "blv": "BLV Dế Lửa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-280cf18baf_8f050597_20260602.png?v=8f050597",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
