@@ -441,6 +441,219 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-78e8dffe65",
+          "name": "Luxembourg vs Italy | 01:45 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78e8dffe65",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-78e8dffe65",
+                  "name": "Luxembourg vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-78e8dffe65",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Luxembourg",
+            "team_b": "Italy",
+            "logo_a": "https://media.api-sports.io/football/teams/1102.png",
+            "logo_b": "https://media.api-sports.io/football/teams/768.png",
+            "start_time": "2026-06-04T01:45:00",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-78e8dffe65_e612bd04_20260603.png?v=e612bd04",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-09a8a8976a",
+          "name": "Poland vs Nigeria | 01:45 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-09a8a8976a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-09a8a8976a",
+                  "name": "Poland vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "st-09a8a8976a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Poland",
+            "team_b": "Nigeria",
+            "logo_a": "https://media.api-sports.io/football/teams/24.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19.png",
+            "start_time": "2026-06-04T01:45:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-09a8a8976a_10133abc_20260603.png?v=10133abc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-0e64a7b00c",
+          "name": "Netherlands vs Algeria | 01:45 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0e64a7b00c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-0e64a7b00c",
+                  "name": "Netherlands vs Algeria",
+                  "streams": [
+                    {
+                      "id": "st-0e64a7b00c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Netherlands",
+            "team_b": "Algeria",
+            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1532.png",
+            "start_time": "2026-06-04T01:45:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0e64a7b00c_bcef32bb_20260603.png?v=bcef32bb",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
