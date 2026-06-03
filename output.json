@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-8cbe9ce23f",
-          "name": "Philippines vs Guam | 18:30 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8cbe9ce23f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-8cbe9ce23f",
-                  "name": "Philippines vs Guam",
-                  "streams": [
-                    {
-                      "id": "st-8cbe9ce23f",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Philippines",
-            "team_b": "Guam",
-            "logo_a": "https://media.api-sports.io/football/teams/1555.png",
-            "logo_b": "https://media.api-sports.io/football/teams/8119.png",
-            "start_time": "2026-06-03T18:30:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8cbe9ce23f_d8b8f0ba_20260603.png?v=d8b8f0ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-4f164cf233",
           "name": "Philippines U19 vs Australia U19 | 20:00 03/06",
