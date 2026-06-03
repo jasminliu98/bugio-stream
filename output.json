@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-f6a4f71e72",
-          "name": "Portugal U19 vs Kazakhstan U19 | 16:00 03/06",
+          "id": "bg-8cbe9ce23f",
+          "name": "Philippines vs Guam | 18:30 03/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,77 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f6a4f71e72",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f6a4f71e72",
-                  "name": "Portugal U19 vs Kazakhstan U19",
-                  "streams": [
-                    {
-                      "id": "st-f6a4f71e72",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U19 Championship - Qualification",
-            "team_a": "Portugal U19",
-            "team_b": "Kazakhstan U19",
-            "logo_a": "https://media.api-sports.io/football/teams/10343.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10367.png",
-            "start_time": "2026-06-03T16:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f6a4f71e72_536a9689_20260603.png?v=536a9689",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-8cbe9ce23f",
-          "name": "Philippines vs Guam | 18:30 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -146,7 +75,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/8119.png",
             "start_time": "2026-06-03T18:30:00",
             "blv": "BLV Tiểu Hạc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
