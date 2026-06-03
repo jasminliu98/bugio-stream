@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-60ce36723c",
-          "name": "Gibraltar vs British Virgin Islands | 00:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60ce36723c",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-60ce36723c",
-                  "name": "Gibraltar vs British Virgin Islands",
-                  "streams": [
-                    {
-                      "id": "st-60ce36723c",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Gibraltar",
-            "team_b": "British Virgin Islands",
-            "logo_a": "https://media.api-sports.io/football/teams/1093.png",
-            "logo_b": "https://media.api-sports.io/football/teams/8168.png",
-            "start_time": "2026-06-04T00:00:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-60ce36723c_bf28e5c9_20260604.png?v=bf28e5c9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-d80b7040b7",
           "name": "Congo DR vs Denmark | 01:00 04/06",
