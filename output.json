@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-87ba276ebb",
-          "name": "Latvia U17 vs Albania U17 | 22:00 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-87ba276ebb",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-87ba276ebb",
-                  "name": "Latvia U17 vs Albania U17",
-                  "streams": [
-                    {
-                      "id": "st-87ba276ebb",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 Championship",
-            "team_a": "Latvia U17",
-            "team_b": "Albania U17",
-            "logo_a": "https://media.api-sports.io/football/teams/17960.png",
-            "logo_b": "https://media.api-sports.io/football/teams/17936.png",
-            "start_time": "2026-06-03T22:00:00",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-87ba276ebb_9a8d7392_20260603.png?v=9a8d7392",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-60ce36723c",
           "name": "Gibraltar vs British Virgin Islands | 00:00 04/06",
