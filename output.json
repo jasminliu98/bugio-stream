@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-401704ef75",
-          "name": "Cambodia vs Bhutan | 19:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-401704ef75",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-401704ef75",
-                  "name": "Cambodia vs Bhutan",
-                  "streams": [
-                    {
-                      "id": "st-401704ef75",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Cambodia",
-            "team_b": "Bhutan",
-            "logo_a": "https://media.api-sports.io/football/teams/1543.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1540.png",
-            "start_time": "2026-06-04T19:00:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-401704ef75_71c95137_20260604.png?v=71c95137",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-02052c0f45",
           "name": "Timor-Leste U19 vs Indonesia U19 | 20:00 04/06",
