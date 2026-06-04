@@ -8,5 +8,228 @@
     "type": "cover",
     "url": "https://sv1.bugio9.live/favicon.ico"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-1216a1bca4",
+          "name": "Văn Hiến vs Sanna Khanh Hoa | 16:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1216a1bca4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1216a1bca4",
+                  "name": "Văn Hiến vs Sanna Khanh Hoa",
+                  "streams": [
+                    {
+                      "id": "st-1216a1bca4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 2",
+            "team_a": "Văn Hiến",
+            "team_b": "Sanna Khanh Hoa",
+            "logo_a": "https://media.api-sports.io/football/teams/26603.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3677.png",
+            "start_time": "2026-06-04T16:00:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1216a1bca4_73fc46f3_20260604.png?v=73fc46f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-04992c5115",
+          "name": "Myanmar U19 vs Vietnam U19 | 16:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04992c5115",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-04992c5115",
+                  "name": "Myanmar U19 vs Vietnam U19",
+                  "streams": [
+                    {
+                      "id": "st-04992c5115",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Myanmar U19",
+            "team_b": "Vietnam U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19152.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19157.png",
+            "start_time": "2026-06-04T16:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-04992c5115_1b4b3f58_20260604.png?v=1b4b3f58",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-66bf858e11",
+          "name": "Myanmar U19 vs Vietnam U19 | 16:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66bf858e11",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-66bf858e11",
+                  "name": "Myanmar U19 vs Vietnam U19",
+                  "streams": [
+                    {
+                      "id": "st-66bf858e11",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Myanmar U19",
+            "team_b": "Vietnam U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19152.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19157.png",
+            "start_time": "2026-06-04T16:00:00",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-66bf858e11_1b4b3f58_20260604.png?v=1b4b3f58",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
