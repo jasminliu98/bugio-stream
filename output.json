@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-4fe5149039",
-          "name": "Latvia U19 vs Lithuania U19 | 21:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4fe5149039",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-4fe5149039",
-                  "name": "Latvia U19 vs Lithuania U19",
-                  "streams": [
-                    {
-                      "id": "st-4fe5149039",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Latvia U19",
-            "team_b": "Lithuania U19",
-            "logo_a": "https://media.api-sports.io/football/teams/10339.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10370.png",
-            "start_time": "2026-06-04T21:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4fe5149039_352b7c47_20260604.png?v=352b7c47",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-2c6a0bae0f",
           "name": "Lebanon vs Yemen | 23:00 04/06",
