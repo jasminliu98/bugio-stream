@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-e32c51ad39",
-          "name": "Singapore U19 vs Thái Lan U19 | 20:00 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e32c51ad39",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-e32c51ad39",
-                  "name": "Singapore U19 vs Thái Lan U19",
-                  "streams": [
-                    {
-                      "id": "st-e32c51ad39",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Singapore U19",
-            "team_b": "Thái Lan U19",
-            "logo_a": "https://static.bongda24h.vn/Medias/original/2018/11/5/logo-dt-singapore.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19155.png",
-            "start_time": "2026-06-05T20:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e32c51ad39_53e2f10f_20260605.png?v=53e2f10f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-33b9c7c18e",
           "name": "Indonesia vs Oman | 20:00 05/06",
