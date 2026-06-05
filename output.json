@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-33b9c7c18e",
-          "name": "Indonesia vs Oman | 20:00 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33b9c7c18e",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-33b9c7c18e",
-                  "name": "Indonesia vs Oman",
-                  "streams": [
-                    {
-                      "id": "st-33b9c7c18e",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Indonesia",
-            "team_b": "Oman",
-            "logo_a": "https://media.api-sports.io/football/teams/1571.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1552.png",
-            "start_time": "2026-06-05T20:00:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-33b9c7c18e_6b0b3bb2_20260605.png?v=6b0b3bb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-34adeb8e32",
           "name": "Tajikistan vs Ấn Độ | 22:00 05/06",
