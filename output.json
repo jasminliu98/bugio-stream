@@ -228,6 +228,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-e32c51ad39",
+          "name": "Singapore U19 vs Thailand U19 | 20:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e32c51ad39",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-e32c51ad39",
+                  "name": "Singapore U19 vs Thailand U19",
+                  "streams": [
+                    {
+                      "id": "st-e32c51ad39",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Singapore U19",
+            "team_b": "Thailand U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19154.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19155.png",
+            "start_time": "2026-06-05T20:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e32c51ad39_0a4f4658_20260605.png?v=0a4f4658",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-33b9c7c18e",
+          "name": "Indonesia vs Oman | 20:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33b9c7c18e",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-33b9c7c18e",
+                  "name": "Indonesia vs Oman",
+                  "streams": [
+                    {
+                      "id": "st-33b9c7c18e",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Indonesia",
+            "team_b": "Oman",
+            "logo_a": "https://media.api-sports.io/football/teams/1571.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1552.png",
+            "start_time": "2026-06-05T20:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-33b9c7c18e_6b0b3bb2_20260605.png?v=6b0b3bb2",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
