@@ -370,6 +370,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-34adeb8e32",
+          "name": "Tajikistan vs India | 22:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34adeb8e32",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-34adeb8e32",
+                  "name": "Tajikistan vs India",
+                  "streams": [
+                    {
+                      "id": "st-34adeb8e32",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Tajikistan",
+            "team_b": "India",
+            "logo_a": "https://media.api-sports.io/football/teams/1536.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1537.png",
+            "start_time": "2026-06-05T22:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-34adeb8e32_f73fc2a4_20260605.png?v=f73fc2a4",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
