@@ -89,7 +89,7 @@
         },
         {
           "id": "bg-a600bd172f",
-          "name": "Thailand vs Kuwait | 19:30 05/06",
+          "name": "Thái Lan vs Kuwait | 19:30 05/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -108,7 +108,7 @@
               "contents": [
                 {
                   "id": "ct-a600bd172f",
-                  "name": "Thailand vs Kuwait",
+                  "name": "Thái Lan vs Kuwait",
                   "streams": [
                     {
                       "id": "st-a600bd172f",
@@ -140,7 +140,7 @@
           ],
           "org_metadata": {
             "league": "Friendlies",
-            "team_a": "Thailand",
+            "team_a": "Thái Lan",
             "team_b": "Kuwait",
             "logo_a": "https://media.api-sports.io/football/teams/1564.png",
             "logo_b": "https://media.api-sports.io/football/teams/1570.png",
@@ -160,7 +160,7 @@
         },
         {
           "id": "bg-e32c51ad39",
-          "name": "Singapore U19 vs Thailand U19 | 20:00 05/06",
+          "name": "Singapore U19 vs Thái Lan U19 | 20:00 05/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -179,7 +179,7 @@
               "contents": [
                 {
                   "id": "ct-e32c51ad39",
-                  "name": "Singapore U19 vs Thailand U19",
+                  "name": "Singapore U19 vs Thái Lan U19",
                   "streams": [
                     {
                       "id": "st-e32c51ad39",
@@ -212,8 +212,8 @@
           "org_metadata": {
             "league": "ASEAN Championship U19",
             "team_a": "Singapore U19",
-            "team_b": "Thailand U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19154.png",
+            "team_b": "Thái Lan U19",
+            "logo_a": "https://static.bongda24h.vn/Medias/original/2018/11/5/logo-dt-singapore.png",
             "logo_b": "https://media.api-sports.io/football/teams/19155.png",
             "start_time": "2026-06-05T20:00:00",
             "blv": "BLV Tiểu Trà Đá",
@@ -224,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e32c51ad39_0a4f4658_20260605.png?v=0a4f4658",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e32c51ad39_53e2f10f_20260605.png?v=53e2f10f",
             "width": 1600,
             "height": 1200
           }
@@ -302,7 +302,7 @@
         },
         {
           "id": "bg-34adeb8e32",
-          "name": "Tajikistan vs India | 22:00 05/06",
+          "name": "Tajikistan vs Ấn Độ | 22:00 05/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -321,7 +321,7 @@
               "contents": [
                 {
                   "id": "ct-34adeb8e32",
-                  "name": "Tajikistan vs India",
+                  "name": "Tajikistan vs Ấn Độ",
                   "streams": [
                     {
                       "id": "st-34adeb8e32",
@@ -354,7 +354,7 @@
           "org_metadata": {
             "league": "Friendlies",
             "team_a": "Tajikistan",
-            "team_b": "India",
+            "team_b": "Ấn Độ",
             "logo_a": "https://media.api-sports.io/football/teams/1536.png",
             "logo_b": "https://media.api-sports.io/football/teams/1537.png",
             "start_time": "2026-06-05T22:00:00",
@@ -444,7 +444,7 @@
         },
         {
           "id": "bg-94bb077f18",
-          "name": "Hungary vs Finland | 00:45 06/06",
+          "name": "Hungary vs Phần Lan | 00:45 06/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -463,7 +463,7 @@
               "contents": [
                 {
                   "id": "ct-94bb077f18",
-                  "name": "Hungary vs Finland",
+                  "name": "Hungary vs Phần Lan",
                   "streams": [
                     {
                       "id": "st-94bb077f18",
@@ -496,7 +496,7 @@
           "org_metadata": {
             "league": "Friendlies",
             "team_a": "Hungary",
-            "team_b": "Finland",
+            "team_b": "Phần Lan",
             "logo_a": "https://media.api-sports.io/football/teams/769.png",
             "logo_b": "https://media.api-sports.io/football/teams/1099.png",
             "start_time": "2026-06-06T00:45:00",
