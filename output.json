@@ -441,6 +441,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-0f2818101a",
+          "name": "Slovakia vs Montenegro | 23:30 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f2818101a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-0f2818101a",
+                  "name": "Slovakia vs Montenegro",
+                  "streams": [
+                    {
+                      "id": "st-0f2818101a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Slovakia",
+            "team_b": "Montenegro",
+            "logo_a": "https://media.api-sports.io/football/teams/773.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1109.png",
+            "start_time": "2026-06-05T23:30:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0f2818101a_0604e341_20260605.png?v=0604e341",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
