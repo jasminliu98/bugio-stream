@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-785ca71d2c_e3fdeadf_20260606.png?v=e3fdeadf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-43b9787b8a",
-          "name": "Campuchia U19 vs Philippines U19 | 20:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43b9787b8a",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-43b9787b8a",
-                  "name": "Campuchia U19 vs Philippines U19",
-                  "streams": [
-                    {
-                      "id": "st-43b9787b8a",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Campuchia U19",
-            "team_b": "Philippines U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19148.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19153.png",
-            "start_time": "2026-06-06T20:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-43b9787b8a_916d471e_20260606.png?v=916d471e",
             "width": 1600,
             "height": 1200
           }
