@@ -583,6 +583,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-d4b5b5c16d",
+          "name": "Úc vs Thụy Sĩ | 02:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4b5b5c16d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d4b5b5c16d",
+                  "name": "Úc vs Thụy Sĩ",
+                  "streams": [
+                    {
+                      "id": "st-d4b5b5c16d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Úc",
+            "team_b": "Thụy Sĩ",
+            "logo_a": "https://media.api-sports.io/football/teams/20.png",
+            "logo_b": "https://media.api-sports.io/football/teams/15.png",
+            "start_time": "2026-06-07T02:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d4b5b5c16d_203fe6be_20260606.png?v=203fe6be",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
