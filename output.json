@@ -17,77 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-8396b14c5d",
-          "name": "Ho Chi Minh vs Dong Thap | 16:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8396b14c5d",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-8396b14c5d",
-                  "name": "Ho Chi Minh vs Dong Thap",
-                  "streams": [
-                    {
-                      "id": "st-8396b14c5d",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02ff9c6e74",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 2",
-            "team_a": "Ho Chi Minh",
-            "team_b": "Dong Thap",
-            "logo_a": "https://media.api-sports.io/football/teams/3672.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9164.png",
-            "start_time": "2026-06-06T16:00:00",
-            "blv": "BLV Tiểu Hạc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8396b14c5d_3bf6e5f3_20260606.png?v=3bf6e5f3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bg-124c3e4ada",
           "name": "Kawasaki Frontale vs Sanfrecce Hiroshima | 17:00 06/06",
           "type": "single",
@@ -166,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -217,7 +146,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/8119.png",
             "start_time": "2026-06-06T18:30:00",
             "blv": "BLV Tiểu Hạc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
