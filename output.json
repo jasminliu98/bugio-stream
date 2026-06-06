@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-9f96f36b7a",
-          "name": "Tokyo Verdy vs Gamba Osaka | 14:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f96f36b7a",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-9f96f36b7a",
-                  "name": "Tokyo Verdy vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-9f96f36b7a",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41910bf543",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Tokyo Verdy",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://media.api-sports.io/football/teams/306.png",
-            "logo_b": "https://media.api-sports.io/football/teams/293.png",
-            "start_time": "2026-06-06T14:00:00",
-            "blv": "BLV khô Mực",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9f96f36b7a_e6c40a2f_20260606.png?v=e6c40a2f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-4ffbd5c822",
           "name": "Xuan Thien Phu Tho vs Trường Tươi Đồng Nai | 16:00 06/06",
