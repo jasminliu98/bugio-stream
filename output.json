@@ -86,6 +86,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-4ffbd5c822",
+          "name": "Xuan Thien Phu Tho vs Trường Tươi Đồng Nai | 16:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ffbd5c822",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4ffbd5c822",
+                  "name": "Xuan Thien Phu Tho vs Trường Tươi Đồng Nai",
+                  "streams": [
+                    {
+                      "id": "st-4ffbd5c822",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 2",
+            "team_a": "Xuan Thien Phu Tho",
+            "team_b": "Trường Tươi Đồng Nai",
+            "logo_a": "https://static.bongda24h.vn/Medias/original/2025/09/11/xuan-thien-phu-tho-1109104615.jpg",
+            "logo_b": "https://static.bongda24h.vn/Medias/original/2025/08/05/lo-go-dong-nai-0508083602.jpg",
+            "start_time": "2026-06-06T16:00:00",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4ffbd5c822_36ee8864_20260606.png?v=36ee8864",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-8396b14c5d",
+          "name": "Ho Chi Minh vs Dong Thap | 16:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8396b14c5d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8396b14c5d",
+                  "name": "Ho Chi Minh vs Dong Thap",
+                  "streams": [
+                    {
+                      "id": "st-8396b14c5d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 2",
+            "team_a": "Ho Chi Minh",
+            "team_b": "Dong Thap",
+            "logo_a": "https://media.api-sports.io/football/teams/3672.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9164.png",
+            "start_time": "2026-06-06T16:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8396b14c5d_3bf6e5f3_20260606.png?v=3bf6e5f3",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
