@@ -299,6 +299,219 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-54fe976ba1",
+          "name": "Indonesia U19 vs Vietnam U19 | 20:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-54fe976ba1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-54fe976ba1",
+                  "name": "Indonesia U19 vs Vietnam U19",
+                  "streams": [
+                    {
+                      "id": "st-54fe976ba1",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Indonesia U19",
+            "team_b": "Vietnam U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19149.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19157.png",
+            "start_time": "2026-06-07T20:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-54fe976ba1_130d825e_20260607.png?v=130d825e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-a35fe7f7fe",
+          "name": "Indonesia U19 vs Vietnam U19 | 20:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a35fe7f7fe",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a35fe7f7fe",
+                  "name": "Indonesia U19 vs Vietnam U19",
+                  "streams": [
+                    {
+                      "id": "st-a35fe7f7fe",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Indonesia U19",
+            "team_b": "Vietnam U19",
+            "logo_a": "https://media.api-sports.io/football/teams/19149.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19157.png",
+            "start_time": "2026-06-07T20:00:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a35fe7f7fe_130d825e_20260607.png?v=130d825e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-03b264c595",
+          "name": "Timor-Leste U19 vs Myanmar U19 | 20:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03b264c595",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-03b264c595",
+                  "name": "Timor-Leste U19 vs Myanmar U19",
+                  "streams": [
+                    {
+                      "id": "st-03b264c595",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Timor-Leste U19",
+            "team_b": "Myanmar U19",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/960px-Flag_of_East_Timor.svg.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19152.png",
+            "start_time": "2026-06-07T20:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-03b264c595_8154656e_20260607.png?v=8154656e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
