@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-3202111cf9",
-          "name": "Bỉ U17 vs Ý U17 | 00:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3202111cf9",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-3202111cf9",
-                  "name": "Bỉ U17 vs Ý U17",
-                  "streams": [
-                    {
-                      "id": "st-3202111cf9",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U17 Championship",
-            "team_a": "Bỉ U17",
-            "team_b": "Ý U17",
-            "logo_a": "https://media.api-sports.io/football/teams/17942.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12510.png",
-            "start_time": "2026-06-08T00:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3202111cf9_385495c3_20260608.png?v=385495c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-1d6408264d",
           "name": "Croatia vs Slovenia | 01:45 08/06",
