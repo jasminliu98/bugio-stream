@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-240ac9371e",
-          "name": "Đan Mạch vs Ukraine | 23:30 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-240ac9371e",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-240ac9371e",
-                  "name": "Đan Mạch vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-240ac9371e",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Đan Mạch",
-            "team_b": "Ukraine",
-            "logo_a": "https://media.api-sports.io/football/teams/21.png",
-            "logo_b": "https://media.api-sports.io/football/teams/772.png",
-            "start_time": "2026-06-07T23:30:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-240ac9371e_c163b8e7_20260608.png?v=c163b8e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-3202111cf9",
           "name": "Bỉ U17 vs Ý U17 | 00:00 08/06",
