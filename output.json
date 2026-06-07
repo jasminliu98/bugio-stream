@@ -8,5 +8,299 @@
     "type": "cover",
     "url": "https://sv1.bugio9.live/favicon.ico"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-6dbbe6abe5",
+          "name": "Đà Nẵng vs Thanh Hóa | 18:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6dbbe6abe5",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6dbbe6abe5",
+                  "name": "Đà Nẵng vs Thanh Hóa",
+                  "streams": [
+                    {
+                      "id": "st-6dbbe6abe5",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Đà Nẵng",
+            "team_b": "Thanh Hóa",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/fb/Logo_CLB_SHB_%C4%90%C3%A0_N%E1%BA%B5ng_3_sao.svg/500px-Logo_CLB_SHB_%C4%90%C3%A0_N%E1%BA%B5ng_3_sao.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/d2/Logo_CLB_%C4%90ATH.png",
+            "start_time": "2026-06-07T18:00:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6dbbe6abe5_d5353dcb_20260607.png?v=d5353dcb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-e586a4f55f",
+          "name": "Song Lam Nghe An vs PVF_CAND | 18:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e586a4f55f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-e586a4f55f",
+                  "name": "Song Lam Nghe An vs PVF_CAND",
+                  "streams": [
+                    {
+                      "id": "st-e586a4f55f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Sông Lam Nghệ An",
+            "team_b": "PVF_CAND",
+            "logo_a": "https://www.slnafc.com/logo.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/RA-eCdPplqA3mC1RTUtWtg_96x96.png",
+            "start_time": "2026-06-07T18:00:00",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e586a4f55f_b2ee2f1c_20260607.png?v=b2ee2f1c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-ccf8111910",
+          "name": "Becamex TP.HCM vs Hoàng Anh Gia Lai | 18:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccf8111910",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ccf8111910",
+                  "name": "Becamex TP.HCM vs Hoàng Anh Gia Lai",
+                  "streams": [
+                    {
+                      "id": "st-ccf8111910",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Becamex TP.HCM",
+            "team_b": "Hoàng Anh Gia Lai",
+            "logo_a": "https://becamexhcmcity.com/wp-content/uploads/2025/03/logo0-242x300.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/0/0d/Ho%C3%A0ng_Anh_Gia_Lai_FC.png",
+            "start_time": "2026-06-07T18:00:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ccf8111910_30597384_20260607.png?v=30597384",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-2cbd9c5406",
+          "name": "Viettel vs Công An Hà Nội | 18:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cbd9c5406",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2cbd9c5406",
+                  "name": "Viettel vs Công An Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-2cbd9c5406",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Viettel",
+            "team_b": "Công An Hà Nội",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/fn-O2zrDPGnWVwdulFs7sg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/QuErRQm0uonT9Q21rRFEQw_96x96.png",
+            "start_time": "2026-06-07T18:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2cbd9c5406_6eb86a6d_20260607.png?v=6eb86a6d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
