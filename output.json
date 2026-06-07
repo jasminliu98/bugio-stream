@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-415585bd38",
-          "name": "Estonia U21 vs Lithuania U21 | 22:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-415585bd38",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-415585bd38",
-                  "name": "Estonia U21 vs Lithuania U21",
-                  "streams": [
-                    {
-                      "id": "st-415585bd38",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41910bf543",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "INT FRL",
-            "team_a": "Estonia U21 ",
-            "team_b": "Lithuania U21",
-            "logo_a": "https://img0.aiscore.com/football/team/a770d5b9d11809e44a587ffccf775248.png!w60",
-            "logo_b": "https://img0.aiscore.com/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png!w60",
-            "start_time": "2026-06-07T22:00:00",
-            "blv": "BLV khô Mực",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-415585bd38_6acb3a57_20260608.png?v=6acb3a57",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-240ac9371e",
           "name": "Đan Mạch vs Ukraine | 23:30 07/06",
