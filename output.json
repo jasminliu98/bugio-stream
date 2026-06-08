@@ -159,8 +159,8 @@
           }
         },
         {
-          "id": "bg-e140dbab44",
-          "name": "Iraq U20 vs Jordan U20 | 22:00 08/06",
+          "id": "bg-b17c0907e6",
+          "name": "Latvia U19 vs Estonia U19 | 21:00 08/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -174,15 +174,15 @@
           ],
           "sources": [
             {
-              "id": "src-e140dbab44",
+              "id": "src-b17c0907e6",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-e140dbab44",
-                  "name": "Iraq U20 vs Jordan U20",
+                  "id": "ct-b17c0907e6",
+                  "name": "Latvia U19 vs Estonia U19",
                   "streams": [
                     {
-                      "id": "st-e140dbab44",
+                      "id": "st-b17c0907e6",
                       "name": "BG",
                       "stream_links": [
                         {
@@ -211,11 +211,11 @@
           ],
           "org_metadata": {
             "league": "Friendlies",
-            "team_a": "Iraq U20",
-            "team_b": "Jordan U20",
-            "logo_a": "https://media.api-sports.io/football/teams/19626.png",
-            "logo_b": "https://media.api-sports.io/football/teams/19627.png",
-            "start_time": "2026-06-08T22:00:00",
+            "team_a": "Latvia U19",
+            "team_b": "Estonia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/10339.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10361.png",
+            "start_time": "2026-06-08T21:00:00",
             "blv": "BLV khô Mực",
             "is_live": false,
             "cate_type": "football"
@@ -224,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e140dbab44_0ae56102_20260608.png?v=0ae56102",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b17c0907e6_87f586ac_20260608.png?v=87f586ac",
             "width": 1600,
             "height": 1200
           }
@@ -296,6 +296,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4424d2deec_f101f77f_20260608.png?v=f101f77f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-747c1bcceb",
+          "name": "Netherlands vs Uzbekistan | 01:45 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-747c1bcceb",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-747c1bcceb",
+                  "name": "Netherlands vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-747c1bcceb",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Netherlands",
+            "team_b": "Uzbekistan",
+            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1568.png",
+            "start_time": "2026-06-09T01:45:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-747c1bcceb_217a07d5_20260608.png?v=217a07d5",
             "width": 1600,
             "height": 1200
           }
