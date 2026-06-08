@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-b17c0907e6",
-          "name": "Latvia U19 vs Estonia U19 | 21:00 08/06",
+          "id": "bg-4424d2deec",
+          "name": "Ý U21 vs Albania U21 | 23:15 08/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,77 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b17c0907e6",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-b17c0907e6",
-                  "name": "Latvia U19 vs Estonia U19",
-                  "streams": [
-                    {
-                      "id": "st-b17c0907e6",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41910bf543",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Latvia U19",
-            "team_b": "Estonia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/10339.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10361.png",
-            "start_time": "2026-06-08T21:00:00",
-            "blv": "BLV khô Mực",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b17c0907e6_87f586ac_20260608.png?v=87f586ac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-4424d2deec",
-          "name": "Ý U21 vs Albania U21 | 23:15 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -146,7 +75,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/8177.png",
             "start_time": "2026-06-08T23:15:00",
             "blv": "BLV Lavie",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
