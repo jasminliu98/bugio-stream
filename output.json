@@ -299,6 +299,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-4424d2deec",
+          "name": "Ý U21 vs Albania U21 | 23:15 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4424d2deec",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4424d2deec",
+                  "name": "Ý U21 vs Albania U21",
+                  "streams": [
+                    {
+                      "id": "st-4424d2deec",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Ý U21",
+            "team_b": "Albania U21",
+            "logo_a": "https://media.api-sports.io/football/teams/8201.png",
+            "logo_b": "https://media.api-sports.io/football/teams/8177.png",
+            "start_time": "2026-06-08T23:15:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4424d2deec_f101f77f_20260608.png?v=f101f77f",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
