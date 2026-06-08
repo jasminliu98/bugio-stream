@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0342c9a7b5_e72871ef_20260608.png?v=e72871ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-f0873a91b4",
-          "name": "Thái Lan U19 vs Malaysia U19 | 20:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f0873a91b4",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f0873a91b4",
-                  "name": "Thái Lan U19 vs Malaysia U19",
-                  "streams": [
-                    {
-                      "id": "st-f0873a91b4",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Thái Lan U19",
-            "team_b": "Malaysia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/19155.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/1920px-Flag_of_Malaysia.svg.png",
-            "start_time": "2026-06-08T20:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f0873a91b4_54e9781e_20260608.png?v=54e9781e",
             "width": 1600,
             "height": 1200
           }
