@@ -157,6 +157,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-b28d7c6b6a",
+          "name": "Australia U19 vs Campuchia U19 | 20:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b28d7c6b6a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b28d7c6b6a",
+                  "name": "Australia U19 vs Campuchia U19",
+                  "streams": [
+                    {
+                      "id": "st-b28d7c6b6a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02ff9c6e74",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship U19",
+            "team_a": "Australia U19",
+            "team_b": "Campuchia U19",
+            "logo_a": "https://media.api-sports.io/football/teams/22591.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19148.png",
+            "start_time": "2026-06-09T20:00:00",
+            "blv": "BLV Tiểu Hạc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b28d7c6b6a_0832a6fd_20260609.png?v=0832a6fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-2fd5d41ec6",
+          "name": "Indonesia vs Mozambique | 20:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2fd5d41ec6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2fd5d41ec6",
+                  "name": "Indonesia vs Mozambique",
+                  "streams": [
+                    {
+                      "id": "st-2fd5d41ec6",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Indonesia",
+            "team_b": "Mozambique",
+            "logo_a": "https://media.api-sports.io/football/teams/1571.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1512.png",
+            "start_time": "2026-06-09T20:00:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2fd5d41ec6_7d9e0112_20260609.png?v=7d9e0112",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
