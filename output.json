@@ -86,6 +86,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-335cd1b90b",
+          "name": "Cuba vs Ba lan | 12:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-335cd1b90b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-335cd1b90b",
+                  "name": "Cuba vs Ba lan",
+                  "streams": [
+                    {
+                      "id": "st-335cd1b90b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Cuba",
+            "team_b": "Ba Lan",
+            "logo_a": "https://static.flashscore.com/res/image/data/AmSqkKjl-hIzfuNSD.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WnW15DfM-6ys9CWQj.png",
+            "start_time": "2026-06-10T12:00:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-335cd1b90b_7bcc9ab0_20260610.png?v=7bcc9ab0",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
