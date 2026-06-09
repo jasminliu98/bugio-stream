@@ -157,6 +157,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-b6e584419a",
+          "name": "Argentina vs Iceland | 08:00 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b6e584419a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b6e584419a",
+                  "name": "Argentina vs Iceland",
+                  "streams": [
+                    {
+                      "id": "st-b6e584419a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Argentina",
+            "team_b": "Iceland",
+            "logo_a": "https://media.api-sports.io/football/teams/26.png",
+            "logo_b": "https://media.api-sports.io/football/teams/18.png",
+            "start_time": "2026-06-10T08:00:00",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b6e584419a_43570527_20260610.png?v=43570527",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
