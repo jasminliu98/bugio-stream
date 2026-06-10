@@ -328,11 +328,11 @@
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-02ff9c6e74",
+                          "id": "lnk-a4a6a520ed",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieuhac/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -358,7 +358,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/5535.png",
             "logo_b": "https://media.api-sports.io/football/teams/1553.png",
             "start_time": "2026-06-10T23:00:00",
-            "blv": "BLV Tiểu Hạc",
+            "blv": "BLV Lavie",
             "is_live": false,
             "cate_type": "football"
           },
