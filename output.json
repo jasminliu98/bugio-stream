@@ -441,6 +441,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-91c7739397",
+          "name": "Vietnam Women vs Iran Women | 08:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-91c7739397",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-91c7739397",
+                  "name": "Vietnam Women vs Iran Women",
+                  "streams": [
+                    {
+                      "id": "st-91c7739397",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026 ",
+            "team_a": "Vietnam Women",
+            "team_b": "Iran Women",
+            "logo_a": "https://img0.aiscore.com/football/team/4e91bada7f302a3370bedc1d4f783066.png!w60",
+            "logo_b": "https://img0.aiscore.com/football/team/56de534cf589f6d0ca09630db803ba00.png!w60",
+            "start_time": "2026-06-11T08:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-91c7739397_a5aebeaf_20260611.png?v=a5aebeaf",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
