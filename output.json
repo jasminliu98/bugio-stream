@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-a7971abb41",
-          "name": "Anh vs Costa Rica | 03:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7971abb41",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-a7971abb41",
-                  "name": "Anh vs Costa Rica",
-                  "streams": [
-                    {
-                      "id": "st-a7971abb41",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-448842e236",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Anh",
-            "team_b": "Costa Rica",
-            "logo_a": "https://media.api-sports.io/football/teams/10.png",
-            "logo_b": "https://media.api-sports.io/football/teams/29.png",
-            "start_time": "2026-06-11T03:00:00",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a7971abb41_d6f1ec7d_20260611.png?v=d6f1ec7d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-b6f8dc086b",
           "name": "Brazil – Iran | 06:00 11/06",
