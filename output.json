@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c7502c55f8_e9887e87_20260610.png?v=e9887e87",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c7502c55f8_e9887e87_20260611.png?v=e9887e87",
             "width": 1600,
             "height": 1200
           }
@@ -153,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-bf8dd8c68d_e2d7bde4_20260610.png?v=e2d7bde4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-bf8dd8c68d_e2d7bde4_20260611.png?v=e2d7bde4",
             "width": 1600,
             "height": 1200
           }
@@ -224,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ca172e9649_e4373cb4_20260610.png?v=e4373cb4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ca172e9649_e4373cb4_20260611.png?v=e4373cb4",
             "width": 1600,
             "height": 1200
           }
@@ -295,7 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-faad95253a_ef21607f_20260610.png?v=ef21607f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-faad95253a_ef21607f_20260611.png?v=ef21607f",
             "width": 1600,
             "height": 1200
           }
@@ -366,7 +366,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e327b1649d_ef21607f_20260610.png?v=ef21607f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e327b1649d_ef21607f_20260611.png?v=ef21607f",
             "width": 1600,
             "height": 1200
           }
@@ -437,7 +437,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a7971abb41_d6f1ec7d_20260610.png?v=d6f1ec7d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a7971abb41_d6f1ec7d_20260611.png?v=d6f1ec7d",
             "width": 1600,
             "height": 1200
           }
@@ -508,7 +508,78 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ba6d843eb4_4f48f410_20260610.png?v=4f48f410",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ba6d843eb4_4f48f410_20260611.png?v=4f48f410",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-b6f8dc086b",
+          "name": "Brazil – Iran | 06:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b6f8dc086b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b6f8dc086b",
+                  "name": "Brazil – Iran",
+                  "streams": [
+                    {
+                      "id": "st-b6f8dc086b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Na",
+            "team_a": "Brazil ",
+            "team_b": "Iran",
+            "logo_a": "https://static.flashscore.com/res/image/data/OM8Y9ODa-vBKZiE2j.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
+            "start_time": "2026-06-11T06:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b6f8dc086b_34b585f3_20260611.png?v=34b585f3",
             "width": 1600,
             "height": 1200
           }
