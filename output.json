@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-6651526b6f",
-          "name": "Ukaraine vs Nhật Bản | 19:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6651526b6f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-6651526b6f",
-                  "name": "Ukaraine vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-6651526b6f",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Ukaraine",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://static.flashscore.com/res/image/data/va0cEUGG-8KJ0tcMR.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
-            "start_time": "2026-06-10T19:00:00",
-            "blv": "BLV Cúc Cu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6651526b6f_e6156a91_20260610.png?v=e6156a91",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-853c68de72",
           "name": "KuPS vs VPS | 21:00 10/06",
@@ -367,6 +296,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ca172e9649_e4373cb4_20260610.png?v=e4373cb4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-faad95253a",
+          "name": "Bồ Đào Nha vs Nigeria | 02:45 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-faad95253a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-faad95253a",
+                  "name": "Bồ Đào Nha vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "st-faad95253a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Bồ Đào Nha ",
+            "team_b": "Nigeria",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19.png",
+            "start_time": "2026-06-11T02:45:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-faad95253a_ef21607f_20260610.png?v=ef21607f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-e327b1649d",
+          "name": "Bồ Đào Nha  vs Nigeria | 02:45 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e327b1649d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-e327b1649d",
+                  "name": "Bồ Đào Nha  vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "st-e327b1649d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Bồ Đào Nha ",
+            "team_b": "Nigeria",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://media.api-sports.io/football/teams/19.png",
+            "start_time": "2026-06-11T02:45:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e327b1649d_ef21607f_20260610.png?v=ef21607f",
             "width": 1600,
             "height": 1200
           }
