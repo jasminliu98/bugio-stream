@@ -441,6 +441,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-a7971abb41",
+          "name": "Anh vs Costa Rica | 03:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a7971abb41",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a7971abb41",
+                  "name": "Anh vs Costa Rica",
+                  "streams": [
+                    {
+                      "id": "st-a7971abb41",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Anh",
+            "team_b": "Costa Rica",
+            "logo_a": "https://media.api-sports.io/football/teams/10.png",
+            "logo_b": "https://media.api-sports.io/football/teams/29.png",
+            "start_time": "2026-06-11T03:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a7971abb41_d6f1ec7d_20260610.png?v=d6f1ec7d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-ba6d843eb4",
+          "name": "Pháp – Ý | 03:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba6d843eb4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ba6d843eb4",
+                  "name": "Pháp – Ý",
+                  "streams": [
+                    {
+                      "id": "st-ba6d843eb4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Na",
+            "team_a": "Pháp",
+            "team_b": "Ý",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/z3JEQB3coEAGLCJBEUzQ2A_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/joYpsiaYi4GDCqhSRAq5Zg_96x96.png",
+            "start_time": "2026-06-11T03:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ba6d843eb4_4f48f410_20260610.png?v=4f48f410",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
