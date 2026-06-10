@@ -157,6 +157,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-f02208a057",
+          "name": "Congo DR U20 vs Saudi Arabia U21 | 18:30 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f02208a057",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f02208a057",
+                  "name": "Congo DR U20 vs Saudi Arabia U21",
+                  "streams": [
+                    {
+                      "id": "st-f02208a057",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tournoi Maurice Revello",
+            "team_a": "Congo DR U20",
+            "team_b": "Saudi Arabia U21",
+            "logo_a": "https://media.api-sports.io/football/teams/11024.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/250px-Flag_of_Saudi_Arabia.svg.png",
+            "start_time": "2026-06-10T18:30:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f02208a057_59dccd3b_20260610.png?v=59dccd3b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
