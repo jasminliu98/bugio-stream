@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-c731077c04",
+          "name": "Aktobe Jas vs Akademiya Ontustik | 20:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c731077c04",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c731077c04",
+                  "name": "Aktobe Jas vs Akademiya Ontustik",
+                  "streams": [
+                    {
+                      "id": "st-c731077c04",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Aktobe Jas",
+            "team_b": "Akademiya Ontustik",
+            "logo_a": "https://media.api-sports.io/football/teams/4546.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4545.png",
+            "start_time": "2026-06-11T20:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c731077c04_ec269645_20260611.png?v=ec269645",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
