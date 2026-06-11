@@ -370,6 +370,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-56bd37d3a2",
+          "name": "Portugal U20 vs Canada U20 | 00:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56bd37d3a2",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-56bd37d3a2",
+                  "name": "Portugal U20 vs Canada U20",
+                  "streams": [
+                    {
+                      "id": "st-56bd37d3a2",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tournoi Maurice Revello",
+            "team_a": "Portugal U20",
+            "team_b": "Canada U20",
+            "logo_a": "https://media.api-sports.io/football/teams/10299.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10992.png",
+            "start_time": "2026-06-12T00:00:00",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-56bd37d3a2_923cd1cf_20260611.png?v=923cd1cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-79a3308b13",
+          "name": "Lễ Khai Mạc World Cup 2026 | 00:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79a3308b13",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-79a3308b13",
+                  "name": "Lễ Khai Mạc World Cup 2026",
+                  "streams": [
+                    {
+                      "id": "st-79a3308b13",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Lễ Khai Mạc World Cup 2026",
+            "team_a": "Khai Mạc World Cup 2026",
+            "team_b": "Khai Mạc World Cup 2026",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/250px-2026_FIFA_World_Cup_emblem.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/250px-2026_FIFA_World_Cup_emblem.svg.png",
+            "start_time": "2026-06-12T00:00:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-79a3308b13_7f155b6e_20260611.png?v=7f155b6e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
