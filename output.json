@@ -71,8 +71,8 @@
             "league": "World Cup 123 ",
             "team_a": "Khai Mạc World Cup",
             "team_b": "Khai Mạc World Cup",
-            "logo_a": "https://www.shutterstock.com/image-vector/official-fifa-world-cup-2026-260nw-2696081651.jpg",
-            "logo_b": "https://www.shutterstock.com/image-vector/official-fifa-world-cup-2026-260nw-2696081651.jpg",
+            "logo_a": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026.31d2489d.png",
+            "logo_b": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026.31d2489d.png",
             "start_time": "2026-06-13T06:30:00",
             "blv": "BLV Cúc Cu",
             "is_live": false,
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-23685a2431_2cc5abe5_20260613.png?v=2cc5abe5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-23685a2431_dc52a824_20260613.png?v=dc52a824",
             "width": 1600,
             "height": 1200
           }
