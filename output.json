@@ -370,6 +370,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-8d749ea54f",
+          "name": "Mỹ vs Paraguay | 08:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d749ea54f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8d749ea54f",
+                  "name": "Mỹ vs Paraguay",
+                  "streams": [
+                    {
+                      "id": "st-8d749ea54f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Mỹ",
+            "team_b": "Paraguay",
+            "logo_a": "https://media.api-sports.io/football/teams/2384.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2380.png",
+            "start_time": "2026-06-13T08:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8d749ea54f_3a280714_20260613.png?v=3a280714",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-f466e84e4d",
+          "name": "Mỹ vs Paraguay | 08:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f466e84e4d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f466e84e4d",
+                  "name": "Mỹ vs Paraguay",
+                  "streams": [
+                    {
+                      "id": "st-f466e84e4d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Mỹ",
+            "team_b": "Paraguay",
+            "logo_a": "https://media.api-sports.io/football/teams/2384.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2380.png",
+            "start_time": "2026-06-13T08:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f466e84e4d_3a280714_20260613.png?v=3a280714",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
