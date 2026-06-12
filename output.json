@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-86b48b560a",
+          "name": "Foutoua vs Al Karama | 20:00 12/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-86b48b560a",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-86b48b560a",
+                  "name": "Foutoua vs Al Karama",
+                  "streams": [
+                    {
+                      "id": "st-86b48b560a",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Foutoua",
+            "team_b": "Al Karama",
+            "logo_a": "https://media.api-sports.io/football/teams/9114.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9111.png",
+            "start_time": "2026-06-12T20:00:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-86b48b560a_d9dffbac_20260612.png?v=d9dffbac",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
