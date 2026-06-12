@@ -370,6 +370,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-23685a2431",
+          "name": "World Cup | 06:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23685a2431",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-23685a2431",
+                  "name": "World Cup",
+                  "streams": [
+                    {
+                      "id": "st-23685a2431",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup 123 ",
+            "team_a": "Khai Mạc World Cup",
+            "team_b": "Khai Mạc World Cup",
+            "logo_a": "https://www.shutterstock.com/image-vector/official-fifa-world-cup-2026-260nw-2696081651.jpg",
+            "logo_b": "https://www.shutterstock.com/image-vector/official-fifa-world-cup-2026-260nw-2696081651.jpg",
+            "start_time": "2026-06-13T06:30:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-23685a2431_2cc5abe5_20260613.png?v=2cc5abe5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
