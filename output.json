@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-be6ad8761f",
-          "name": "Ukraine vs Cuba | 15:30 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-be6ad8761f",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-be6ad8761f",
-                  "name": "Ukraine vs Cuba",
-                  "streams": [
-                    {
-                      "id": "st-be6ad8761f",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Ukraine",
-            "team_b": "Cuba",
-            "logo_a": "https://static.flashscore.com/res/image/data/va0cEUGG-8KJ0tcMR.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/AmSqkKjl-hIzfuNSD.png",
-            "start_time": "2026-06-12T15:30:00",
-            "blv": "BLV Pháo",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-be6ad8761f_0a249798_20260612.png?v=0a249798",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-744878fbdd",
           "name": "PVF-CAND vs Bắc Ninh | 18:00 12/06",
