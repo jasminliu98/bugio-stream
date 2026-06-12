@@ -441,6 +441,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-8074856808",
+          "name": "SmackDown vs SmackDown | 07:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8074856808",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8074856808",
+                  "name": "SmackDown vs SmackDown",
+                  "streams": [
+                    {
+                      "id": "st-8074856808",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WWE",
+            "team_a": "SmackDown",
+            "team_b": "SmackDown",
+            "logo_a": "https://www.wwe.com/f/styles/wwe_16_9_l/public/2026/06/20260605_SD.jpg",
+            "logo_b": "https://www.wwe.com/f/styles/wwe_16_9_l/public/2026/06/20260605_SD.jpg",
+            "start_time": "2026-06-13T07:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8074856808_8bbf75c0_20260613.png?v=8bbf75c0",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
