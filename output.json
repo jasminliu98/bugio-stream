@@ -299,6 +299,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-4ac7784182",
+          "name": "World Cup | 12:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ac7784182",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4ac7784182",
+                  "name": "World Cup",
+                  "streams": [
+                    {
+                      "id": "st-4ac7784182",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Lễ khai mạc World Cup 2026",
+            "team_a": "Khai Mạc World Cup",
+            "team_b": "Khai Mạc World Cup",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/960px-2026_FIFA_World_Cup_emblem.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/960px-2026_FIFA_World_Cup_emblem.svg.png",
+            "start_time": "2026-06-13T12:30:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4ac7784182_175e8720_20260613.png?v=175e8720",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-fe663a72b2",
+          "name": "Fulham United vs Adelaide Victory | 12:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe663a72b2",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-fe663a72b2",
+                  "name": "Fulham United vs Adelaide Victory",
+                  "streams": [
+                    {
+                      "id": "st-fe663a72b2",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "South Australia State League 1",
+            "team_a": "Fulham United",
+            "team_b": "Adelaide Victory",
+            "logo_a": "https://media.api-sports.io/football/teams/16767.png",
+            "logo_b": "https://media.api-sports.io/football/teams/16765.png",
+            "start_time": "2026-06-13T12:30:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fe663a72b2_77851422_20260613.png?v=77851422",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
