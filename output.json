@@ -299,6 +299,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-70117ee3c0",
+          "name": "Canada vs Bosnia & Herzegovina | 02:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70117ee3c0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-70117ee3c0",
+                  "name": "Canada vs Bosnia & Herzegovina",
+                  "streams": [
+                    {
+                      "id": "st-70117ee3c0",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Canada",
+            "team_b": "Bosnia & Herzegovina",
+            "logo_a": "https://media.api-sports.io/football/teams/5529.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1113.png",
+            "start_time": "2026-06-13T02:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-70117ee3c0_a7887ccf_20260612.png?v=a7887ccf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-785736838d",
+          "name": "Canada vs Bosnia & Herzegovina | 02:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-785736838d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-785736838d",
+                  "name": "Canada vs Bosnia & Herzegovina",
+                  "streams": [
+                    {
+                      "id": "st-785736838d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Canada",
+            "team_b": "Bosnia & Herzegovina",
+            "logo_a": "https://media.api-sports.io/football/teams/5529.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1113.png",
+            "start_time": "2026-06-13T02:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-785736838d_a7887ccf_20260612.png?v=a7887ccf",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
