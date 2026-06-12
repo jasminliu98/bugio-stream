@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,77 +83,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7ffb4e0ece_69824369_20260613.png?v=69824369",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-e1cd50f4a9",
-          "name": "World Cup | 00:30 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1cd50f4a9",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-e1cd50f4a9",
-                  "name": "World Cup",
-                  "streams": [
-                    {
-                      "id": "st-e1cd50f4a9",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Khai Mạc World Cup",
-            "team_b": "Khai Mạc World Cup",
-            "logo_a": "https://www.shutterstock.com/image-vector/official-fifa-world-cup-2026-260nw-2696081651.jpg",
-            "logo_b": "https://www.shutterstock.com/image-vector/official-fifa-world-cup-2026-260nw-2696081651.jpg",
-            "start_time": "2026-06-13T00:30:00",
-            "blv": "BLV Cúc Cu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e1cd50f4a9_2cc5abe5_20260613.png?v=2cc5abe5",
             "width": 1600,
             "height": 1200
           }
