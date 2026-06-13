@@ -59,7 +59,7 @@ REPO_RAW      = os.environ.get("REPO_RAW", "")
 THUMB_VERSION = "v2"
 
 # Phân loại theo tournamentName
-VOLLEYBALL_KEYWORDS = ["bóng chuyền", "volleyball", "vtv", "binh dien", "bình điền"]
+VOLLEYBALL_KEYWORDS = ["bóng chuyền", "volleyball", "vtv", "binh dien", "bình điền", "nations league men", "nations league women", "fivb"]
 BASKETBALL_KEYWORDS = ["bóng rổ", "basketball", "nba", "euroleague"]
 TENNIS_KEYWORDS     = ["tennis", "atp", "wta", "grand slam"]
 BADMINTON_KEYWORDS  = ["cầu lông", "badminton", "bwf"]
