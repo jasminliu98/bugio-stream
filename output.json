@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "bg-a6e8ad4904",
-          "name": "Việt Nam vs Hàn Quốc  | 18:00 13/06",
+          "name": "Nữ Việt Nam vs Nữ Hàn Quốc  | 18:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-a6e8ad4904",
-                  "name": "Việt Nam vs Hàn Quốc ",
+                  "name": "Nữ Việt Nam vs Nữ Hàn Quốc ",
                   "streams": [
                     {
                       "id": "st-a6e8ad4904",
@@ -69,8 +69,8 @@
           ],
           "org_metadata": {
             "league": "AVC Nations Cup 2026 ",
-            "team_a": "Việt Nam",
-            "team_b": "Hàn Quốc",
+            "team_a": "Nữ Việt Nam",
+            "team_b": "Nữ Hàn Quốc",
             "logo_a": "https://static.flashscore.com/res/image/data/StTKbSzS-A9PcSp30.png",
             "logo_b": "https://static.flashscore.com/res/image/data/6ZpGvVEa-C0A1Du90.png",
             "start_time": "2026-06-13T18:00:00",
