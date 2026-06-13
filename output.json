@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-ac0b236e34",
-          "name": "Lahti vs SJK | 23:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ac0b236e34",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-ac0b236e34",
-                  "name": "Lahti vs SJK",
-                  "streams": [
-                    {
-                      "id": "st-ac0b236e34",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4a6a520ed",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Lahti",
-            "team_b": "SJK",
-            "logo_a": "https://media.api-sports.io/football/teams/1166.png",
-            "logo_b": "https://media.api-sports.io/football/teams/689.png",
-            "start_time": "2026-06-13T23:00:00",
-            "blv": "BLV Lavie",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ac0b236e34_d535159b_20260614.png?v=d535159b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-4a64d91322",
           "name": "Qatar vs Switzerland | 02:00 14/06",
