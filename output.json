@@ -299,7 +299,16 @@
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "bg-a01dfc715d",
           "name": "Thổ Nhĩ Kỳ -  Ý  | 06:30 14/06",
@@ -360,13 +369,226 @@
             "start_time": "2026-06-14T06:30:00",
             "blv": "BLV Tiểu Mèo",
             "is_live": false,
-            "cate_type": "football"
+            "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a01dfc715d_73a6b4fc_20260614.png?v=73a6b4fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-a714ec6796",
+          "name": "Ukraine - Ba Lan | 12:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a714ec6796",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a714ec6796",
+                  "name": "Ukraine - Ba Lan",
+                  "streams": [
+                    {
+                      "id": "st-a714ec6796",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Ukraine",
+            "team_b": "Ba Lan",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/DQIQtK7N4yrDIqw75pxFHg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/yTS_Piy3M1wUBnqU0n5aAw_96x96.png",
+            "start_time": "2026-06-14T12:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a714ec6796_106b3af3_20260614.png?v=106b3af3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-9ce3c52fc5",
+          "name": "Trung Quốc - Cuba  | 15:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ce3c52fc5",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-9ce3c52fc5",
+                  "name": "Trung Quốc - Cuba ",
+                  "streams": [
+                    {
+                      "id": "st-9ce3c52fc5",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Trung Quốc ",
+            "team_b": " Cuba ",
+            "logo_a": "https://mediares.thethao247.vn/res/image/data/nc9uS3HG-QDuM2WrS.png",
+            "logo_b": "https://mediares.thethao247.vn/res/image/data/AmSqkKjl-hIzfuNSD.png",
+            "start_time": "2026-06-14T15:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9ce3c52fc5_6bb3dfc3_20260614.png?v=6bb3dfc3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-043c2ec6c6",
+          "name": "Slovenia - Nhật Bản  | 19:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-043c2ec6c6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-043c2ec6c6",
+                  "name": "Slovenia - Nhật Bản ",
+                  "streams": [
+                    {
+                      "id": "st-043c2ec6c6",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Slovenia",
+            "team_b": "Nhật Bản ",
+            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
+            "start_time": "2026-06-14T19:00:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-043c2ec6c6_00208878_20260614.png?v=00208878",
             "width": 1600,
             "height": 1200
           }
