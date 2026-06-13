@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-05c7ac9468",
+          "name": "Hebei Kungfu vs Suzhou Dongwu | 18:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05c7ac9468",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-05c7ac9468",
+                  "name": "Hebei Kungfu vs Suzhou Dongwu",
+                  "streams": [
+                    {
+                      "id": "st-05c7ac9468",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41910bf543",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_khomuc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League One",
+            "team_a": "Hebei Kungfu",
+            "team_b": "Suzhou Dongwu",
+            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5688.png",
+            "start_time": "2026-06-13T18:30:00",
+            "blv": "BLV khô Mực",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-05c7ac9468_568eefe1_20260613.png?v=568eefe1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
