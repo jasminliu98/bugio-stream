@@ -299,6 +299,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-1e747ddbea",
+          "name": "VPS vs KuPS | 21:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e747ddbea",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1e747ddbea",
+                  "name": "VPS vs KuPS",
+                  "streams": [
+                    {
+                      "id": "st-1e747ddbea",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "VPS",
+            "team_b": "KuPS",
+            "logo_a": "https://media.api-sports.io/football/teams/650.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1165.png",
+            "start_time": "2026-06-13T21:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1e747ddbea_76fd0ba2_20260613.png?v=76fd0ba2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-9f4768b4bd",
+          "name": "Brazil vs Serbia | 21:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f4768b4bd",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-9f4768b4bd",
+                  "name": "Brazil vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-9f4768b4bd",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Brazil",
+            "team_b": "Serbia",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/zKLzoJVYz0bb6oAnPUdwWQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/xyh1vmZ-xJH2iJCKjqS1Ow_96x96.png",
+            "start_time": "2026-06-13T21:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9f4768b4bd_8e159be7_20260613.png?v=8e159be7",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
