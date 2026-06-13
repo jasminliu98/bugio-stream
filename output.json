@@ -299,6 +299,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-2e855f9489",
+          "name": "Brazil vs Morocco | 05:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e855f9489",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2e855f9489",
+                  "name": "Brazil vs Morocco",
+                  "streams": [
+                    {
+                      "id": "st-2e855f9489",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Brazil",
+            "team_b": "Morocco",
+            "logo_a": "https://media.api-sports.io/football/teams/6.png",
+            "logo_b": "https://media.api-sports.io/football/teams/31.png",
+            "start_time": "2026-06-14T05:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2e855f9489_2c34bab3_20260613.png?v=2c34bab3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-e1054bf2d7",
+          "name": "Brazil vs Morocco | 05:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e1054bf2d7",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-e1054bf2d7",
+                  "name": "Brazil vs Morocco",
+                  "streams": [
+                    {
+                      "id": "st-e1054bf2d7",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Brazil",
+            "team_b": "Morocco",
+            "logo_a": "https://media.api-sports.io/football/teams/6.png",
+            "logo_b": "https://media.api-sports.io/football/teams/31.png",
+            "start_time": "2026-06-14T05:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e1054bf2d7_2c34bab3_20260613.png?v=2c34bab3",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
