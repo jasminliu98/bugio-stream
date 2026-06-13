@@ -157,6 +157,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-a6e8ad4904",
+          "name": "Việt Nam vs Hàn Quốc  | 18:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6e8ad4904",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a6e8ad4904",
+                  "name": "Việt Nam vs Hàn Quốc ",
+                  "streams": [
+                    {
+                      "id": "st-a6e8ad4904",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026 ",
+            "team_a": "Việt Nam",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://static.flashscore.com/res/image/data/StTKbSzS-A9PcSp30.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6ZpGvVEa-C0A1Du90.png",
+            "start_time": "2026-06-13T18:00:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a6e8ad4904_08afa5fd_20260613.png?v=08afa5fd",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
