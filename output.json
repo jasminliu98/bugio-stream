@@ -441,6 +441,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-a01dfc715d",
+          "name": "Thổ Nhĩ Kỳ -  Ý  | 06:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a01dfc715d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a01dfc715d",
+                  "name": "Thổ Nhĩ Kỳ -  Ý ",
+                  "streams": [
+                    {
+                      "id": "st-a01dfc715d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Ý",
+            "logo_a": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0IAL5Rkl-xCsenx2O.png",
+            "start_time": "2026-06-14T06:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a01dfc715d_73a6b4fc_20260614.png?v=73a6b4fc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
