@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-08048a9c56",
-          "name": "Trung Quốc vs Nhật Bản | 15:30 13/06",
+          "id": "bg-a6e8ad4904",
+          "name": "Việt Nam vs Hàn Quốc  | 18:00 13/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,77 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-08048a9c56",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-08048a9c56",
-                  "name": "Trung Quốc vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-08048a9c56",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Trung Quốc ",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/8Cr5Gw-79PpIX2rIEZ7Pvg_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
-            "start_time": "2026-06-13T15:30:00",
-            "blv": "BLV Pháo",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-08048a9c56_fe196f33_20260613.png?v=fe196f33",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-a6e8ad4904",
-          "name": "Việt Nam vs Hàn Quốc  | 18:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -146,7 +75,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/6ZpGvVEa-C0A1Du90.png",
             "start_time": "2026-06-13T18:00:00",
             "blv": "BLV Cúc Cu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
