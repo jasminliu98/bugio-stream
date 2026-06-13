@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-237168031d",
-          "name": "Inter Turku vs AC Oulu | 19:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-237168031d",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-237168031d",
-                  "name": "Inter Turku vs AC Oulu",
-                  "streams": [
-                    {
-                      "id": "st-237168031d",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Inter Turku",
-            "team_b": "AC Oulu",
-            "logo_a": "https://media.api-sports.io/football/teams/1164.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2077.png",
-            "start_time": "2026-06-13T19:00:00",
-            "blv": "BLV Phi MC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-237168031d_64538267_20260613.png?v=64538267",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-1e747ddbea",
           "name": "VPS vs KuPS | 21:00 13/06",
