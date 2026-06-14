@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-197838c579",
+          "name": "Nữ Việt Nam vs Nữ Kazakhstan | 14:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-197838c579",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-197838c579",
+                  "name": "Nữ Việt Nam vs Nữ Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-197838c579",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026 ",
+            "team_a": "Nữ Việt Nam",
+            "team_b": "Nữ Kazakhstan",
+            "logo_a": "https://static.flashscore.com/res/image/data/rZCKbaFa-QHeKqeWC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png",
+            "start_time": "2026-06-14T14:30:00",
+            "blv": "BLV Cúc Cu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-197838c579_2dab26f0_20260614.png?v=2dab26f0",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
