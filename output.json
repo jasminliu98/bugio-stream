@@ -88,77 +88,6 @@
           }
         },
         {
-          "id": "bg-90fd4f88f5",
-          "name": "Đức vs Curaçao | 00:00 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90fd4f88f5",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-90fd4f88f5",
-                  "name": "Đức vs Curaçao",
-                  "streams": [
-                    {
-                      "id": "st-90fd4f88f5",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Đức",
-            "team_b": "Curaçao",
-            "logo_a": "https://media.api-sports.io/football/teams/25.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5530.png",
-            "start_time": "2026-06-15T00:00:00",
-            "blv": "BLV Mao Từn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-90fd4f88f5_e0997fbb_20260614.png?v=e0997fbb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bg-250b164d84",
           "name": "Germany vs Curaçao | 00:00 15/06",
           "type": "single",
@@ -225,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-250b164d84_e0997fbb_20260614.png?v=e0997fbb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-9a0ee0a9e7",
+          "name": "Germany vs Curaçao | 00:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a0ee0a9e7",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-9a0ee0a9e7",
+                  "name": "Germany vs Curaçao",
+                  "streams": [
+                    {
+                      "id": "st-9a0ee0a9e7",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Germany",
+            "team_b": "Curaçao",
+            "logo_a": "https://media.api-sports.io/football/teams/25.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5530.png",
+            "start_time": "2026-06-15T00:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9a0ee0a9e7_e0997fbb_20260614.png?v=e0997fbb",
             "width": 1600,
             "height": 1200
           }
