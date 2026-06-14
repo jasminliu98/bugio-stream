@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-358f9e7be0",
+          "name": "Nữ Đài Loan ( Trung Quốc ) vs Nữ Hàn Quốc | 18:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-358f9e7be0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-358f9e7be0",
+                  "name": "Nữ Đài Loan ( Trung Quốc ) vs Nữ Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-358f9e7be0",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup 2026 ",
+            "team_a": "Nữ Đài Loan ( Trung Quốc )",
+            "team_b": "Nữ Hàn Quốc",
+            "logo_a": "https://img0.aiscore.com/basketball/team/58daf23f06bd54cb577a106fba19b140.png!w60",
+            "logo_b": "https://img0.aiscore.com/basketball/team/28f5dbb01c5311a46f8b163f972d66cb.png!w60",
+            "start_time": "2026-06-14T18:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-358f9e7be0_30c53834_20260614.png?v=30c53834",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
