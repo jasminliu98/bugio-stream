@@ -304,82 +304,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-9ce3c52fc5",
-          "name": "Trung Quốc - Cuba  | 15:30 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ce3c52fc5",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-9ce3c52fc5",
-                  "name": "Trung Quốc - Cuba ",
-                  "streams": [
-                    {
-                      "id": "st-9ce3c52fc5",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Trung Quốc ",
-            "team_b": " Cuba ",
-            "logo_a": "https://mediares.thethao247.vn/res/image/data/nc9uS3HG-QDuM2WrS.png",
-            "logo_b": "https://mediares.thethao247.vn/res/image/data/AmSqkKjl-hIzfuNSD.png",
-            "start_time": "2026-06-14T15:30:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9ce3c52fc5_6bb3dfc3_20260614.png?v=6bb3dfc3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-043c2ec6c6",
           "name": "Slovenia - Nhật Bản  | 19:00 14/06",
