@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-47e338b3c0",
-          "name": "Úc vs Thổ Nhĩ Kỳ | 11:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47e338b3c0",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-47e338b3c0",
-                  "name": "Úc vs Thổ Nhĩ Kỳ",
-                  "streams": [
-                    {
-                      "id": "st-47e338b3c0",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-448842e236",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Úc",
-            "team_b": "Thổ Nhĩ Kỳ ",
-            "logo_a": "https://media.api-sports.io/football/teams/20.png",
-            "logo_b": "https://media.api-sports.io/football/teams/777.png",
-            "start_time": "2026-06-14T11:00:00",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-47e338b3c0_0a3eeceb_20260614.png?v=0a3eeceb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-7a0c1035bc",
-          "name": "Australia vs Türkiye | 11:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7a0c1035bc",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-7a0c1035bc",
-                  "name": "Australia vs Türkiye",
-                  "streams": [
-                    {
-                      "id": "st-7a0c1035bc",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Australia",
-            "team_b": "Türkiye",
-            "logo_a": "https://media.api-sports.io/football/teams/20.png",
-            "logo_b": "https://media.api-sports.io/football/teams/777.png",
-            "start_time": "2026-06-14T11:00:00",
-            "blv": "BLV Phi MC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7a0c1035bc_0a3eeceb_20260614.png?v=0a3eeceb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-197838c579",
           "name": "Nữ Việt Nam vs Nữ Kazakhstan | 14:30 14/06",
@@ -296,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-358f9e7be0_30c53834_20260614.png?v=30c53834",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-71e63ef5b7",
+          "name": "Ulytau vs Zhenys | 19:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71e63ef5b7",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-71e63ef5b7",
+                  "name": "Ulytau vs Zhenys",
+                  "streams": [
+                    {
+                      "id": "st-71e63ef5b7",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Ulytau",
+            "team_b": "Zhenys",
+            "logo_a": "https://media.api-sports.io/football/teams/21010.png",
+            "logo_b": "https://media.api-sports.io/football/teams/16611.png",
+            "start_time": "2026-06-14T19:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-71e63ef5b7_e2eb4880_20260614.png?v=e2eb4880",
             "width": 1600,
             "height": 1200
           }
