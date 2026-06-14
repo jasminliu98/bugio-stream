@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-12b668a1ad_55709bb2_20260614.png?v=55709bb2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-12b668a1ad_55709bb2_20260615.png?v=55709bb2",
             "width": 1600,
             "height": 1200
           }
@@ -153,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-250b164d84_e0997fbb_20260614.png?v=e0997fbb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-250b164d84_e0997fbb_20260615.png?v=e0997fbb",
             "width": 1600,
             "height": 1200
           }
@@ -224,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9a0ee0a9e7_e0997fbb_20260614.png?v=e0997fbb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9a0ee0a9e7_e0997fbb_20260615.png?v=e0997fbb",
             "width": 1600,
             "height": 1200
           }
@@ -295,7 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5a9542c773_1a4ec557_20260614.png?v=1a4ec557",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5a9542c773_1a4ec557_20260615.png?v=1a4ec557",
             "width": 1600,
             "height": 1200
           }
@@ -366,7 +366,78 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f5ac21cd0e_1a4ec557_20260614.png?v=1a4ec557",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f5ac21cd0e_1a4ec557_20260615.png?v=1a4ec557",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-6e66329891",
+          "name": "Ivory Coast vs Ecuador | 06:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e66329891",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6e66329891",
+                  "name": "Ivory Coast vs Ecuador",
+                  "streams": [
+                    {
+                      "id": "st-6e66329891",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Ivory Coast",
+            "team_b": "Ecuador",
+            "logo_a": "https://media.api-sports.io/football/teams/1501.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2382.png",
+            "start_time": "2026-06-15T06:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6e66329891_56931572_20260615.png?v=56931572",
             "width": 1600,
             "height": 1200
           }
@@ -446,7 +517,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9f93557d30_063cd0c4_20260614.png?v=063cd0c4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9f93557d30_063cd0c4_20260615.png?v=063cd0c4",
             "width": 1600,
             "height": 1200
           }
@@ -517,7 +588,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4eff072083_324a6738_20260614.png?v=324a6738",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4eff072083_324a6738_20260615.png?v=324a6738",
             "width": 1600,
             "height": 1200
           }
