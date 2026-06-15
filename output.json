@@ -86,6 +86,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-03a3655fff",
+          "name": "Arba Minch Kenema vs Suhul Shire | 19:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03a3655fff",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-03a3655fff",
+                  "name": "Arba Minch Kenema vs Suhul Shire",
+                  "streams": [
+                    {
+                      "id": "st-03a3655fff",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Arba Minch Kenema",
+            "team_b": "Suhul Shire",
+            "logo_a": "https://media.api-sports.io/football/teams/4126.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9986.png",
+            "start_time": "2026-06-15T19:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-03a3655fff_26be5e74_20260615.png?v=26be5e74",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
