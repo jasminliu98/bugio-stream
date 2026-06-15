@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-91bc333f69",
-          "name": "Thụy Điển vs Tunisia | 09:00 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-91bc333f69",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-91bc333f69",
-                  "name": "Thụy Điển vs Tunisia",
-                  "streams": [
-                    {
-                      "id": "st-91bc333f69",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-448842e236",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Thụy Điển",
-            "team_b": "Tunisia",
-            "logo_a": "https://media.api-sports.io/football/teams/5.png",
-            "logo_b": "https://media.api-sports.io/football/teams/28.png",
-            "start_time": "2026-06-15T09:00:00",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-91bc333f69_b794fc3c_20260615.png?v=b794fc3c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-48f7d3043b",
           "name": "Thụy Điển vs Tunisia | 09:00 15/06",
@@ -154,6 +83,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-48f7d3043b_b794fc3c_20260615.png?v=b794fc3c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-2c26f9a59b",
+          "name": "Negelle Arsi vs Awassa Kenema | 17:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c26f9a59b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2c26f9a59b",
+                  "name": "Negelle Arsi vs Awassa Kenema",
+                  "streams": [
+                    {
+                      "id": "st-2c26f9a59b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Negelle Arsi",
+            "team_b": "Awassa Kenema",
+            "logo_a": "https://media.api-sports.io/football/teams/26881.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4111.png",
+            "start_time": "2026-06-15T17:00:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2c26f9a59b_f539cb5e_20260615.png?v=f539cb5e",
             "width": 1600,
             "height": 1200
           }
