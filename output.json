@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-48f7d3043b",
-          "name": "Thụy Điển vs Tunisia | 09:00 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48f7d3043b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-48f7d3043b",
-                  "name": "Thụy Điển vs Tunisia",
-                  "streams": [
-                    {
-                      "id": "st-48f7d3043b",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Thụy Điển",
-            "team_b": "Tunisia",
-            "logo_a": "https://media.api-sports.io/football/teams/5.png",
-            "logo_b": "https://media.api-sports.io/football/teams/28.png",
-            "start_time": "2026-06-15T09:00:00",
-            "blv": "BLV Mao Từn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-48f7d3043b_b794fc3c_20260615.png?v=b794fc3c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-2c26f9a59b",
           "name": "Negelle Arsi vs Awassa Kenema | 17:00 15/06",
