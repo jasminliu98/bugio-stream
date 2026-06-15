@@ -44,11 +44,11 @@
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-a4a6a520ed",
+                          "id": "lnk-51a73d71ba",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -74,7 +74,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/9198.png",
             "logo_b": "https://media.api-sports.io/football/teams/2080.png",
             "start_time": "2026-06-15T22:30:00",
-            "blv": "BLV Lavie",
+            "blv": "BLV Mao Từn",
             "is_live": true,
             "cate_type": "football"
           },
@@ -438,6 +438,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cceff8faa8_d3483004_20260615.png?v=d3483004",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-a19744e268",
+          "name": "Belgium vs Egypt | 02:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a19744e268",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a19744e268",
+                  "name": "Belgium vs Egypt",
+                  "streams": [
+                    {
+                      "id": "st-a19744e268",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Belgium",
+            "team_b": "Egypt",
+            "logo_a": "https://media.api-sports.io/football/teams/1.png",
+            "logo_b": "https://media.api-sports.io/football/teams/32.png",
+            "start_time": "2026-06-16T02:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a19744e268_d3483004_20260615.png?v=d3483004",
             "width": 1600,
             "height": 1200
           }
