@@ -157,6 +157,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-6a6610feab",
+          "name": "Fard Alborz vs Sanat Naft | 21:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6a6610feab",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6a6610feab",
+                  "name": "Fard Alborz vs Sanat Naft",
+                  "streams": [
+                    {
+                      "id": "st-6a6610feab",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4a6a520ed",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lavie/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Azadegan League",
+            "team_a": "Fard Alborz",
+            "team_b": "Sanat Naft",
+            "logo_a": "https://media.api-sports.io/football/teams/25364.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2743.png",
+            "start_time": "2026-06-15T21:30:00",
+            "blv": "BLV Lavie",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6a6610feab_2827db2b_20260615.png?v=2827db2b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
