@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -166,10 +166,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -217,7 +217,7 @@
             "logo_b": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdi6LZpIv3d-fDwt5RB55q40_qI9op9tbChiqYrR1FRJxWDYyb",
             "start_time": "2026-06-16T07:00:00",
             "blv": "BLV Pháo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
