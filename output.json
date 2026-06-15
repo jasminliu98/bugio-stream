@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-6a6610feab",
-          "name": "Fard Alborz vs Sanat Naft | 21:30 15/06",
+          "id": "bg-58155fc7f5",
+          "name": "SJK Akatemia vs Haka | 22:30 15/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,15 +32,15 @@
           ],
           "sources": [
             {
-              "id": "src-6a6610feab",
+              "id": "src-58155fc7f5",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-6a6610feab",
-                  "name": "Fard Alborz vs Sanat Naft",
+                  "id": "ct-58155fc7f5",
+                  "name": "SJK Akatemia vs Haka",
                   "streams": [
                     {
-                      "id": "st-6a6610feab",
+                      "id": "st-58155fc7f5",
                       "name": "BG",
                       "stream_links": [
                         {
@@ -68,12 +68,12 @@
             }
           ],
           "org_metadata": {
-            "league": "Azadegan League",
-            "team_a": "Fard Alborz",
-            "team_b": "Sanat Naft",
-            "logo_a": "https://media.api-sports.io/football/teams/25364.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2743.png",
-            "start_time": "2026-06-15T21:30:00",
+            "league": "Ykkösliiga",
+            "team_a": "SJK Akatemia",
+            "team_b": "Haka",
+            "logo_a": "https://media.api-sports.io/football/teams/9198.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2080.png",
+            "start_time": "2026-06-15T22:30:00",
             "blv": "BLV Lavie",
             "is_live": true,
             "cate_type": "football"
@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6a6610feab_2827db2b_20260615.png?v=2827db2b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-58155fc7f5_ddfe1646_20260615.png?v=ddfe1646",
             "width": 1600,
             "height": 1200
           }
