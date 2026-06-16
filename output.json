@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-5ef99d16d1",
-          "name": "Sheger Ketema vs Welwalo Adigrat Uni | 20:00 16/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5ef99d16d1",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-5ef99d16d1",
-                  "name": "Sheger Ketema vs Welwalo Adigrat Uni",
-                  "streams": [
-                    {
-                      "id": "st-5ef99d16d1",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Sheger Ketema",
-            "team_b": "Welwalo Adigrat Uni",
-            "logo_a": "https://media.api-sports.io/football/teams/26880.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4125.png",
-            "start_time": "2026-06-16T20:00:00",
-            "blv": "BLV Mao Từn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5ef99d16d1_d547896d_20260616.png?v=d547896d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-130ea93886",
           "name": "BFC Daugavpils vs Super Nova | 22:00 16/06",
