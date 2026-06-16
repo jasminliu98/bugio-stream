@@ -299,6 +299,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-878a0658e6",
+          "name": "Iraq vs Na Uy | 05:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-878a0658e6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-878a0658e6",
+                  "name": "Iraq vs Na Uy",
+                  "streams": [
+                    {
+                      "id": "st-878a0658e6",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Iraq",
+            "team_b": "Na Uy",
+            "logo_a": "https://media.api-sports.io/football/teams/1567.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1090.png",
+            "start_time": "2026-06-17T05:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-878a0658e6_acec406f_20260616.png?v=acec406f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-ae0e08163d",
+          "name": "Iraq vs Na Uy | 05:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae0e08163d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ae0e08163d",
+                  "name": "Iraq vs Na Uy",
+                  "streams": [
+                    {
+                      "id": "st-ae0e08163d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Iraq",
+            "team_b": "Na Uy",
+            "logo_a": "https://media.api-sports.io/football/teams/1567.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1090.png",
+            "start_time": "2026-06-17T05:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ae0e08163d_acec406f_20260616.png?v=acec406f",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
