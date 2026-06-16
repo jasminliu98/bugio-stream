@@ -595,7 +595,7 @@
         },
         {
           "id": "bg-8744cf92c8",
-          "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Bỉ | 19:00 17/06",
+          "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Bỉ | 23:30 17/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -650,7 +650,7 @@
             "team_b": "Nữ Bỉ",
             "logo_a": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
             "logo_b": "https://static.flashscore.com/res/image/data/QJWQSoYg-CUoVGnpd.png",
-            "start_time": "2026-06-17T19:00:00",
+            "start_time": "2026-06-17T23:30:00",
             "blv": "BLV Tiểu Mèo",
             "is_live": false,
             "cate_type": "bongchuyen"
