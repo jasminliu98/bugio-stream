@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-2406a0a94c",
+          "name": "IFK Varnamo vs Helsingborg | 00:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2406a0a94c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2406a0a94c",
+                  "name": "IFK Varnamo vs Helsingborg",
+                  "streams": [
+                    {
+                      "id": "st-2406a0a94c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superettan",
+            "team_a": "IFK Varnamo",
+            "team_b": "Helsingborg",
+            "logo_a": "https://media.api-sports.io/football/teams/2163.png",
+            "logo_b": "https://media.api-sports.io/football/teams/811.png",
+            "start_time": "2026-06-17T00:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2406a0a94c_be5b74ee_20260616.png?v=be5b74ee",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
