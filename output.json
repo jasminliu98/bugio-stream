@@ -115,11 +115,11 @@
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-21936c1c94",
+                          "id": "lnk-378f040fcb",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -145,7 +145,7 @@
             "logo_a": "https://media.api-sports.io/football/teams/4149.png",
             "logo_b": "https://media.api-sports.io/football/teams/4143.png",
             "start_time": "2026-06-16T22:00:00",
-            "blv": "BLV Tiểu Mèo",
+            "blv": "BLV Chim Nhỏ",
             "is_live": false,
             "cate_type": "football"
           },
