@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-a1c3ae6c49",
-          "name": "Kairat Almaty vs Kyzyl-Zhar | 21:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1c3ae6c49",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-a1c3ae6c49",
-                  "name": "Kairat Almaty vs Kyzyl-Zhar",
-                  "streams": [
-                    {
-                      "id": "st-a1c3ae6c49",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Kairat Almaty",
-            "team_b": "Kyzyl-Zhar",
-            "logo_a": "https://media.api-sports.io/football/teams/664.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4554.png",
-            "start_time": "2026-06-17T21:00:00",
-            "blv": "BLV Mao Từn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a1c3ae6c49_aad85798_20260617.png?v=aad85798",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-37f65c068b",
           "name": "Kalju Nomme vs Tammeka | 23:00 17/06",
