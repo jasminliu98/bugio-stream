@@ -82,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-37f65c068b_3ae2daac_20260617.png?v=3ae2daac",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-37f65c068b_3ae2daac_20260618.png?v=3ae2daac",
             "width": 1600,
             "height": 1200
           }
@@ -153,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c9319967c0_c974ae1b_20260617.png?v=c974ae1b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c9319967c0_c974ae1b_20260618.png?v=c974ae1b",
             "width": 1600,
             "height": 1200
           }
@@ -224,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fe4b855600_c974ae1b_20260617.png?v=c974ae1b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fe4b855600_c974ae1b_20260618.png?v=c974ae1b",
             "width": 1600,
             "height": 1200
           }
@@ -295,7 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-717729ce39_c974ae1b_20260617.png?v=c974ae1b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-717729ce39_c974ae1b_20260618.png?v=c974ae1b",
             "width": 1600,
             "height": 1200
           }
@@ -366,7 +366,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8f1fa0193c_c974ae1b_20260617.png?v=c974ae1b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8f1fa0193c_c974ae1b_20260618.png?v=c974ae1b",
             "width": 1600,
             "height": 1200
           }
@@ -437,7 +437,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-482db0ecc1_1e248938_20260617.png?v=1e248938",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-482db0ecc1_1e248938_20260618.png?v=1e248938",
             "width": 1600,
             "height": 1200
           }
@@ -508,7 +508,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4a3050ae2c_1e248938_20260617.png?v=1e248938",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4a3050ae2c_1e248938_20260618.png?v=1e248938",
             "width": 1600,
             "height": 1200
           }
@@ -579,7 +579,149 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-26c0a19597_1e248938_20260617.png?v=1e248938",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-26c0a19597_1e248938_20260618.png?v=1e248938",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-717d8b3d60",
+          "name": "Ghana vs Panama | 06:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-717d8b3d60",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-717d8b3d60",
+                  "name": "Ghana vs Panama",
+                  "streams": [
+                    {
+                      "id": "st-717d8b3d60",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Ghana",
+            "team_b": "Panama",
+            "logo_a": "https://media.api-sports.io/football/teams/1504.png",
+            "logo_b": "https://media.api-sports.io/football/teams/11.png",
+            "start_time": "2026-06-18T06:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-717d8b3d60_9665e8f8_20260618.png?v=9665e8f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-876e1c5902",
+          "name": "Ghana vs Panama | 06:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-876e1c5902",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-876e1c5902",
+                  "name": "Ghana vs Panama",
+                  "streams": [
+                    {
+                      "id": "st-876e1c5902",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Ghana",
+            "team_b": "Panama",
+            "logo_a": "https://media.api-sports.io/football/teams/1504.png",
+            "logo_b": "https://media.api-sports.io/football/teams/11.png",
+            "start_time": "2026-06-18T06:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-876e1c5902_9665e8f8_20260618.png?v=9665e8f8",
             "width": 1600,
             "height": 1200
           }
@@ -659,7 +801,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8744cf92c8_a32e1a5f_20260617.png?v=a32e1a5f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8744cf92c8_a32e1a5f_20260618.png?v=a32e1a5f",
             "width": 1600,
             "height": 1200
           }
@@ -730,7 +872,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2dfe1946b3_4e99ca07_20260617.png?v=4e99ca07",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2dfe1946b3_4e99ca07_20260618.png?v=4e99ca07",
             "width": 1600,
             "height": 1200
           }
@@ -801,7 +943,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-265eceb6d4_700837de_20260617.png?v=700837de",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-265eceb6d4_700837de_20260618.png?v=700837de",
             "width": 1600,
             "height": 1200
           }
@@ -872,7 +1014,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fb642b7810_66ec71d3_20260617.png?v=66ec71d3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fb642b7810_66ec71d3_20260618.png?v=66ec71d3",
             "width": 1600,
             "height": 1200
           }
@@ -943,7 +1085,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c6c61abda7_585bd885_20260617.png?v=585bd885",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c6c61abda7_585bd885_20260618.png?v=585bd885",
             "width": 1600,
             "height": 1200
           }
@@ -1014,7 +1156,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8452a95c40_a90ace28_20260617.png?v=a90ace28",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8452a95c40_a90ace28_20260618.png?v=a90ace28",
             "width": 1600,
             "height": 1200
           }
