@@ -11,297 +11,13 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-c9319967c0",
-          "name": "Portugal vs Congo DR | 00:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9319967c0",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-c9319967c0",
-                  "name": "Portugal vs Congo DR",
-                  "streams": [
-                    {
-                      "id": "st-c9319967c0",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Portugal",
-            "team_b": "Congo DR",
-            "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1508.png",
-            "start_time": "2026-06-18T00:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c9319967c0_c974ae1b_20260618.png?v=c974ae1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-fe4b855600",
-          "name": "Portugal vs Congo DR | 00:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe4b855600",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-fe4b855600",
-                  "name": "Portugal vs Congo DR",
-                  "streams": [
-                    {
-                      "id": "st-fe4b855600",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-448842e236",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Portugal",
-            "team_b": "Congo DR",
-            "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1508.png",
-            "start_time": "2026-06-18T00:00:00",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fe4b855600_c974ae1b_20260618.png?v=c974ae1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-717729ce39",
-          "name": "Portugal vs Congo DR | 00:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-717729ce39",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-717729ce39",
-                  "name": "Portugal vs Congo DR",
-                  "streams": [
-                    {
-                      "id": "st-717729ce39",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Portugal",
-            "team_b": "Congo DR",
-            "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1508.png",
-            "start_time": "2026-06-18T00:00:00",
-            "blv": "BLV Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-717729ce39_c974ae1b_20260618.png?v=c974ae1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-8f1fa0193c",
-          "name": "Portugal vs Congo DR | 00:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f1fa0193c",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-8f1fa0193c",
-                  "name": "Portugal vs Congo DR",
-                  "streams": [
-                    {
-                      "id": "st-8f1fa0193c",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Portugal",
-            "team_b": "Congo DR",
-            "logo_a": "https://media.api-sports.io/football/teams/27.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1508.png",
-            "start_time": "2026-06-18T00:00:00",
-            "blv": "BLV Phi MC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8f1fa0193c_c974ae1b_20260618.png?v=c974ae1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-482db0ecc1",
+          "id": "bg-3b8c6dc0b2",
           "name": "England vs Croatia | 03:00 18/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -316,86 +32,15 @@
           ],
           "sources": [
             {
-              "id": "src-482db0ecc1",
+              "id": "src-3b8c6dc0b2",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-482db0ecc1",
+                  "id": "ct-3b8c6dc0b2",
                   "name": "England vs Croatia",
                   "streams": [
                     {
-                      "id": "st-482db0ecc1",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "England",
-            "team_b": "Croatia",
-            "logo_a": "https://media.api-sports.io/football/teams/10.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3.png",
-            "start_time": "2026-06-18T03:00:00",
-            "blv": "BLV Phi MC",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-482db0ecc1_1e248938_20260618.png?v=1e248938",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-4a3050ae2c",
-          "name": "England vs Croatia | 03:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a3050ae2c",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-4a3050ae2c",
-                  "name": "England vs Croatia",
-                  "streams": [
-                    {
-                      "id": "st-4a3050ae2c",
+                      "id": "st-3b8c6dc0b2",
                       "name": "BG",
                       "stream_links": [
                         {
@@ -437,13 +82,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4a3050ae2c_1e248938_20260618.png?v=1e248938",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3b8c6dc0b2_1e248938_20260618.png?v=1e248938",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "bg-26c0a19597",
+          "id": "bg-eb30fa42ee",
           "name": "England vs Croatia | 03:00 18/06",
           "type": "single",
           "display": "thumbnail-only",
@@ -458,15 +103,86 @@
           ],
           "sources": [
             {
-              "id": "src-26c0a19597",
+              "id": "src-eb30fa42ee",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-26c0a19597",
+                  "id": "ct-eb30fa42ee",
                   "name": "England vs Croatia",
                   "streams": [
                     {
-                      "id": "st-26c0a19597",
+                      "id": "st-eb30fa42ee",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "England",
+            "team_b": "Croatia",
+            "logo_a": "https://media.api-sports.io/football/teams/10.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3.png",
+            "start_time": "2026-06-18T03:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-eb30fa42ee_1e248938_20260618.png?v=1e248938",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-9c22c0b51b",
+          "name": "England vs Croatia | 03:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c22c0b51b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-9c22c0b51b",
+                  "name": "England vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-9c22c0b51b",
                       "name": "BG",
                       "stream_links": [
                         {
@@ -508,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-26c0a19597_1e248938_20260618.png?v=1e248938",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9c22c0b51b_1e248938_20260618.png?v=1e248938",
             "width": 1600,
             "height": 1200
           }
