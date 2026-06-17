@@ -659,82 +659,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-c64a9829fa",
-          "name": "Nữ Nhật Bản vs Nữ Serbia | 19:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c64a9829fa",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-c64a9829fa",
-                  "name": "Nữ Nhật Bản vs Nữ Serbia",
-                  "streams": [
-                    {
-                      "id": "st-c64a9829fa",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "Nữ Nhật Bản ",
-            "team_b": "Nữ Serbia",
-            "logo_a": "https://images.volleyballworld.com/image/upload/f_png/t_flag/assets/flags/flag_jpn",
-            "logo_b": "https://static.flashscore.com/res/image/data/2NUY9fYA-h6SRz2xL.png",
-            "start_time": "2026-06-17T19:00:00",
-            "blv": "BLV Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c64a9829fa_6c139b37_20260617.png?v=6c139b37",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-8744cf92c8",
           "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Bỉ | 23:30 17/06",
