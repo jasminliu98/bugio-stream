@@ -228,6 +228,290 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-c9319967c0",
+          "name": "Portugal vs Congo DR | 00:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9319967c0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c9319967c0",
+                  "name": "Portugal vs Congo DR",
+                  "streams": [
+                    {
+                      "id": "st-c9319967c0",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Portugal",
+            "team_b": "Congo DR",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1508.png",
+            "start_time": "2026-06-18T00:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c9319967c0_c974ae1b_20260617.png?v=c974ae1b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-fe4b855600",
+          "name": "Portugal vs Congo DR | 00:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe4b855600",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-fe4b855600",
+                  "name": "Portugal vs Congo DR",
+                  "streams": [
+                    {
+                      "id": "st-fe4b855600",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Portugal",
+            "team_b": "Congo DR",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1508.png",
+            "start_time": "2026-06-18T00:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fe4b855600_c974ae1b_20260617.png?v=c974ae1b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-717729ce39",
+          "name": "Portugal vs Congo DR | 00:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-717729ce39",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-717729ce39",
+                  "name": "Portugal vs Congo DR",
+                  "streams": [
+                    {
+                      "id": "st-717729ce39",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Portugal",
+            "team_b": "Congo DR",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1508.png",
+            "start_time": "2026-06-18T00:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-717729ce39_c974ae1b_20260617.png?v=c974ae1b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-8f1fa0193c",
+          "name": "Portugal vs Congo DR | 00:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f1fa0193c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8f1fa0193c",
+                  "name": "Portugal vs Congo DR",
+                  "streams": [
+                    {
+                      "id": "st-8f1fa0193c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Portugal",
+            "team_b": "Congo DR",
+            "logo_a": "https://media.api-sports.io/football/teams/27.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1508.png",
+            "start_time": "2026-06-18T00:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8f1fa0193c_c974ae1b_20260617.png?v=c974ae1b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
