@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-37f65c068b",
-          "name": "Kalju Nomme vs Tammeka | 23:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-37f65c068b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-37f65c068b",
-                  "name": "Kalju Nomme vs Tammeka",
-                  "streams": [
-                    {
-                      "id": "st-37f65c068b",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Meistriliiga",
-            "team_a": "Kalju Nomme",
-            "team_b": "Tammeka",
-            "logo_a": "https://media.api-sports.io/football/teams/662.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3530.png",
-            "start_time": "2026-06-17T23:00:00",
-            "blv": "BLV Pháo",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-37f65c068b_3ae2daac_20260618.png?v=3ae2daac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-c9319967c0",
           "name": "Portugal vs Congo DR | 00:00 18/06",
@@ -730,82 +659,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-8744cf92c8",
-          "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Bỉ | 23:30 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8744cf92c8",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-8744cf92c8",
-                  "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Bỉ",
-                  "streams": [
-                    {
-                      "id": "st-8744cf92c8",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "Nữ Thổ Nhĩ Kỳ ",
-            "team_b": "Nữ Bỉ",
-            "logo_a": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QJWQSoYg-CUoVGnpd.png",
-            "start_time": "2026-06-17T23:30:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8744cf92c8_a32e1a5f_20260618.png?v=a32e1a5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-2dfe1946b3",
           "name": "Czech W - USA W | 15:00 18/06",
