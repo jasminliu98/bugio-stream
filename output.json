@@ -228,12 +228,154 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-d814f4e3dc",
+          "name": "Switzerland vs Bosnia & Herzegovina | 02:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d814f4e3dc",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d814f4e3dc",
+                  "name": "Switzerland vs Bosnia & Herzegovina",
+                  "streams": [
+                    {
+                      "id": "st-d814f4e3dc",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Switzerland",
+            "team_b": "Bosnia & Herzegovina",
+            "logo_a": "https://media.api-sports.io/football/teams/15.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1113.png",
+            "start_time": "2026-06-19T02:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d814f4e3dc_98267c1a_20260618.png?v=98267c1a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-8c4f839b28",
+          "name": "Switzerland vs Bosnia & Herzegovina | 02:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c4f839b28",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8c4f839b28",
+                  "name": "Switzerland vs Bosnia & Herzegovina",
+                  "streams": [
+                    {
+                      "id": "st-8c4f839b28",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Switzerland",
+            "team_b": "Bosnia & Herzegovina",
+            "logo_a": "https://media.api-sports.io/football/teams/15.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1113.png",
+            "start_time": "2026-06-19T02:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8c4f839b28_98267c1a_20260618.png?v=98267c1a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -317,10 +459,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -368,7 +510,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/trgkvtFa-p8cOXAXu.png",
             "start_time": "2026-06-18T20:30:00",
             "blv": "BLV Chim Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
