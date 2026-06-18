@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -88,6 +88,77 @@
           }
         },
         {
+          "id": "bg-19d19f93a4",
+          "name": "Czechia vs South Africa | 23:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19d19f93a4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-19d19f93a4",
+                  "name": "Czechia vs South Africa",
+                  "streams": [
+                    {
+                      "id": "st-19d19f93a4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Czechia",
+            "team_b": "South Africa",
+            "logo_a": "https://media.api-sports.io/football/teams/770.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1531.png",
+            "start_time": "2026-06-18T23:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-19d19f93a4_4e9e323c_20260618.png?v=4e9e323c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-cb8a08a240",
           "name": "Czechia vs South Africa | 23:00 18/06",
           "type": "single",
@@ -154,77 +225,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cb8a08a240_4e9e323c_20260618.png?v=4e9e323c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-19d19f93a4",
-          "name": "Czechia vs South Africa | 23:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-19d19f93a4",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-19d19f93a4",
-                  "name": "Czechia vs South Africa",
-                  "streams": [
-                    {
-                      "id": "st-19d19f93a4",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Czechia",
-            "team_b": "South Africa",
-            "logo_a": "https://media.api-sports.io/football/teams/770.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1531.png",
-            "start_time": "2026-06-18T23:00:00",
-            "blv": "BLV Phi MC",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-19d19f93a4_4e9e323c_20260618.png?v=4e9e323c",
             "width": 1600,
             "height": 1200
           }
@@ -375,7 +375,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -388,10 +388,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -439,7 +439,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/n9L75XEa-rcthslVl.png",
             "start_time": "2026-06-18T23:30:00",
             "blv": "BLV Tiểu Mèo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
