@@ -663,6 +663,290 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-47698c15fb",
+          "name": "USA W - Italy W | 15:00 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47698c15fb",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-47698c15fb",
+                  "name": "USA W - Italy W",
+                  "streams": [
+                    {
+                      "id": "st-47698c15fb",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "USA W ",
+            "team_b": "Italy W",
+            "logo_a": "https://static.flashscore.com/res/image/data/zoIpbvHG-W6UqXKEA.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/h6v1tOAr-xCsenx2O.png",
+            "start_time": "2026-06-20T15:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-47698c15fb_324a6738_20260619.png?v=324a6738",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-9b523b0c92",
+          "name": "Japan W - Dominican W | 19:00 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b523b0c92",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-9b523b0c92",
+                  "name": "Japan W - Dominican W",
+                  "streams": [
+                    {
+                      "id": "st-9b523b0c92",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Japan W ",
+            "team_b": "Dominican W",
+            "logo_a": "https://static.flashscore.com/res/image/data/0WJLxnGG-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hWkRwuZA-YwmRHSUk.png",
+            "start_time": "2026-06-20T19:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9b523b0c92_c2d9edba_20260619.png?v=c2d9edba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-84d5711e9b",
+          "name": "Thailand W - Canada W | 20:30 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84d5711e9b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-84d5711e9b",
+                  "name": "Thailand W - Canada W",
+                  "streams": [
+                    {
+                      "id": "st-84d5711e9b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Thailand W ",
+            "team_b": "Canada W",
+            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fmKzkXh5-fkHV0g99.png",
+            "start_time": "2026-06-20T20:30:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-84d5711e9b_666b3e47_20260619.png?v=666b3e47",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-2cc73b2408",
+          "name": "Turkey W - Germany W | 23:30 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cc73b2408",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2cc73b2408",
+                  "name": "Turkey W - Germany W",
+                  "streams": [
+                    {
+                      "id": "st-2cc73b2408",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Turkey W ",
+            "team_b": "Germany W",
+            "logo_a": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
+            "start_time": "2026-06-20T23:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2cc73b2408_4474c2eb_20260619.png?v=4474c2eb",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
