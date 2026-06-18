@@ -8,5 +8,734 @@
     "type": "cover",
     "url": "https://sv1.bugio9.live/favicon.ico"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-a6da680bcb",
+          "name": "Olympique Dcheïra vs FAR Rabat | 21:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6da680bcb",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a6da680bcb",
+                  "name": "Olympique Dcheïra vs FAR Rabat",
+                  "streams": [
+                    {
+                      "id": "st-a6da680bcb",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Botola Pro",
+            "team_a": "Olympique Dcheïra",
+            "team_b": "FAR Rabat",
+            "logo_a": "https://media.api-sports.io/football/teams/3454.png",
+            "logo_b": "https://media.api-sports.io/football/teams/969.png",
+            "start_time": "2026-06-18T21:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a6da680bcb_fe5b5172_20260618.png?v=fe5b5172",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-19d19f93a4",
+          "name": "Czechia vs South Africa | 23:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19d19f93a4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-19d19f93a4",
+                  "name": "Czechia vs South Africa",
+                  "streams": [
+                    {
+                      "id": "st-19d19f93a4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Czechia",
+            "team_b": "South Africa",
+            "logo_a": "https://media.api-sports.io/football/teams/770.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1531.png",
+            "start_time": "2026-06-18T23:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-19d19f93a4_4e9e323c_20260618.png?v=4e9e323c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-cb8a08a240",
+          "name": "Czechia vs South Africa | 23:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb8a08a240",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-cb8a08a240",
+                  "name": "Czechia vs South Africa",
+                  "streams": [
+                    {
+                      "id": "st-cb8a08a240",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Czechia",
+            "team_b": "South Africa",
+            "logo_a": "https://media.api-sports.io/football/teams/770.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1531.png",
+            "start_time": "2026-06-18T23:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cb8a08a240_4e9e323c_20260618.png?v=4e9e323c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-fb642b7810",
+          "name": "Serbia W - Italy W | 19:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb642b7810",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-fb642b7810",
+                  "name": "Serbia W - Italy W",
+                  "streams": [
+                    {
+                      "id": "st-fb642b7810",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Serbia W ",
+            "team_b": "Italy W",
+            "logo_a": "https://static.flashscore.com/res/image/data/2NUY9fYA-h6SRz2xL.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/h6v1tOAr-xCsenx2O.png",
+            "start_time": "2026-06-18T19:00:00",
+            "blv": "BLV Pháo",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fb642b7810_66ec71d3_20260618.png?v=66ec71d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-c6c61abda7",
+          "name": "Nữ Thái Lan vs Nữ Bulgaria | 20:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c6c61abda7",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c6c61abda7",
+                  "name": "Nữ Thái Lan vs Nữ Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-c6c61abda7",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Nữ Thái Lan",
+            "team_b": "Nữ Bulgaria",
+            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/trgkvtFa-p8cOXAXu.png",
+            "start_time": "2026-06-18T20:30:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c6c61abda7_585bd885_20260618.png?v=585bd885",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-8452a95c40",
+          "name": "Turkey W - France W  | 23:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8452a95c40",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8452a95c40",
+                  "name": "Turkey W - France W ",
+                  "streams": [
+                    {
+                      "id": "st-8452a95c40",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Turkey W",
+            "team_b": "France W ",
+            "logo_a": "https://static.flashscore.com/res/image/data/xj2CEkf5-4W8hcela.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/n9L75XEa-rcthslVl.png",
+            "start_time": "2026-06-18T23:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8452a95c40_a90ace28_20260618.png?v=a90ace28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-8df7c2e3c3",
+          "name": "Dominican W - Serbia W | 15:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8df7c2e3c3",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8df7c2e3c3",
+                  "name": "Dominican W - Serbia W",
+                  "streams": [
+                    {
+                      "id": "st-8df7c2e3c3",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Dominican W ",
+            "team_b": "Serbia W",
+            "logo_a": "https://static.flashscore.com/res/image/data/hWkRwuZA-YwmRHSUk.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/x4FgDryB-zLx3xGjj.png",
+            "start_time": "2026-06-19T15:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8df7c2e3c3_b4131fdf_20260618.png?v=b4131fdf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-ffd2257b58",
+          "name": "Ukraine W - Netherlands W | 17:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ffd2257b58",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ffd2257b58",
+                  "name": "Ukraine W - Netherlands W",
+                  "streams": [
+                    {
+                      "id": "st-ffd2257b58",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Ukraine W ",
+            "team_b": "Netherlands W",
+            "logo_a": "https://static.flashscore.com/res/image/data/nuvercYA-AT5SyHUr.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/C6XsVSg5-6ZVOxU6F.png",
+            "start_time": "2026-06-19T17:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ffd2257b58_c2afeebb_20260618.png?v=c2afeebb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-54391c872f",
+          "name": "Japan W  - Czech Republic W | 19:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-54391c872f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-54391c872f",
+                  "name": "Japan W  - Czech Republic W",
+                  "streams": [
+                    {
+                      "id": "st-54391c872f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Japan W  ",
+            "team_b": "Czech Republic W",
+            "logo_a": "https://static.flashscore.com/res/image/data/0WJLxnGG-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hjWOdNcM-xhy3Lep2.png",
+            "start_time": "2026-06-19T19:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-54391c872f_e948c6df_20260618.png?v=e948c6df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-fa3dade3a4",
+          "name": "Belgium W - Germany W | 19:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa3dade3a4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-fa3dade3a4",
+                  "name": "Belgium W - Germany W",
+                  "streams": [
+                    {
+                      "id": "st-fa3dade3a4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Belgium W ",
+            "team_b": "Germany W",
+            "logo_a": "https://static.flashscore.com/res/image/data/6cWqJ0Wg-YwmRHSUk.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/b73CZxvS-EFNlqax9.png",
+            "start_time": "2026-06-19T19:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fa3dade3a4_2c1234e0_20260618.png?v=2c1234e0",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
