@@ -91,82 +91,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-2dfe1946b3",
-          "name": "Czech W - USA W | 15:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2dfe1946b3",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-2dfe1946b3",
-                  "name": "Czech W - USA W",
-                  "streams": [
-                    {
-                      "id": "st-2dfe1946b3",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "Czech W",
-            "team_b": "USA W",
-            "logo_a": "https://static.flashscore.com/res/image/data/hjWOdNcM-xhy3Lep2.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IoeNdfwS-MPdHoKT3.png",
-            "start_time": "2026-06-18T15:00:00",
-            "blv": "BLV Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2dfe1946b3_4e99ca07_20260618.png?v=4e99ca07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-265eceb6d4",
           "name": "Ukraine W - Poland W | 17:00 18/06",
