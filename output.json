@@ -10,6 +10,86 @@
   },
   "groups": [
     {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-a6da680bcb",
+          "name": "Olympique Dcheïra vs FAR Rabat | 21:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a6da680bcb",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a6da680bcb",
+                  "name": "Olympique Dcheïra vs FAR Rabat",
+                  "streams": [
+                    {
+                      "id": "st-a6da680bcb",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Botola Pro",
+            "team_a": "Olympique Dcheïra",
+            "team_b": "FAR Rabat",
+            "logo_a": "https://media.api-sports.io/football/teams/3454.png",
+            "logo_b": "https://media.api-sports.io/football/teams/969.png",
+            "start_time": "2026-06-18T21:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a6da680bcb_fe5b5172_20260618.png?v=fe5b5172",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
