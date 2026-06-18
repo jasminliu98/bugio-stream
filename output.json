@@ -370,6 +370,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-885b2c7a6d",
+          "name": "Canada vs Qatar | 05:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-885b2c7a6d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-885b2c7a6d",
+                  "name": "Canada vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-885b2c7a6d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Canada",
+            "team_b": "Qatar",
+            "logo_a": "https://media.api-sports.io/football/teams/5529.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1569.png",
+            "start_time": "2026-06-19T05:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-885b2c7a6d_4664c67e_20260618.png?v=4664c67e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-aab11087c2",
+          "name": "Canada vs Qatar | 05:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aab11087c2",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-aab11087c2",
+                  "name": "Canada vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-aab11087c2",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Canada",
+            "team_b": "Qatar",
+            "logo_a": "https://media.api-sports.io/football/teams/5529.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1569.png",
+            "start_time": "2026-06-19T05:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-aab11087c2_4664c67e_20260618.png?v=4664c67e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
