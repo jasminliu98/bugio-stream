@@ -479,11 +479,11 @@
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-378f040fcb",
+                          "id": "lnk-970b2a547c",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -509,7 +509,7 @@
             "logo_a": "https://static.flashscore.com/res/image/data/0WJLxnGG-zLx3xGjj.png",
             "logo_b": "https://static.flashscore.com/res/image/data/hWkRwuZA-YwmRHSUk.png",
             "start_time": "2026-06-20T19:00:00",
-            "blv": "BLV Chim Nhỏ",
+            "blv": "BLV Pháo",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
