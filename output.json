@@ -86,6 +86,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-843a4d7fb5",
+          "name": "Guangzhou E-Power vs Beijing Guoan | 18:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-843a4d7fb5",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-843a4d7fb5",
+                  "name": "Guangzhou E-Power vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "st-843a4d7fb5",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Guangzhou E-Power",
+            "team_b": "Beijing Guoan",
+            "logo_a": "https://media.api-sports.io/football/teams/23269.png",
+            "logo_b": "https://media.api-sports.io/football/teams/830.png",
+            "start_time": "2026-06-19T18:30:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-843a4d7fb5_9a197fb5_20260619.png?v=9a197fb5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
