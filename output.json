@@ -228,6 +228,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-6f8caa0e64",
+          "name": "Shanghai Second vs SHANGHAI SIPG | 14:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f8caa0e64",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6f8caa0e64",
+                  "name": "Shanghai Second vs SHANGHAI SIPG",
+                  "streams": [
+                    {
+                      "id": "st-6f8caa0e64",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Shanghai Second",
+            "team_b": "SHANGHAI SIPG",
+            "logo_a": "https://media.api-sports.io/football/teams/27619.png",
+            "logo_b": "https://media.api-sports.io/football/teams/836.png",
+            "start_time": "2026-06-19T14:30:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6f8caa0e64_b4cb94c1_20260619.png?v=b4cb94c1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
