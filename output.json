@@ -239,6 +239,77 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "bg-0b96d81f04",
+          "name": "Belgium W - Germany W | 23:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b96d81f04",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-0b96d81f04",
+                  "name": "Belgium W - Germany W",
+                  "streams": [
+                    {
+                      "id": "st-0b96d81f04",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Belgium W ",
+            "team_b": "Germany W",
+            "logo_a": "https://static.flashscore.com/res/image/data/QJWQSoYg-CUoVGnpd.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
+            "start_time": "2026-06-19T23:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0b96d81f04_5cf11c5e_20260619.png?v=5cf11c5e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-47698c15fb",
           "name": "USA W - Italy W | 15:00 20/06",
           "type": "single",
