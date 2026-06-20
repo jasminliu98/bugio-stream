@@ -233,7 +233,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -305,77 +305,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9b523b0c92_c2d9edba_20260620.png?v=c2d9edba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-84d5711e9b",
-          "name": "Nữ Thái Lan vs Nữ Canada | 20:30 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-84d5711e9b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-84d5711e9b",
-                  "name": "Nữ Thái Lan vs Nữ Canada",
-                  "streams": [
-                    {
-                      "id": "st-84d5711e9b",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "Nữ Thái Lan ",
-            "team_b": "Nữ Canada",
-            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fmKzkXh5-fkHV0g99.png",
-            "start_time": "2026-06-20T20:30:00",
-            "blv": "BLV Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-84d5711e9b_666b3e47_20260620.png?v=666b3e47",
             "width": 1600,
             "height": 1200
           }
@@ -731,6 +660,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-59b1deff34_02fae9ec_20260620.png?v=02fae9ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-84d5711e9b",
+          "name": "Nữ Thái Lan vs Nữ Canada | 20:30 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84d5711e9b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-84d5711e9b",
+                  "name": "Nữ Thái Lan vs Nữ Canada",
+                  "streams": [
+                    {
+                      "id": "st-84d5711e9b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Nữ Thái Lan ",
+            "team_b": "Nữ Canada",
+            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fmKzkXh5-fkHV0g99.png",
+            "start_time": "2026-06-21T20:30:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-84d5711e9b_666b3e47_20260620.png?v=666b3e47",
             "width": 1600,
             "height": 1200
           }
