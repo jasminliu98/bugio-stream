@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-9d03333181",
-          "name": "Hebei Kungfu vs Shanghai Shenhua | 18:30 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d03333181",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-9d03333181",
-                  "name": "Hebei Kungfu vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-9d03333181",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Cup",
-            "team_a": "Hebei Kungfu",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://media.api-sports.io/football/teams/17264.png",
-            "logo_b": "https://media.api-sports.io/football/teams/833.png",
-            "start_time": "2026-06-20T18:30:00",
-            "blv": "BLV Phi MC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-9d03333181_623715c7_20260620.png?v=623715c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-ea06ed6e97",
           "name": "Hà Lan vs Thụy Điển | 00:00 21/06",
