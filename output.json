@@ -91,82 +91,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-47698c15fb",
-          "name": "USA W - Italy W | 15:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47698c15fb",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-47698c15fb",
-                  "name": "USA W - Italy W",
-                  "streams": [
-                    {
-                      "id": "st-47698c15fb",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "USA W ",
-            "team_b": "Italy W",
-            "logo_a": "https://static.flashscore.com/res/image/data/zoIpbvHG-W6UqXKEA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/h6v1tOAr-xCsenx2O.png",
-            "start_time": "2026-06-20T15:00:00",
-            "blv": "BLV Pháo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-47698c15fb_324a6738_20260620.png?v=324a6738",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-9b523b0c92",
           "name": "Japan W - Dominican W | 19:00 20/06",
