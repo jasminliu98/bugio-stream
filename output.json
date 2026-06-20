@@ -157,6 +157,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-fa75185626",
+          "name": "Đức vs Bờ Biển Ngà | 03:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa75185626",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-fa75185626",
+                  "name": "Đức vs Bờ Biển Ngà",
+                  "streams": [
+                    {
+                      "id": "st-fa75185626",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Đức ",
+            "team_b": "Bờ Biển Ngà",
+            "logo_a": "https://media.api-sports.io/football/teams/25.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1501.png",
+            "start_time": "2026-06-21T03:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fa75185626_432b47ae_20260620.png?v=432b47ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-f4d0e2e7fc",
+          "name": "Đức vs Bờ Biển Ngà | 03:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f4d0e2e7fc",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f4d0e2e7fc",
+                  "name": "Đức vs Bờ Biển Ngà",
+                  "streams": [
+                    {
+                      "id": "st-f4d0e2e7fc",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Đức ",
+            "team_b": "Bờ Biển Ngà",
+            "logo_a": "https://media.api-sports.io/football/teams/25.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1501.png",
+            "start_time": "2026-06-21T03:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f4d0e2e7fc_432b47ae_20260620.png?v=432b47ae",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
