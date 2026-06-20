@@ -11,153 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-ea06ed6e97",
-          "name": "Hà Lan vs Thụy Điển | 00:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea06ed6e97",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-ea06ed6e97",
-                  "name": "Hà Lan vs Thụy Điển",
-                  "streams": [
-                    {
-                      "id": "st-ea06ed6e97",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Hà Lan ",
-            "team_b": "Thụy Điển",
-            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5.png",
-            "start_time": "2026-06-21T00:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ea06ed6e97_427fb42d_20260621.png?v=427fb42d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-a428bc20ca",
-          "name": "Hà Lan vs Thụy Điển | 00:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a428bc20ca",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-a428bc20ca",
-                  "name": "Hà Lan vs Thụy Điển",
-                  "streams": [
-                    {
-                      "id": "st-a428bc20ca",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-448842e236",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Hà Lan ",
-            "team_b": " Thụy Điển",
-            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5.png",
-            "start_time": "2026-06-21T00:00:00",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a428bc20ca_427fb42d_20260621.png?v=427fb42d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-fa75185626",
           "name": "Đức vs Bờ Biển Ngà | 03:00 21/06",
@@ -375,82 +233,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-2cc73b2408",
-          "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Đức | 23:30 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cc73b2408",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-2cc73b2408",
-                  "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Đức",
-                  "streams": [
-                    {
-                      "id": "st-2cc73b2408",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "Nữ Thổ Nhĩ Kỳ ",
-            "team_b": "Nữ Đức",
-            "logo_a": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
-            "start_time": "2026-06-20T23:30:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2cc73b2408_4474c2eb_20260621.png?v=4474c2eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-fea16e782b",
           "name": "Nữ Bỉ vs Nữ Pháp | 16:30 21/06",
