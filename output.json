@@ -240,7 +240,7 @@
         },
         {
           "id": "bg-2cc73b2408",
-          "name": "Turkey W - Germany W | 23:30 20/06",
+          "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Đức | 23:30 20/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -259,7 +259,7 @@
               "contents": [
                 {
                   "id": "ct-2cc73b2408",
-                  "name": "Turkey W - Germany W",
+                  "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Đức",
                   "streams": [
                     {
                       "id": "st-2cc73b2408",
@@ -291,8 +291,8 @@
           ],
           "org_metadata": {
             "league": "Nations League Women's",
-            "team_a": "Turkey W ",
-            "team_b": "Germany W",
+            "team_a": "Nữ Thổ Nhĩ Kỳ ",
+            "team_b": "Nữ Đức",
             "logo_a": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
             "logo_b": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
             "start_time": "2026-06-20T23:30:00",
