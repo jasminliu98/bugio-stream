@@ -98,7 +98,7 @@
       "channels": [
         {
           "id": "bg-9b523b0c92",
-          "name": "Japan W - Dominican W | 19:00 20/06",
+          "name": "Nữ Nhật Bản - Nữ Dominican | 19:00 20/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -117,7 +117,7 @@
               "contents": [
                 {
                   "id": "ct-9b523b0c92",
-                  "name": "Japan W - Dominican W",
+                  "name": "Nữ Nhật Bản - Nữ Dominican",
                   "streams": [
                     {
                       "id": "st-9b523b0c92",
@@ -149,8 +149,8 @@
           ],
           "org_metadata": {
             "league": "Nations League Women's",
-            "team_a": "Japan W ",
-            "team_b": "Dominican W",
+            "team_a": "Nữ Nhật Bản ",
+            "team_b": "Nữ Dominican",
             "logo_a": "https://static.flashscore.com/res/image/data/0WJLxnGG-zLx3xGjj.png",
             "logo_b": "https://static.flashscore.com/res/image/data/hWkRwuZA-YwmRHSUk.png",
             "start_time": "2026-06-20T19:00:00",
@@ -169,7 +169,7 @@
         },
         {
           "id": "bg-84d5711e9b",
-          "name": "Thailand W - Canada W | 20:30 20/06",
+          "name": "Nữ Thái Lan vs Nữ Canada | 20:30 20/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -188,7 +188,7 @@
               "contents": [
                 {
                   "id": "ct-84d5711e9b",
-                  "name": "Thailand W - Canada W",
+                  "name": "Nữ Thái Lan vs Nữ Canada",
                   "streams": [
                     {
                       "id": "st-84d5711e9b",
@@ -220,8 +220,8 @@
           ],
           "org_metadata": {
             "league": "Nations League Women's",
-            "team_a": "Thailand W ",
-            "team_b": "Canada W",
+            "team_a": "Nữ Thái Lan ",
+            "team_b": "Nữ Canada",
             "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
             "logo_b": "https://static.flashscore.com/res/image/data/fmKzkXh5-fkHV0g99.png",
             "start_time": "2026-06-20T20:30:00",
