@@ -304,7 +304,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -376,77 +376,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-59b1deff34_02fae9ec_20260621.png?v=02fae9ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-7b670d5534",
-          "name": "Nữ Thái Lan vs Nữ Hà Lan | 20:30 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b670d5534",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-7b670d5534",
-                  "name": "Nữ Thái Lan vs Nữ Hà Lan",
-                  "streams": [
-                    {
-                      "id": "st-7b670d5534",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "Nữ Thái Lan",
-            "team_b": "Nữ Hà Lan",
-            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/lrNj0wCa-GCcZBYTD.png",
-            "start_time": "2026-06-21T20:30:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7b670d5534_0d83c7bc_20260621.png?v=0d83c7bc",
             "width": 1600,
             "height": 1200
           }
