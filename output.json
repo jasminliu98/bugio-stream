@@ -162,82 +162,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-922073b188",
-          "name": "Nữ Canada vs Nữ Ba Lan | 17:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-922073b188",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-922073b188",
-                  "name": "Nữ Canada vs Nữ Ba Lan",
-                  "streams": [
-                    {
-                      "id": "st-922073b188",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "Nữ Canada ",
-            "team_b": "Nữ Ba Lan",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/c443343ef373f9e8c74b8f1843c1450b.png!w250",
-            "logo_b": "https://static.flashscore.com/res/image/data/WKTUghyB-612vZEE1.png",
-            "start_time": "2026-06-21T17:00:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-922073b188_28fef912_20260621.png?v=28fef912",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-246a3c5544",
           "name": "Nữ Nhật Bản vs Nữ Ý | 19:00 21/06",
