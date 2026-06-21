@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -154,6 +154,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2e6d9c6052_5bf08247_20260621.png?v=5bf08247",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-cc384c68ad",
+          "name": "Tunisia vs Japan | 11:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc384c68ad",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-cc384c68ad",
+                  "name": "Tunisia vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-cc384c68ad",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Tunisia",
+            "team_b": "Japan",
+            "logo_a": "https://media.api-sports.io/football/teams/28.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12.png",
+            "start_time": "2026-06-21T11:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cc384c68ad_5bf08247_20260621.png?v=5bf08247",
             "width": 1600,
             "height": 1200
           }
