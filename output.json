@@ -162,82 +162,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-fea16e782b",
-          "name": "Nữ Bỉ vs Nữ Pháp | 16:30 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fea16e782b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-fea16e782b",
-                  "name": "Nữ Bỉ vs Nữ Pháp",
-                  "streams": [
-                    {
-                      "id": "st-fea16e782b",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "Nữ Bỉ ",
-            "team_b": "Nữ Pháp",
-            "logo_a": "https://static.flashscore.com/res/image/data/QJWQSoYg-CUoVGnpd.png",
-            "logo_b": "https://img0.aiscore.com/football/team/8eb4b4c01bf3375828c5494c2f6e7685.png!w60",
-            "start_time": "2026-06-21T16:30:00",
-            "blv": "BLV Pháo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fea16e782b_ef2195c0_20260621.png?v=ef2195c0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-922073b188",
           "name": "Nữ Canada vs Nữ Ba Lan | 17:00 21/06",
