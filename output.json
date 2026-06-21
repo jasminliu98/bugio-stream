@@ -8,5 +8,592 @@
     "type": "cover",
     "url": "https://sv1.bugio9.live/favicon.ico"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-8ef0327d29",
+          "name": "Tây Ban Nha vs Ả Rập Xê Út | 23:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ef0327d29",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8ef0327d29",
+                  "name": "Tây Ban Nha vs Ả Rập Xê Út",
+                  "streams": [
+                    {
+                      "id": "st-8ef0327d29",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Tây Ban Nha ",
+            "team_b": "Ả Rập Xê Út",
+            "logo_a": "https://media.api-sports.io/football/teams/9.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23.png",
+            "start_time": "2026-06-21T23:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8ef0327d29_e509c24f_20260621.png?v=e509c24f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-c5d215777c",
+          "name": "Tây Ban Nha vs Ả Rập Xê Út | 23:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5d215777c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c5d215777c",
+                  "name": "Tây Ban Nha vs Ả Rập Xê Út",
+                  "streams": [
+                    {
+                      "id": "st-c5d215777c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Tây Ban Nha ",
+            "team_b": "Ả Rập Xê Út",
+            "logo_a": "https://media.api-sports.io/football/teams/9.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23.png",
+            "start_time": "2026-06-21T23:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c5d215777c_e509c24f_20260621.png?v=e509c24f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-7417744a2b",
+          "name": "Belgium vs Iran | 02:00 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7417744a2b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-7417744a2b",
+                  "name": "Belgium vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-7417744a2b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Belgium",
+            "team_b": "Iran",
+            "logo_a": "https://media.api-sports.io/football/teams/1.png",
+            "logo_b": "https://media.api-sports.io/football/teams/22.png",
+            "start_time": "2026-06-22T02:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7417744a2b_39dd109c_20260621.png?v=39dd109c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-a71378c0f8",
+          "name": "Belgium vs Iran | 02:00 22/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a71378c0f8",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a71378c0f8",
+                  "name": "Belgium vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-a71378c0f8",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Belgium",
+            "team_b": "Iran",
+            "logo_a": "https://media.api-sports.io/football/teams/1.png",
+            "logo_b": "https://media.api-sports.io/football/teams/22.png",
+            "start_time": "2026-06-22T02:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a71378c0f8_39dd109c_20260621.png?v=39dd109c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-246a3c5544",
+          "name": "Nữ Nhật Bản vs Nữ Ý | 19:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-246a3c5544",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-246a3c5544",
+                  "name": "Nữ Nhật Bản vs Nữ Ý",
+                  "streams": [
+                    {
+                      "id": "st-246a3c5544",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Nữ Nhật Bản",
+            "team_b": "Nữ Ý",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/joYpsiaYi4GDCqhSRAq5Zg_96x96.png",
+            "start_time": "2026-06-21T19:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-246a3c5544_20f72067_20260621.png?v=20f72067",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-59b1deff34",
+          "name": "Nữ Đức vs Nữ Brazil | 20:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59b1deff34",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-59b1deff34",
+                  "name": "Nữ Đức vs Nữ Brazil",
+                  "streams": [
+                    {
+                      "id": "st-59b1deff34",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Nữ Đức ",
+            "team_b": "Nữ Brazil",
+            "logo_a": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WG7ZbYdM-dlhXsxTS.png",
+            "start_time": "2026-06-21T20:00:00",
+            "blv": "BLV Pháo",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-59b1deff34_02fae9ec_20260621.png?v=02fae9ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-7b670d5534",
+          "name": "Nữ Thái Lan vs Nữ Hà Lan | 20:30 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b670d5534",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-7b670d5534",
+                  "name": "Nữ Thái Lan vs Nữ Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-7b670d5534",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Nữ Thái Lan",
+            "team_b": "Nữ Hà Lan",
+            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/lrNj0wCa-GCcZBYTD.png",
+            "start_time": "2026-06-21T20:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7b670d5534_0d83c7bc_20260621.png?v=0d83c7bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-e7d4c8d4fe",
+          "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Trung Quốc | 23:30 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e7d4c8d4fe",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-e7d4c8d4fe",
+                  "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-e7d4c8d4fe",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women's",
+            "team_a": "Nữ Thổ Nhĩ Kỳ",
+            "team_b": "Nữ Trung Quốc",
+            "logo_a": "https://static.flashscore.com/res/image/data/YyBklhgl-23Iqqnkk.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UkyWm6ZA-nR6SBSXe.png",
+            "start_time": "2026-06-21T23:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e7d4c8d4fe_9ac820b8_20260621.png?v=9ac820b8",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
