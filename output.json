@@ -10,6 +10,157 @@
   },
   "groups": [
     {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-8ef0327d29",
+          "name": "Tây Ban Nha vs Ả Rập Xê Út | 23:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8ef0327d29",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8ef0327d29",
+                  "name": "Tây Ban Nha vs Ả Rập Xê Út",
+                  "streams": [
+                    {
+                      "id": "st-8ef0327d29",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Tây Ban Nha ",
+            "team_b": "Ả Rập Xê Út",
+            "logo_a": "https://media.api-sports.io/football/teams/9.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23.png",
+            "start_time": "2026-06-21T23:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8ef0327d29_e509c24f_20260621.png?v=e509c24f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-c5d215777c",
+          "name": "Tây Ban Nha vs Ả Rập Xê Út | 23:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5d215777c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c5d215777c",
+                  "name": "Tây Ban Nha vs Ả Rập Xê Út",
+                  "streams": [
+                    {
+                      "id": "st-c5d215777c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Tây Ban Nha ",
+            "team_b": "Ả Rập Xê Út",
+            "logo_a": "https://media.api-sports.io/football/teams/9.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23.png",
+            "start_time": "2026-06-21T23:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c5d215777c_e509c24f_20260621.png?v=e509c24f",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
