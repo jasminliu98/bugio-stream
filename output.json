@@ -446,82 +446,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-e7d4c8d4fe",
-          "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Trung Quốc | 23:30 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e7d4c8d4fe",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-e7d4c8d4fe",
-                  "name": "Nữ Thổ Nhĩ Kỳ vs Nữ Trung Quốc",
-                  "streams": [
-                    {
-                      "id": "st-e7d4c8d4fe",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women's",
-            "team_a": "Nữ Thổ Nhĩ Kỳ",
-            "team_b": "Nữ Trung Quốc",
-            "logo_a": "https://static.flashscore.com/res/image/data/YyBklhgl-23Iqqnkk.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UkyWm6ZA-nR6SBSXe.png",
-            "start_time": "2026-06-21T23:30:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-e7d4c8d4fe_9ac820b8_20260622.png?v=9ac820b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-5d78d182fd",
           "name": "U18 Việt Nam vs U18 Kyrgyzstan | 10:00 23/06",
