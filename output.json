@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -159,6 +159,77 @@
           }
         },
         {
+          "id": "bg-169582a799",
+          "name": "Argentina vs Austria | 00:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-169582a799",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-169582a799",
+                  "name": "Argentina vs Austria",
+                  "streams": [
+                    {
+                      "id": "st-169582a799",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Argentina",
+            "team_b": "Austria",
+            "logo_a": "https://media.api-sports.io/football/teams/26.png",
+            "logo_b": "https://media.api-sports.io/football/teams/775.png",
+            "start_time": "2026-06-23T00:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-169582a799_fa1bd032_20260622.png?v=fa1bd032",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-8726bb30dc",
           "name": "Argentina vs Austria | 00:00 23/06",
           "type": "single",
@@ -225,77 +296,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8726bb30dc_fa1bd032_20260622.png?v=fa1bd032",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-169582a799",
-          "name": "Argentina vs Austria | 00:00 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-169582a799",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-169582a799",
-                  "name": "Argentina vs Austria",
-                  "streams": [
-                    {
-                      "id": "st-169582a799",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Argentina",
-            "team_b": "Austria",
-            "logo_a": "https://media.api-sports.io/football/teams/26.png",
-            "logo_b": "https://media.api-sports.io/football/teams/775.png",
-            "start_time": "2026-06-23T00:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-169582a799_fa1bd032_20260622.png?v=fa1bd032",
             "width": 1600,
             "height": 1200
           }
