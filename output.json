@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-fc0cc602ce",
-          "name": "Al Salmiyah vs Al Fahaheel | 23:05 22/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc0cc602ce",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-fc0cc602ce",
-                  "name": "Al Salmiyah vs Al Fahaheel",
-                  "streams": [
-                    {
-                      "id": "st-fc0cc602ce",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Al Salmiyah",
-            "team_b": "Al Fahaheel",
-            "logo_a": "https://media.api-sports.io/football/teams/3538.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3533.png",
-            "start_time": "2026-06-22T23:05:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fc0cc602ce_14e92c63_20260623.png?v=14e92c63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-169582a799",
           "name": "Argentina vs Austria | 00:00 23/06",
