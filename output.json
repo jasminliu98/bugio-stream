@@ -663,6 +663,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-c90070e1f0",
+          "name": "U18 Việt Nam vs U18 Philippines | 16:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c90070e1f0",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c90070e1f0",
+                  "name": "U18 Việt Nam vs U18 Philippines",
+                  "streams": [
+                    {
+                      "id": "st-c90070e1f0",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng Chuyền U18 Đông Nam Á",
+            "team_a": "U18 Việt Nam ",
+            "team_b": "U18 Philippines",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/SMAJOAEhYfXLrR5oOCzaYg_96x96.png",
+            "start_time": "2026-06-24T16:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c90070e1f0_721a5be5_20260623.png?v=721a5be5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
