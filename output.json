@@ -512,6 +512,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-a24281a03c",
+          "name": "Norway vs Senegal | 07:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a24281a03c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a24281a03c",
+                  "name": "Norway vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-a24281a03c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Norway",
+            "team_b": "Senegal",
+            "logo_a": "https://media.api-sports.io/football/teams/1090.png",
+            "logo_b": "https://media.api-sports.io/football/teams/13.png",
+            "start_time": "2026-06-23T07:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a24281a03c_aa72e8b7_20260623.png?v=aa72e8b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-067ee197a2",
+          "name": "Norway vs Senegal | 07:00 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-067ee197a2",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-067ee197a2",
+                  "name": "Norway vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-067ee197a2",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Norway",
+            "team_b": "Senegal",
+            "logo_a": "https://media.api-sports.io/football/teams/1090.png",
+            "logo_b": "https://media.api-sports.io/football/teams/13.png",
+            "start_time": "2026-06-23T07:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-067ee197a2_aa72e8b7_20260623.png?v=aa72e8b7",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
