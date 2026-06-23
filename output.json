@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-78289d91e9",
-          "name": "Lahti vs Turku PS | 22:00 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-78289d91e9",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-78289d91e9",
-                  "name": "Lahti vs Turku PS",
-                  "streams": [
-                    {
-                      "id": "st-78289d91e9",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Lahti",
-            "team_b": "Turku PS",
-            "logo_a": "https://media.api-sports.io/football/teams/1166.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1168.png",
-            "start_time": "2026-06-23T22:00:00",
-            "blv": "BLV Mao Từn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-78289d91e9_5f0be73f_20260623.png?v=5f0be73f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-23fa71cc32",
           "name": "Portugal vs Uzbekistan | 00:00 24/06",
@@ -153,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-23fa71cc32_5b955340_20260623.png?v=5b955340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-23fa71cc32_5b955340_20260624.png?v=5b955340",
             "width": 1600,
             "height": 1200
           }
@@ -224,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-29daf9442f_5b955340_20260623.png?v=5b955340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-29daf9442f_5b955340_20260624.png?v=5b955340",
             "width": 1600,
             "height": 1200
           }
@@ -295,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d14fe370bd_5b955340_20260623.png?v=5b955340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d14fe370bd_5b955340_20260624.png?v=5b955340",
             "width": 1600,
             "height": 1200
           }
@@ -366,7 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-009a5510ad_5b955340_20260623.png?v=5b955340",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-009a5510ad_5b955340_20260624.png?v=5b955340",
             "width": 1600,
             "height": 1200
           }
@@ -437,7 +366,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b49d4455d6_20de6d78_20260623.png?v=20de6d78",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b49d4455d6_20de6d78_20260624.png?v=20de6d78",
             "width": 1600,
             "height": 1200
           }
@@ -508,7 +437,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0da474fc8e_20de6d78_20260623.png?v=20de6d78",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0da474fc8e_20de6d78_20260624.png?v=20de6d78",
             "width": 1600,
             "height": 1200
           }
@@ -579,7 +508,149 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-435d6ab1ba_20de6d78_20260623.png?v=20de6d78",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-435d6ab1ba_20de6d78_20260624.png?v=20de6d78",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-3dde889723",
+          "name": "Panama vs Croatia | 06:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3dde889723",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-3dde889723",
+                  "name": "Panama vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-3dde889723",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Panama",
+            "team_b": "Croatia",
+            "logo_a": "https://media.api-sports.io/football/teams/11.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3.png",
+            "start_time": "2026-06-24T06:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3dde889723_c6edcd25_20260624.png?v=c6edcd25",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-36fa3ecc0b",
+          "name": "Panama vs Croatia | 06:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36fa3ecc0b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-36fa3ecc0b",
+                  "name": "Panama vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-36fa3ecc0b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Panama",
+            "team_b": "Croatia",
+            "logo_a": "https://media.api-sports.io/football/teams/11.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3.png",
+            "start_time": "2026-06-24T06:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-36fa3ecc0b_c6edcd25_20260624.png?v=c6edcd25",
             "width": 1600,
             "height": 1200
           }
@@ -659,7 +730,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c90070e1f0_721a5be5_20260623.png?v=721a5be5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c90070e1f0_721a5be5_20260624.png?v=721a5be5",
             "width": 1600,
             "height": 1200
           }
@@ -730,7 +801,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6fe4326996_d18e31ec_20260623.png?v=d18e31ec",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6fe4326996_d18e31ec_20260624.png?v=d18e31ec",
             "width": 1600,
             "height": 1200
           }
@@ -801,7 +872,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5553cfaf75_c041af52_20260623.png?v=c041af52",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5553cfaf75_c041af52_20260624.png?v=c041af52",
             "width": 1600,
             "height": 1200
           }
@@ -872,7 +943,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d811406316_e066b7e7_20260623.png?v=e066b7e7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d811406316_e066b7e7_20260624.png?v=e066b7e7",
             "width": 1600,
             "height": 1200
           }
@@ -943,7 +1014,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5d0d5594d2_474e4086_20260623.png?v=474e4086",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5d0d5594d2_474e4086_20260624.png?v=474e4086",
             "width": 1600,
             "height": 1200
           }
@@ -1014,7 +1085,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-95e62984b8_ab367f89_20260623.png?v=ab367f89",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-95e62984b8_ab367f89_20260624.png?v=ab367f89",
             "width": 1600,
             "height": 1200
           }
