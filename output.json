@@ -10,6 +10,86 @@
   },
   "groups": [
     {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-c5ab6cebac",
+          "name": "Guangdong Mingtu vs Guizhou Zhucheng | 18:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5ab6cebac",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c5ab6cebac",
+                  "name": "Guangdong Mingtu vs Guizhou Zhucheng",
+                  "streams": [
+                    {
+                      "id": "st-c5ab6cebac",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Guangdong Mingtu",
+            "team_b": "Guizhou Zhucheng",
+            "logo_a": "https://media.api-sports.io/football/teams/25773.png",
+            "logo_b": "https://media.api-sports.io/football/teams/25775.png",
+            "start_time": "2026-06-23T18:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c5ab6cebac_e0768a16_20260623.png?v=e0768a16",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền",
       "display": "vertical",
