@@ -370,6 +370,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-edc27f139c",
+          "name": "Colombia vs Congo DR | 09:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edc27f139c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-edc27f139c",
+                  "name": "Colombia vs Congo DR",
+                  "streams": [
+                    {
+                      "id": "st-edc27f139c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Colombia",
+            "team_b": "Congo DR",
+            "logo_a": "https://media.api-sports.io/football/teams/8.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1508.png",
+            "start_time": "2026-06-24T09:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-edc27f139c_193ac691_20260624.png?v=193ac691",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
