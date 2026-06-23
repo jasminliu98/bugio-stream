@@ -370,6 +370,219 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-b49d4455d6",
+          "name": "England vs Ghana | 03:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b49d4455d6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b49d4455d6",
+                  "name": "England vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-b49d4455d6",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "England",
+            "team_b": "Ghana",
+            "logo_a": "https://media.api-sports.io/football/teams/10.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1504.png",
+            "start_time": "2026-06-24T03:00:00",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b49d4455d6_20de6d78_20260623.png?v=20de6d78",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-0da474fc8e",
+          "name": "England vs Ghana | 03:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0da474fc8e",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-0da474fc8e",
+                  "name": "England vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-0da474fc8e",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "England",
+            "team_b": "Ghana",
+            "logo_a": "https://media.api-sports.io/football/teams/10.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1504.png",
+            "start_time": "2026-06-24T03:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0da474fc8e_20de6d78_20260623.png?v=20de6d78",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-435d6ab1ba",
+          "name": "England vs Ghana | 03:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-435d6ab1ba",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-435d6ab1ba",
+                  "name": "England vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-435d6ab1ba",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "England",
+            "team_b": "Ghana",
+            "logo_a": "https://media.api-sports.io/football/teams/10.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1504.png",
+            "start_time": "2026-06-24T03:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-435d6ab1ba_20de6d78_20260623.png?v=20de6d78",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
