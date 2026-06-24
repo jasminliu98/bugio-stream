@@ -299,6 +299,361 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-f127a3f714",
+          "name": "Morocco vs Haiti | 05:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f127a3f714",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f127a3f714",
+                  "name": "Morocco vs Haiti",
+                  "streams": [
+                    {
+                      "id": "st-f127a3f714",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Morocco",
+            "team_b": "Haiti",
+            "logo_a": "https://media.api-sports.io/football/teams/31.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2386.png",
+            "start_time": "2026-06-25T05:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f127a3f714_6188306a_20260624.png?v=6188306a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-59b85c256f",
+          "name": "Morocco vs Haiti | 05:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59b85c256f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-59b85c256f",
+                  "name": "Morocco vs Haiti",
+                  "streams": [
+                    {
+                      "id": "st-59b85c256f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Morocco",
+            "team_b": "Haiti",
+            "logo_a": "https://media.api-sports.io/football/teams/31.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2386.png",
+            "start_time": "2026-06-25T05:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-59b85c256f_6188306a_20260624.png?v=6188306a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-4cef5b5e6f",
+          "name": "Scotland vs Brazil | 05:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4cef5b5e6f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4cef5b5e6f",
+                  "name": "Scotland vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-4cef5b5e6f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Scotland",
+            "team_b": "Brazil",
+            "logo_a": "https://media.api-sports.io/football/teams/1108.png",
+            "logo_b": "https://media.api-sports.io/football/teams/6.png",
+            "start_time": "2026-06-25T05:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4cef5b5e6f_d9f6bebc_20260624.png?v=d9f6bebc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-02a3c7fb3f",
+          "name": "Scotland vs Brazil | 05:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02a3c7fb3f",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-02a3c7fb3f",
+                  "name": "Scotland vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-02a3c7fb3f",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Scotland",
+            "team_b": "Brazil",
+            "logo_a": "https://media.api-sports.io/football/teams/1108.png",
+            "logo_b": "https://media.api-sports.io/football/teams/6.png",
+            "start_time": "2026-06-25T05:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-02a3c7fb3f_d9f6bebc_20260624.png?v=d9f6bebc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-1dc3a89d0d",
+          "name": "Scotland vs Brazil | 05:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1dc3a89d0d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-1dc3a89d0d",
+                  "name": "Scotland vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-1dc3a89d0d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Scotland",
+            "team_b": "Brazil",
+            "logo_a": "https://media.api-sports.io/football/teams/1108.png",
+            "logo_b": "https://media.api-sports.io/football/teams/6.png",
+            "start_time": "2026-06-25T05:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-1dc3a89d0d_d9f6bebc_20260624.png?v=d9f6bebc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
