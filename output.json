@@ -231,7 +231,7 @@
         },
         {
           "id": "bg-f127a3f714",
-          "name": "Morocco vs Haiti | 05:00 25/06",
+          "name": "Ma Rốc vs Haiti | 05:00 25/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -250,7 +250,7 @@
               "contents": [
                 {
                   "id": "ct-f127a3f714",
-                  "name": "Morocco vs Haiti",
+                  "name": "Ma Rốc vs Haiti",
                   "streams": [
                     {
                       "id": "st-f127a3f714",
@@ -282,7 +282,7 @@
           ],
           "org_metadata": {
             "league": "World Cup",
-            "team_a": "Morocco",
+            "team_a": "Ma Rốc",
             "team_b": "Haiti",
             "logo_a": "https://media.api-sports.io/football/teams/31.png",
             "logo_b": "https://media.api-sports.io/football/teams/2386.png",
@@ -302,7 +302,7 @@
         },
         {
           "id": "bg-59b85c256f",
-          "name": "Morocco vs Haiti | 05:00 25/06",
+          "name": "Ma Rốc vs Haiti | 05:00 25/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -321,7 +321,7 @@
               "contents": [
                 {
                   "id": "ct-59b85c256f",
-                  "name": "Morocco vs Haiti",
+                  "name": "Ma Rốc vs Haiti",
                   "streams": [
                     {
                       "id": "st-59b85c256f",
@@ -353,7 +353,7 @@
           ],
           "org_metadata": {
             "league": "World Cup",
-            "team_a": "Morocco",
+            "team_a": "Ma Rốc",
             "team_b": "Haiti",
             "logo_a": "https://media.api-sports.io/football/teams/31.png",
             "logo_b": "https://media.api-sports.io/football/teams/2386.png",
@@ -737,7 +737,7 @@
         },
         {
           "id": "bg-ed383ec947",
-          "name": "Ukraine - Italy | 21:30 25/06",
+          "name": "Ukraine - Ý | 21:30 25/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -756,7 +756,7 @@
               "contents": [
                 {
                   "id": "ct-ed383ec947",
-                  "name": "Ukraine - Italy",
+                  "name": "Ukraine - Ý",
                   "streams": [
                     {
                       "id": "st-ed383ec947",
@@ -789,7 +789,7 @@
           "org_metadata": {
             "league": "Nations League Men's",
             "team_a": "Ukraine ",
-            "team_b": "Italy",
+            "team_b": "Ý",
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/DQIQtK7N4yrDIqw75pxFHg_96x96.png",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/joYpsiaYi4GDCqhSRAq5Zg_96x96.png",
             "start_time": "2026-06-25T21:30:00",
@@ -808,7 +808,7 @@
         },
         {
           "id": "bg-770f8e448d",
-          "name": "Iran - USA | 22:00 25/06",
+          "name": "Iran - Mỹ | 22:00 25/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -827,7 +827,7 @@
               "contents": [
                 {
                   "id": "ct-770f8e448d",
-                  "name": "Iran - USA",
+                  "name": "Iran - Mỹ",
                   "streams": [
                     {
                       "id": "st-770f8e448d",
@@ -860,7 +860,7 @@
           "org_metadata": {
             "league": "Nations League Men's",
             "team_a": "Iran ",
-            "team_b": "USA",
+            "team_b": "Mỹ",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/960px-Flag_of_Iran.svg.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
             "start_time": "2026-06-25T22:00:00",
