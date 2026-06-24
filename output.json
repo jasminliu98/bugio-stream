@@ -730,82 +730,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-6018df1842",
-          "name": "Slovenia - Canada | 01:30 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6018df1842",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-6018df1842",
-                  "name": "Slovenia - Canada",
-                  "streams": [
-                    {
-                      "id": "st-6018df1842",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Slovenia ",
-            "team_b": "Canada",
-            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/x8ugZxyS-QBQPB0xP.png",
-            "start_time": "2026-06-25T01:30:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6018df1842_ee17974f_20260625.png?v=ee17974f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-59ab3ba90a",
           "name": "U18 Việt Nam - U18 Malaysia | 10:00 25/06",
