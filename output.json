@@ -1092,7 +1092,7 @@
         },
         {
           "id": "bg-82f292a229",
-          "name": "Poland - Turkey | 01:00 26/06",
+          "name": "Ba Lan vs Thổ Nhĩ Kỳ | 01:00 26/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1111,7 +1111,7 @@
               "contents": [
                 {
                   "id": "ct-82f292a229",
-                  "name": "Poland - Turkey",
+                  "name": "Ba Lan vs Thổ Nhĩ Kỳ",
                   "streams": [
                     {
                       "id": "st-82f292a229",
@@ -1143,8 +1143,8 @@
           ],
           "org_metadata": {
             "league": "Nations League Men's",
-            "team_a": "Poland ",
-            "team_b": "Turkey",
+            "team_a": "Ba Lan ",
+            "team_b": "Thổ Nhĩ Kỳ",
             "logo_a": "https://static.flashscore.com/res/image/data/WKTUghyB-612vZEE1.png",
             "logo_b": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
             "start_time": "2026-06-26T01:00:00",
@@ -1228,6 +1228,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-10cd8cca7d_837f14d1_20260625.png?v=837f14d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-f885a14eaf",
+          "name": "Ukraine - Canada | 21:30 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f885a14eaf",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f885a14eaf",
+                  "name": "Ukraine - Canada",
+                  "streams": [
+                    {
+                      "id": "st-f885a14eaf",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Ukraine ",
+            "team_b": "Canada",
+            "logo_a": "https://static.flashscore.com/res/image/data/Q3KOlYVg-IPF97VQ3.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0U0WjVkl-EqLGVN18.png",
+            "start_time": "2026-06-26T21:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f885a14eaf_407b69ba_20260625.png?v=407b69ba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-fd9dd764a6",
+          "name": "Iran - Japan | 22:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd9dd764a6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-fd9dd764a6",
+                  "name": "Iran - Japan",
+                  "streams": [
+                    {
+                      "id": "st-fd9dd764a6",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Iran ",
+            "team_b": "Japan",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1oq8Fy7ETpBpZNaCA22ArQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
+            "start_time": "2026-06-26T22:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fd9dd764a6_c8bd822c_20260625.png?v=c8bd822c",
             "width": 1600,
             "height": 1200
           }
