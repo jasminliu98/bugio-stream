@@ -659,7 +659,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -731,77 +731,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5d0d5594d2_474e4086_20260624.png?v=474e4086",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-95e62984b8",
-          "name": "Cuba - USA | 22:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-95e62984b8",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-95e62984b8",
-                  "name": "Cuba - USA",
-                  "streams": [
-                    {
-                      "id": "st-95e62984b8",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Cuba ",
-            "team_b": "USA",
-            "logo_a": "https://static.flashscore.com/res/image/data/AmSqkKjl-hIzfuNSD.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xpZWyhzB-rZcDn0Ec.png",
-            "start_time": "2026-06-24T22:00:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-95e62984b8_ab367f89_20260624.png?v=ab367f89",
             "width": 1600,
             "height": 1200
           }
