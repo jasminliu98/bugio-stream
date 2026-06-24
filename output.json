@@ -304,82 +304,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-d811406316",
-          "name": "Serbia - Japan | 18:30 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d811406316",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-d811406316",
-                  "name": "Serbia - Japan",
-                  "streams": [
-                    {
-                      "id": "st-d811406316",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Serbia ",
-            "team_b": "Japan",
-            "logo_a": "https://static.flashscore.com/res/image/data/vDiyVxhl-6ys9CWQj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
-            "start_time": "2026-06-24T18:30:00",
-            "blv": "BLV Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d811406316_e066b7e7_20260624.png?v=e066b7e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-5d0d5594d2",
           "name": "Ukraine - Brazil | 21:30 24/06",
