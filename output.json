@@ -1305,7 +1305,7 @@
         },
         {
           "id": "bg-fd9dd764a6",
-          "name": "Iran - Japan | 22:00 26/06",
+          "name": "Iran - Nhật Bản | 22:00 26/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1324,7 +1324,7 @@
               "contents": [
                 {
                   "id": "ct-fd9dd764a6",
-                  "name": "Iran - Japan",
+                  "name": "Iran - Nhật Bản",
                   "streams": [
                     {
                       "id": "st-fd9dd764a6",
@@ -1357,7 +1357,7 @@
           "org_metadata": {
             "league": "Nations League Men's",
             "team_a": "Iran ",
-            "team_b": "Japan",
+            "team_b": "Nhật Bản",
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1oq8Fy7ETpBpZNaCA22ArQ_96x96.png",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
             "start_time": "2026-06-26T22:00:00",
