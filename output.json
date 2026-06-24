@@ -10,6 +10,86 @@
   },
   "groups": [
     {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-81bc798a42",
+          "name": "Shenzhen 2028 vs Langfang Glory City | 18:30 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81bc798a42",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-81bc798a42",
+                  "name": "Shenzhen 2028 vs Langfang Glory City",
+                  "streams": [
+                    {
+                      "id": "st-81bc798a42",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Two",
+            "team_a": "Shenzhen 2028",
+            "team_b": "Langfang Glory City",
+            "logo_a": "https://media.api-sports.io/football/teams/25779.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23270.png",
+            "start_time": "2026-06-24T18:30:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-81bc798a42_8908b76d_20260624.png?v=8908b76d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền",
       "display": "vertical",
