@@ -730,82 +730,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-f968fdc888",
-          "name": "Poland - Belgium | 01:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f968fdc888",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f968fdc888",
-                  "name": "Poland - Belgium",
-                  "streams": [
-                    {
-                      "id": "st-f968fdc888",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Poland ",
-            "team_b": "Belgium",
-            "logo_a": "https://static.flashscore.com/res/image/data/zB15YqDr-vZG58BBc.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Qur1J5jl-dtrVaP64.png",
-            "start_time": "2026-06-25T01:00:00",
-            "blv": "BLV Pháo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f968fdc888_b4185f38_20260625.png?v=b4185f38",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-6018df1842",
           "name": "Slovenia - Canada | 01:30 25/06",
