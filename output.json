@@ -11,11 +11,82 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "bg-f127a3f714",
+          "name": "Ma Rốc vs Haiti | 05:00 25/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f127a3f714",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f127a3f714",
+                  "name": "Ma Rốc vs Haiti",
+                  "streams": [
+                    {
+                      "id": "st-f127a3f714",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Ma Rốc",
+            "team_b": "Haiti",
+            "logo_a": "https://media.api-sports.io/football/teams/31.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2386.png",
+            "start_time": "2026-06-25T05:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f127a3f714_6188306a_20260625.png?v=6188306a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-59b85c256f",
           "name": "Ma Rốc vs Haiti | 05:00 25/06",
@@ -88,77 +159,6 @@
           }
         },
         {
-          "id": "bg-f127a3f714",
-          "name": "Ma Rốc vs Haiti | 05:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f127a3f714",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-f127a3f714",
-                  "name": "Ma Rốc vs Haiti",
-                  "streams": [
-                    {
-                      "id": "st-f127a3f714",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Ma Rốc",
-            "team_b": "Haiti",
-            "logo_a": "https://media.api-sports.io/football/teams/31.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2386.png",
-            "start_time": "2026-06-25T05:00:00",
-            "blv": "BLV Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f127a3f714_6188306a_20260625.png?v=6188306a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bg-02a3c7fb3f",
           "name": "Scotland vs Brazil | 05:00 25/06",
           "type": "single",
@@ -166,10 +166,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -217,7 +217,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/6.png",
             "start_time": "2026-06-25T05:00:00",
             "blv": "BLV Lềnh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
