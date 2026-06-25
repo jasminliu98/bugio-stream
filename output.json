@@ -11,11 +11,153 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "bg-151de84cca",
+          "name": "Nhật Bản vs Thụy Điển | 06:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-151de84cca",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-151de84cca",
+                  "name": "Nhật Bản vs Thụy Điển",
+                  "streams": [
+                    {
+                      "id": "st-151de84cca",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Nhật Bản ",
+            "team_b": " Thụy Điển",
+            "logo_a": "https://media.api-sports.io/football/teams/12.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5.png",
+            "start_time": "2026-06-26T06:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-151de84cca_e3cbeeb5_20260626.png?v=e3cbeeb5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-48237d9f2d",
+          "name": "Nhật Bản vs Thụy Điển | 06:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48237d9f2d",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-48237d9f2d",
+                  "name": "Nhật Bản vs Thụy Điển",
+                  "streams": [
+                    {
+                      "id": "st-48237d9f2d",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Nhật Bản ",
+            "team_b": "Thụy Điển",
+            "logo_a": "https://media.api-sports.io/football/teams/12.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5.png",
+            "start_time": "2026-06-26T06:00:00",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-48237d9f2d_e3cbeeb5_20260626.png?v=e3cbeeb5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-0b9e57c46d",
           "name": "Nhật Bản vs Thụy Điển | 06:00 26/06",
@@ -83,148 +225,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-0b9e57c46d_e3cbeeb5_20260626.png?v=e3cbeeb5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-151de84cca",
-          "name": "Nhật Bản vs Thụy Điển | 06:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-151de84cca",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-151de84cca",
-                  "name": "Nhật Bản vs Thụy Điển",
-                  "streams": [
-                    {
-                      "id": "st-151de84cca",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Nhật Bản ",
-            "team_b": " Thụy Điển",
-            "logo_a": "https://media.api-sports.io/football/teams/12.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5.png",
-            "start_time": "2026-06-26T06:00:00",
-            "blv": "BLV Phi MC",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-151de84cca_e3cbeeb5_20260626.png?v=e3cbeeb5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-48237d9f2d",
-          "name": "Nhật Bản vs Thụy Điển | 06:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48237d9f2d",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-48237d9f2d",
-                  "name": "Nhật Bản vs Thụy Điển",
-                  "streams": [
-                    {
-                      "id": "st-48237d9f2d",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Nhật Bản ",
-            "team_b": "Thụy Điển",
-            "logo_a": "https://media.api-sports.io/football/teams/12.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5.png",
-            "start_time": "2026-06-26T06:00:00",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-48237d9f2d_e3cbeeb5_20260626.png?v=e3cbeeb5",
             "width": 1600,
             "height": 1200
           }
