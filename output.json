@@ -654,6 +654,290 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-f2925f97bc",
+          "name": "Paraguay vs Úc | 09:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2925f97bc",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f2925f97bc",
+                  "name": "Paraguay vs Úc",
+                  "streams": [
+                    {
+                      "id": "st-f2925f97bc",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Paraguay",
+            "team_b": "Úc",
+            "logo_a": "https://media.api-sports.io/football/teams/2380.png",
+            "logo_b": "https://media.api-sports.io/football/teams/20.png",
+            "start_time": "2026-06-26T09:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f2925f97bc_2c8bb2c1_20260626.png?v=2c8bb2c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-6e7d5d259b",
+          "name": "Paraguay vs Úc | 09:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e7d5d259b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6e7d5d259b",
+                  "name": "Paraguay vs Úc",
+                  "streams": [
+                    {
+                      "id": "st-6e7d5d259b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Paraguay",
+            "team_b": "Úc",
+            "logo_a": "https://media.api-sports.io/football/teams/2380.png",
+            "logo_b": "https://media.api-sports.io/football/teams/20.png",
+            "start_time": "2026-06-26T09:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6e7d5d259b_2c8bb2c1_20260626.png?v=2c8bb2c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-be3087e74e",
+          "name": "Thổ Nhĩ Kỳ vs Mỹ | 09:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be3087e74e",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-be3087e74e",
+                  "name": "Thổ Nhĩ Kỳ vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-be3087e74e",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Thổ Nhĩ Kỳ",
+            "team_b": "Mỹ",
+            "logo_a": "https://media.api-sports.io/football/teams/777.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2384.png",
+            "start_time": "2026-06-26T09:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-be3087e74e_7751ce6a_20260626.png?v=7751ce6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-7e8750d4a7",
+          "name": "Thổ Nhĩ Kỳ vs Mỹ | 09:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e8750d4a7",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-7e8750d4a7",
+                  "name": "Thổ Nhĩ Kỳ vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-7e8750d4a7",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Thổ Nhĩ Kỳ ",
+            "team_b": "Mỹ",
+            "logo_a": "https://media.api-sports.io/football/teams/777.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2384.png",
+            "start_time": "2026-06-26T09:00:00",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7e8750d4a7_7751ce6a_20260626.png?v=7751ce6a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
