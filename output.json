@@ -11,11 +11,153 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "bg-5b658d2a92",
+          "name": "Curaçao vs Bờ Biển Ngà | 03:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5b658d2a92",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-5b658d2a92",
+                  "name": "Curaçao vs Bờ Biển Ngà",
+                  "streams": [
+                    {
+                      "id": "st-5b658d2a92",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Curaçao",
+            "team_b": "Bờ Biển Ngà",
+            "logo_a": "https://media.api-sports.io/football/teams/5530.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1501.png",
+            "start_time": "2026-06-26T03:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5b658d2a92_8292d413_20260626.png?v=8292d413",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-980b2e71a1",
+          "name": "Ecuador vs Đức | 03:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-980b2e71a1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-980b2e71a1",
+                  "name": "Ecuador vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-980b2e71a1",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Ecuador",
+            "team_b": "Đức",
+            "logo_a": "https://media.api-sports.io/football/teams/2382.png",
+            "logo_b": "https://media.api-sports.io/football/teams/25.png",
+            "start_time": "2026-06-26T03:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-980b2e71a1_9da76067_20260626.png?v=9da76067",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-91e82999cf",
           "name": "Ecuador vs Đức | 03:00 26/06",
@@ -83,148 +225,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-91e82999cf_9da76067_20260626.png?v=9da76067",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-5b658d2a92",
-          "name": "Curaçao vs Bờ Biển Ngà | 03:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5b658d2a92",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-5b658d2a92",
-                  "name": "Curaçao vs Bờ Biển Ngà",
-                  "streams": [
-                    {
-                      "id": "st-5b658d2a92",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Curaçao",
-            "team_b": "Bờ Biển Ngà",
-            "logo_a": "https://media.api-sports.io/football/teams/5530.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1501.png",
-            "start_time": "2026-06-26T03:00:00",
-            "blv": "BLV Mao Từn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5b658d2a92_8292d413_20260626.png?v=8292d413",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-980b2e71a1",
-          "name": "Ecuador vs Đức | 03:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-980b2e71a1",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-980b2e71a1",
-                  "name": "Ecuador vs Đức",
-                  "streams": [
-                    {
-                      "id": "st-980b2e71a1",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Ecuador",
-            "team_b": "Đức",
-            "logo_a": "https://media.api-sports.io/football/teams/2382.png",
-            "logo_b": "https://media.api-sports.io/football/teams/25.png",
-            "start_time": "2026-06-26T03:00:00",
-            "blv": "BLV Phi MC",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-980b2e71a1_9da76067_20260626.png?v=9da76067",
             "width": 1600,
             "height": 1200
           }
