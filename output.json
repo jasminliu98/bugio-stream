@@ -1092,7 +1092,7 @@
         },
         {
           "id": "bg-c7d0e7e292",
-          "name": "Poland - Germany  | 22:00 27/06",
+          "name": "Ba Lan vs Đức | 22:00 27/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1111,7 +1111,7 @@
               "contents": [
                 {
                   "id": "ct-c7d0e7e292",
-                  "name": "Poland - Germany ",
+                  "name": "Ba Lan vs Đức",
                   "streams": [
                     {
                       "id": "st-c7d0e7e292",
@@ -1143,8 +1143,8 @@
           ],
           "org_metadata": {
             "league": "Nations League Men's",
-            "team_a": "Poland ",
-            "team_b": "Germany ",
+            "team_a": "Ba Lan ",
+            "team_b": " Đức",
             "logo_a": "https://static.flashscore.com/res/image/data/zB15YqDr-vZG58BBc.png",
             "logo_b": "https://static.flashscore.com/res/image/data/zP226aXg-fB4vYUZp.png",
             "start_time": "2026-06-27T22:00:00",
@@ -1163,7 +1163,7 @@
         },
         {
           "id": "bg-98ed99f6e4",
-          "name": "USA - Japan  | 22:00 27/06",
+          "name": "Mỹ vs Nhật Bản | 22:00 27/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1182,7 +1182,7 @@
               "contents": [
                 {
                   "id": "ct-98ed99f6e4",
-                  "name": "USA - Japan ",
+                  "name": "Mỹ vs Nhật Bản",
                   "streams": [
                     {
                       "id": "st-98ed99f6e4",
@@ -1214,8 +1214,8 @@
           ],
           "org_metadata": {
             "league": "Nations League Men's",
-            "team_a": "USA",
-            "team_b": "Japan ",
+            "team_a": "Mỹ ",
+            "team_b": "Nhật Bản",
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/wj9uZvn_vZrelLFGH8fnPA_96x96.png",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
             "start_time": "2026-06-27T22:00:00",
