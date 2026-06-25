@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -75,7 +75,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/16.png",
             "start_time": "2026-06-25T08:00:00",
             "blv": "BLV Lềnh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -95,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -146,7 +146,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/17.png",
             "start_time": "2026-06-25T08:00:00",
             "blv": "BLV Phi MC",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -166,10 +166,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -217,7 +217,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/17.png",
             "start_time": "2026-06-25T08:00:00",
             "blv": "BLV Max",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
