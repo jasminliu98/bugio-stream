@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-59ab3ba90a",
-          "name": "U18 Việt Nam - U18 Malaysia | 10:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-59ab3ba90a",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-59ab3ba90a",
-                  "name": "U18 Việt Nam - U18 Malaysia",
-                  "streams": [
-                    {
-                      "id": "st-59ab3ba90a",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bóng chuyền U18 Đông Nam Á",
-            "team_a": "U18 Việt Nam ",
-            "team_b": "U18 Malaysia",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/cJH9pZPURSZ68UjxxS4nKw_96x96.png",
-            "start_time": "2026-06-25T10:00:00",
-            "blv": "BLV Pháo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-59ab3ba90a_fe870811_20260625.png?v=fe870811",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-ed383ec947",
           "name": "Ukraine - Ý | 21:30 25/06",
