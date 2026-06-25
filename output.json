@@ -943,82 +943,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-10cd8cca7d",
-          "name": "Slovenia - Bulgaria | 01:30 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-10cd8cca7d",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-10cd8cca7d",
-                  "name": "Slovenia - Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-10cd8cca7d",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Slovenia",
-            "team_b": "Bulgaria",
-            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/r7q7GrzB-6ys9CWQj.png",
-            "start_time": "2026-06-26T01:30:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-10cd8cca7d_837f14d1_20260626.png?v=837f14d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-f885a14eaf",
           "name": "Ukraine - Canada | 21:30 26/06",
