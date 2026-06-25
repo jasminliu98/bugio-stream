@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -159,6 +159,77 @@
           }
         },
         {
+          "id": "bg-8859a81bd1",
+          "name": "Tunisia vs Hà Lan | 06:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8859a81bd1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8859a81bd1",
+                  "name": "Tunisia vs Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-8859a81bd1",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Tunisia",
+            "team_b": "Hà Lan",
+            "logo_a": "https://media.api-sports.io/football/teams/28.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1118.png",
+            "start_time": "2026-06-26T06:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8859a81bd1_8c9a38d3_20260626.png?v=8c9a38d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-0b9e57c46d",
           "name": "Nhật Bản vs Thụy Điển | 06:00 26/06",
           "type": "single",
@@ -296,77 +367,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b937176da8_8c9a38d3_20260626.png?v=8c9a38d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-8859a81bd1",
-          "name": "Tunisia vs Hà Lan | 06:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8859a81bd1",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-8859a81bd1",
-                  "name": "Tunisia vs Hà Lan",
-                  "streams": [
-                    {
-                      "id": "st-8859a81bd1",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Tunisia",
-            "team_b": "Hà Lan",
-            "logo_a": "https://media.api-sports.io/football/teams/28.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1118.png",
-            "start_time": "2026-06-26T06:00:00",
-            "blv": "BLV Mao Từn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8859a81bd1_8c9a38d3_20260626.png?v=8c9a38d3",
             "width": 1600,
             "height": 1200
           }
