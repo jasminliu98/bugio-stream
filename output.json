@@ -299,6 +299,290 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-21b29648a4",
+          "name": "Cape Verde Islands vs Ả Râp Xê Út | 07:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-21b29648a4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-21b29648a4",
+                  "name": "Cape Verde Islands vs Ả Râp Xê Út",
+                  "streams": [
+                    {
+                      "id": "st-21b29648a4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Cape Verde Islands",
+            "team_b": "Ả Râp Xê Út",
+            "logo_a": "https://media.api-sports.io/football/teams/1533.png",
+            "logo_b": "https://media.api-sports.io/football/teams/23.png",
+            "start_time": "2026-06-27T07:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-21b29648a4_9148fa9f_20260627.png?v=9148fa9f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-ce059ef419",
+          "name": "Uruguay vs Tây Ban Nha  | 07:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce059ef419",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ce059ef419",
+                  "name": "Uruguay vs Tây Ban Nha ",
+                  "streams": [
+                    {
+                      "id": "st-ce059ef419",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Uruguay",
+            "team_b": "Tây Ban Nha ",
+            "logo_a": "https://media.api-sports.io/football/teams/7.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9.png",
+            "start_time": "2026-06-27T07:00:00",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ce059ef419_4013683a_20260627.png?v=4013683a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-fd4d801731",
+          "name": "Uruguay vs Tây Ban Nha  | 07:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd4d801731",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-fd4d801731",
+                  "name": "Uruguay vs Tây Ban Nha ",
+                  "streams": [
+                    {
+                      "id": "st-fd4d801731",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Uruguay",
+            "team_b": "Tây Ban Nha ",
+            "logo_a": "https://media.api-sports.io/football/teams/7.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9.png",
+            "start_time": "2026-06-27T07:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fd4d801731_4013683a_20260627.png?v=4013683a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-5e8a5161de",
+          "name": "Uruguay vs Tây Ban Nha  | 07:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e8a5161de",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-5e8a5161de",
+                  "name": "Uruguay vs Tây Ban Nha ",
+                  "streams": [
+                    {
+                      "id": "st-5e8a5161de",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Uruguay",
+            "team_b": "Tây Ban Nha ",
+            "logo_a": "https://media.api-sports.io/football/teams/7.png",
+            "logo_b": "https://media.api-sports.io/football/teams/9.png",
+            "start_time": "2026-06-27T07:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5e8a5161de_4013683a_20260627.png?v=4013683a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
