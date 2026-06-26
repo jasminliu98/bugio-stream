@@ -1089,6 +1089,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-caa89215e6",
+          "name": "China - Germany  | 18:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-caa89215e6",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-caa89215e6",
+                  "name": "China - Germany ",
+                  "streams": [
+                    {
+                      "id": "st-caa89215e6",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "China ",
+            "team_b": "Germany ",
+            "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
+            "start_time": "2026-06-28T18:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-caa89215e6_dd5ea43e_20260627.png?v=dd5ea43e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
