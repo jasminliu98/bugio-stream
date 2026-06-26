@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-bf5a1d9043",
-          "name": "Smackdown vs Smackdown | 01:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf5a1d9043",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-bf5a1d9043",
-                  "name": "Smackdown vs Smackdown",
-                  "streams": [
-                    {
-                      "id": "st-bf5a1d9043",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WWE",
-            "team_a": "Smackdown",
-            "team_b": "Smackdown",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSPX-DYhJMgRH-1uxHN-qrv3wUzuWSqqSgvRigQH2lkL8NS6FN",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSPX-DYhJMgRH-1uxHN-qrv3wUzuWSqqSgvRigQH2lkL8NS6FN",
-            "start_time": "2026-06-27T01:00:00",
-            "blv": "BLV Pháo",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-bf5a1d9043_48864606_20260627.png?v=48864606",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-56a3107cad",
           "name": "Na Uy vs Pháp | 02:00 27/06",
