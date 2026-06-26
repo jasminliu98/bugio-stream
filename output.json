@@ -86,6 +86,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-f1e5284674",
+          "name": "Taraz vs Shakhter Karagandy | 20:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1e5284674",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f1e5284674",
+                  "name": "Taraz vs Shakhter Karagandy",
+                  "streams": [
+                    {
+                      "id": "st-f1e5284674",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "1. Division",
+            "team_a": "Taraz",
+            "team_b": "Shakhter Karagandy",
+            "logo_a": "https://media.api-sports.io/football/teams/4559.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4566.png",
+            "start_time": "2026-06-26T20:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f1e5284674_7481c939_20260626.png?v=7481c939",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
