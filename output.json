@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-7967cc8e3a",
-          "name": "Qingdao Jonoon vs Yunnan Yukun | 18:35 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7967cc8e3a",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-7967cc8e3a",
-                  "name": "Qingdao Jonoon vs Yunnan Yukun",
-                  "streams": [
-                    {
-                      "id": "st-7967cc8e3a",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-448842e236",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Qingdao Jonoon",
-            "team_b": "Yunnan Yukun",
-            "logo_a": "https://media.api-sports.io/football/teams/1431.png",
-            "logo_b": "https://media.api-sports.io/football/teams/21265.png",
-            "start_time": "2026-06-26T18:35:00",
-            "blv": "BLV Lềnh",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7967cc8e3a_b06a3881_20260626.png?v=b06a3881",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-f1e5284674",
           "name": "Taraz vs Shakhter Karagandy | 20:00 26/06",
