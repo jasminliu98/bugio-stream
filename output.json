@@ -950,7 +950,7 @@
         },
         {
           "id": "bg-820a8f5c40",
-          "name": "France - Serbia | 01:30 28/06",
+          "name": "Pháp - Serbia | 01:30 28/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -969,7 +969,7 @@
               "contents": [
                 {
                   "id": "ct-820a8f5c40",
-                  "name": "France - Serbia",
+                  "name": "Pháp - Serbia",
                   "streams": [
                     {
                       "id": "st-820a8f5c40",
@@ -1001,7 +1001,7 @@
           ],
           "org_metadata": {
             "league": "Nations League Men's",
-            "team_a": "France ",
+            "team_a": "Pháp",
             "team_b": "Serbia",
             "logo_a": "https://static.flashscore.com/res/image/data/dnoZORwS-rcthslVl.png",
             "logo_b": "https://static.flashscore.com/res/image/data/vDiyVxhl-6ys9CWQj.png",
