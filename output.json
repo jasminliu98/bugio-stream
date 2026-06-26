@@ -588,82 +588,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-70821a40b0",
-          "name": "Brazil - Ý | 01:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-70821a40b0",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-70821a40b0",
-                  "name": "Brazil - Ý",
-                  "streams": [
-                    {
-                      "id": "st-70821a40b0",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Brazil ",
-            "team_b": "Ý",
-            "logo_a": "https://static.flashscore.com/res/image/data/OM8Y9ODa-vBKZiE2j.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8GPRc1yB-xCsenx2O.png",
-            "start_time": "2026-06-27T01:00:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-70821a40b0_d2ba8da5_20260627.png?v=d2ba8da5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-5ad742cd15",
           "name": "U18 Thái Lan vs U18 Philippines | 13:00 27/06",
@@ -1157,6 +1086,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-caa89215e6_dd5ea43e_20260627.png?v=dd5ea43e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-ba2f001512",
+          "name": "France - Japan | 22:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba2f001512",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ba2f001512",
+                  "name": "France - Japan",
+                  "streams": [
+                    {
+                      "id": "st-ba2f001512",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "France ",
+            "team_b": "Japan",
+            "logo_a": "https://static.flashscore.com/res/image/data/dnoZORwS-rcthslVl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
+            "start_time": "2026-06-28T22:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ba2f001512_a0a9db94_20260627.png?v=a0a9db94",
             "width": 1600,
             "height": 1200
           }
