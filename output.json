@@ -583,6 +583,219 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-764a9f2462",
+          "name": "Ai Cập vs Iran | 10:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-764a9f2462",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-764a9f2462",
+                  "name": "Ai Cập vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-764a9f2462",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Ai Cập",
+            "team_b": "Iran",
+            "logo_a": "https://media.api-sports.io/football/teams/32.png",
+            "logo_b": "https://media.api-sports.io/football/teams/22.png",
+            "start_time": "2026-06-27T10:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-764a9f2462_0ec3293d_20260627.png?v=0ec3293d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-ac9edbbe05",
+          "name": "New Zealand vs Bỉ | 10:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac9edbbe05",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-ac9edbbe05",
+                  "name": "New Zealand vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-ac9edbbe05",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "New Zealand",
+            "team_b": "Bỉ",
+            "logo_a": "https://media.api-sports.io/football/teams/4673.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1.png",
+            "start_time": "2026-06-27T10:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ac9edbbe05_752ae8cd_20260627.png?v=752ae8cd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-55acf85395",
+          "name": "New Zealand vs Bỉ | 10:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-55acf85395",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-55acf85395",
+                  "name": "New Zealand vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-55acf85395",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "New Zealand",
+            "team_b": "Bỉ",
+            "logo_a": "https://media.api-sports.io/football/teams/4673.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1.png",
+            "start_time": "2026-06-27T10:00:00",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-55acf85395_752ae8cd_20260627.png?v=752ae8cd",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1021,7 +1234,7 @@
         },
         {
           "id": "bg-caa89215e6",
-          "name": "China - Germany  | 18:00 28/06",
+          "name": "Trung Quốc vs Đức | 18:00 28/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1040,7 +1253,7 @@
               "contents": [
                 {
                   "id": "ct-caa89215e6",
-                  "name": "China - Germany ",
+                  "name": "Trung Quốc vs Đức",
                   "streams": [
                     {
                       "id": "st-caa89215e6",
@@ -1072,8 +1285,8 @@
           ],
           "org_metadata": {
             "league": "Nations League Men's",
-            "team_a": "China ",
-            "team_b": "Germany ",
+            "team_a": "Trung Quốc",
+            "team_b": "Đức",
             "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
             "logo_b": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
             "start_time": "2026-06-28T18:00:00",
@@ -1092,7 +1305,7 @@
         },
         {
           "id": "bg-ba2f001512",
-          "name": "France - Japan | 22:00 28/06",
+          "name": "Pháp vs Nhật Bản | 22:00 28/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1111,7 +1324,7 @@
               "contents": [
                 {
                   "id": "ct-ba2f001512",
-                  "name": "France - Japan",
+                  "name": "Pháp vs Nhật Bản",
                   "streams": [
                     {
                       "id": "st-ba2f001512",
@@ -1143,8 +1356,8 @@
           ],
           "org_metadata": {
             "league": "Nations League Men's",
-            "team_a": "France ",
-            "team_b": "Japan",
+            "team_a": "Pháp ",
+            "team_b": "Nhật Bản",
             "logo_a": "https://static.flashscore.com/res/image/data/dnoZORwS-rcthslVl.png",
             "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
             "start_time": "2026-06-28T22:00:00",
