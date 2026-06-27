@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-a753a43564",
-          "name": "Henan Jianye vs SHANGHAI SIPG | 18:35 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a753a43564",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-a753a43564",
-                  "name": "Henan Jianye vs SHANGHAI SIPG",
-                  "streams": [
-                    {
-                      "id": "st-a753a43564",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Henan Jianye",
-            "team_b": "SHANGHAI SIPG",
-            "logo_a": "https://media.api-sports.io/football/teams/840.png",
-            "logo_b": "https://media.api-sports.io/football/teams/836.png",
-            "start_time": "2026-06-27T18:35:00",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a753a43564_1a6db0a2_20260627.png?v=1a6db0a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-125b93c9b5",
           "name": "Night of champions | 01:00 28/06",
