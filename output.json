@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "bg-125b93c9b5",
-          "name": "Night of champions | 01:00 28/06",
+          "name": "Night of champions | 00:00 28/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "team_b": "Night of champions",
             "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/c3/WWE_Night_of_Champions_2023_logo.png",
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/c/c3/WWE_Night_of_Champions_2023_logo.png",
-            "start_time": "2026-06-28T01:00:00",
+            "start_time": "2026-06-28T00:00:00",
             "blv": "BLV Pháo",
             "is_live": false,
             "cate_type": "football"
@@ -375,7 +375,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -447,77 +447,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5e0f17d9e0_0f7388d0_20260627.png?v=0f7388d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-c7d0e7e292",
-          "name": "Ba Lan vs Đức | 22:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c7d0e7e292",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-c7d0e7e292",
-                  "name": "Ba Lan vs Đức",
-                  "streams": [
-                    {
-                      "id": "st-c7d0e7e292",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Ba Lan ",
-            "team_b": " Đức",
-            "logo_a": "https://static.flashscore.com/res/image/data/zB15YqDr-vZG58BBc.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zP226aXg-fB4vYUZp.png",
-            "start_time": "2026-06-27T22:00:00",
-            "blv": "BLV Pháo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c7d0e7e292_5727ac6c_20260627.png?v=5727ac6c",
             "width": 1600,
             "height": 1200
           }
