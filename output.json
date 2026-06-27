@@ -594,77 +594,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-5ad742cd15",
-          "name": "U18 Thái Lan vs U18 Philippines | 13:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5ad742cd15",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-5ad742cd15",
-                  "name": "U18 Thái Lan vs U18 Philippines",
-                  "streams": [
-                    {
-                      "id": "st-5ad742cd15",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-970b2a547c",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bóng chuyền U18 Đông Nam Á",
-            "team_a": "U18 Thái Lan ",
-            "team_b": "U18 Philippines",
-            "logo_a": "https://static.flashscore.com/res/image/data/IyPrhIYA-hY6lB1T5.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YiVM6IzS-l8Qn4z22.png",
-            "start_time": "2026-06-27T13:00:00",
-            "blv": "BLV Pháo",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5ad742cd15_119c60a8_20260627.png?v=119c60a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bg-c0a5a65e55",
           "name": "U18 Việt Nam vs U18 Indonesia | 16:00 27/06",
           "type": "single",
@@ -731,6 +660,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c0a5a65e55_24bd7538_20260627.png?v=24bd7538",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-5ad742cd15",
+          "name": "U18 Thái Lan vs U18 Philippines | 19:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5ad742cd15",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-5ad742cd15",
+                  "name": "U18 Thái Lan vs U18 Philippines",
+                  "streams": [
+                    {
+                      "id": "st-5ad742cd15",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Đông Nam Á",
+            "team_a": "U18 Thái Lan ",
+            "team_b": "U18 Philippines",
+            "logo_a": "https://static.flashscore.com/res/image/data/IyPrhIYA-hY6lB1T5.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YiVM6IzS-l8Qn4z22.png",
+            "start_time": "2026-06-27T19:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-5ad742cd15_119c60a8_20260627.png?v=119c60a8",
             "width": 1600,
             "height": 1200
           }
