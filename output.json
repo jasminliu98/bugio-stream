@@ -86,6 +86,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-be3b0b5444",
+          "name": "Beijing Guoan vs Wuhan Three Towns | 19:00 27/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be3b0b5444",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-be3b0b5444",
+                  "name": "Beijing Guoan vs Wuhan Three Towns",
+                  "streams": [
+                    {
+                      "id": "st-be3b0b5444",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-448842e236",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_lenh/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Beijing Guoan",
+            "team_b": "Wuhan Three Towns",
+            "logo_a": "https://media.api-sports.io/football/teams/830.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5695.png",
+            "start_time": "2026-06-27T19:00:00",
+            "blv": "BLV Lềnh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-be3b0b5444_14f8deb1_20260627.png?v=14f8deb1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
