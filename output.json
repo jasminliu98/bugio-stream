@@ -11,11 +11,153 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "bg-a8ed71126b",
+          "name": "Croatia vs Ghana | 04:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8ed71126b",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-a8ed71126b",
+                  "name": "Croatia vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-a8ed71126b",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Croatia",
+            "team_b": "Ghana",
+            "logo_a": "https://media.api-sports.io/football/teams/3.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1504.png",
+            "start_time": "2026-06-28T04:00:00",
+            "blv": "BLV Max",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a8ed71126b_fe5073fe_20260628.png?v=fe5073fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-3a2a9aef4c",
+          "name": "Croatia vs Ghana | 04:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a2a9aef4c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-3a2a9aef4c",
+                  "name": "Croatia vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-3a2a9aef4c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Croatia",
+            "team_b": "Ghana",
+            "logo_a": "https://media.api-sports.io/football/teams/3.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1504.png",
+            "start_time": "2026-06-28T04:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3a2a9aef4c_fe5073fe_20260628.png?v=fe5073fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "bg-8da57fac33",
           "name": "Panama vs Anh | 04:00 28/06",
@@ -88,148 +230,6 @@
           }
         },
         {
-          "id": "bg-a8ed71126b",
-          "name": "Croatia vs Ghana | 04:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8ed71126b",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-a8ed71126b",
-                  "name": "Croatia vs Ghana",
-                  "streams": [
-                    {
-                      "id": "st-a8ed71126b",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Croatia",
-            "team_b": "Ghana",
-            "logo_a": "https://media.api-sports.io/football/teams/3.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1504.png",
-            "start_time": "2026-06-28T04:00:00",
-            "blv": "BLV Max",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-a8ed71126b_fe5073fe_20260628.png?v=fe5073fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-3a2a9aef4c",
-          "name": "Croatia vs Ghana | 04:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a2a9aef4c",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-3a2a9aef4c",
-                  "name": "Croatia vs Ghana",
-                  "streams": [
-                    {
-                      "id": "st-3a2a9aef4c",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Croatia",
-            "team_b": "Ghana",
-            "logo_a": "https://media.api-sports.io/football/teams/3.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1504.png",
-            "start_time": "2026-06-28T04:00:00",
-            "blv": "BLV Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3a2a9aef4c_fe5073fe_20260628.png?v=fe5073fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bg-a4a8a31750",
           "name": "Panama vs Anh | 04:00 28/06",
           "type": "single",
@@ -237,10 +237,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -288,7 +288,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/10.png",
             "start_time": "2026-06-28T04:00:00",
             "blv": "BLV Phi MC",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -872,82 +872,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-820a8f5c40",
-          "name": "Pháp - Serbia | 01:30 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-820a8f5c40",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-820a8f5c40",
-                  "name": "Pháp - Serbia",
-                  "streams": [
-                    {
-                      "id": "st-820a8f5c40",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21936c1c94",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Pháp",
-            "team_b": "Serbia",
-            "logo_a": "https://static.flashscore.com/res/image/data/dnoZORwS-rcthslVl.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vDiyVxhl-6ys9CWQj.png",
-            "start_time": "2026-06-28T01:30:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-820a8f5c40_4ab3d1a5_20260628.png?v=4ab3d1a5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-caa89215e6",
           "name": "Trung Quốc vs Đức | 18:00 28/06",
