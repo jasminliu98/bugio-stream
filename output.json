@@ -17,290 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "bg-db90f689b1",
-          "name": "Colombia vs Bồ Đào Nha | 06:30 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db90f689b1",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-db90f689b1",
-                  "name": "Colombia vs Bồ Đào Nha",
-                  "streams": [
-                    {
-                      "id": "st-db90f689b1",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Colombia",
-            "team_b": "Bồ Đào Nha",
-            "logo_a": "https://media.api-sports.io/football/teams/8.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27.png",
-            "start_time": "2026-06-28T06:30:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-db90f689b1_aec7ff0e_20260628.png?v=aec7ff0e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-beb04c41b4",
-          "name": "Colombia vs Bồ Đào Nha | 06:30 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-beb04c41b4",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-beb04c41b4",
-                  "name": "Colombia vs Bồ Đào Nha",
-                  "streams": [
-                    {
-                      "id": "st-beb04c41b4",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Colombia",
-            "team_b": "Bồ Đào Nha",
-            "logo_a": "https://media.api-sports.io/football/teams/8.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27.png",
-            "start_time": "2026-06-28T06:30:00",
-            "blv": "BLV Phi MC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-beb04c41b4_aec7ff0e_20260628.png?v=aec7ff0e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-ac27b77292",
-          "name": "Colombia vs Bồ Đào Nha | 06:30 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ac27b77292",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-ac27b77292",
-                  "name": "Colombia vs Bồ Đào Nha",
-                  "streams": [
-                    {
-                      "id": "st-ac27b77292",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Colombia",
-            "team_b": "Bồ Đào Nha",
-            "logo_a": "https://media.api-sports.io/football/teams/8.png",
-            "logo_b": "https://media.api-sports.io/football/teams/27.png",
-            "start_time": "2026-06-28T06:30:00",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ac27b77292_aec7ff0e_20260628.png?v=aec7ff0e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "bg-d693d554e0",
-          "name": "Congo DR vs Uzbekistan | 06:30 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d693d554e0",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-d693d554e0",
-                  "name": "Congo DR vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "st-d693d554e0",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Congo DR",
-            "team_b": "Uzbekistan",
-            "logo_a": "https://media.api-sports.io/football/teams/1508.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1568.png",
-            "start_time": "2026-06-28T06:30:00",
-            "blv": "BLV Mao Từn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d693d554e0_e7575e3e_20260628.png?v=e7575e3e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "bg-59de0175dc",
           "name": "Algeria vs Áo | 09:00 28/06",
           "type": "single",
@@ -308,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -359,7 +75,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/775.png",
             "start_time": "2026-06-28T09:00:00",
             "blv": "BLV Mao Từn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -379,10 +95,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -430,7 +146,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/26.png",
             "start_time": "2026-06-28T09:00:00",
             "blv": "BLV Tiểu Trà Đá",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -450,10 +166,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -501,7 +217,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/26.png",
             "start_time": "2026-06-28T09:00:00",
             "blv": "BLV Phi MC",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -521,10 +237,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -572,7 +288,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/26.png",
             "start_time": "2026-06-28T09:00:00",
             "blv": "BLV Chim Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
