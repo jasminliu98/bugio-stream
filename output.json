@@ -228,49 +228,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "bg-caa89215e6",
-          "name": "Trung Quốc vs Đức | 18:00 28/06",
+          "id": "bg-73f95ee473",
+          "name": "South Africa vs Canada | 02:00 29/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-caa89215e6",
+              "id": "src-73f95ee473",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-caa89215e6",
-                  "name": "Trung Quốc vs Đức",
+                  "id": "ct-73f95ee473",
+                  "name": "South Africa vs Canada",
                   "streams": [
                     {
-                      "id": "st-caa89215e6",
+                      "id": "st-73f95ee473",
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-21936c1c94",
+                          "id": "lnk-d5c8f635fc",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -290,25 +281,176 @@
             }
           ],
           "org_metadata": {
-            "league": "Nations League Men's",
-            "team_a": "Trung Quốc",
-            "team_b": "Đức",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
-            "start_time": "2026-06-28T18:00:00",
-            "blv": "BLV Tiểu Mèo",
-            "is_live": true,
-            "cate_type": "bongchuyen"
+            "league": "World Cup",
+            "team_a": "South Africa",
+            "team_b": "Canada",
+            "logo_a": "https://media.api-sports.io/football/teams/1531.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5529.png",
+            "start_time": "2026-06-29T02:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-caa89215e6_dd5ea43e_20260628.png?v=dd5ea43e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-73f95ee473_66888172_20260628.png?v=66888172",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "bg-7776e88b0c",
+          "name": "South Africa vs Canada | 02:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7776e88b0c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-7776e88b0c",
+                  "name": "South Africa vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-7776e88b0c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "South Africa",
+            "team_b": "Canada",
+            "logo_a": "https://media.api-sports.io/football/teams/1531.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5529.png",
+            "start_time": "2026-06-29T02:00:00",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7776e88b0c_66888172_20260628.png?v=66888172",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-66fae5b05c",
+          "name": "Germany U19 vs Denmark U19 | 02:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66fae5b05c",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-66fae5b05c",
+                  "name": "Germany U19 vs Denmark U19",
+                  "streams": [
+                    {
+                      "id": "st-66fae5b05c",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship",
+            "team_a": "Germany U19",
+            "team_b": "Denmark U19",
+            "logo_a": "https://media.api-sports.io/football/teams/10336.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10331.png",
+            "start_time": "2026-06-29T02:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-66fae5b05c_a587ed9e_20260628.png?v=a587ed9e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "bg-2ba61cc3a8",
           "name": "U18 Việt Nam vs U18 Thái Lan | 19:00 28/06",
