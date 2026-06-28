@@ -665,6 +665,77 @@
           }
         },
         {
+          "id": "bg-2ba61cc3a8",
+          "name": "U18 Việt Nam vs U18 Thái Lan | 19:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ba61cc3a8",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2ba61cc3a8",
+                  "name": "U18 Việt Nam vs U18 Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-2ba61cc3a8",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Đông Nam Á",
+            "team_a": "U18 Việt Nam ",
+            "team_b": "U18 Thái Lan",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png",
+            "start_time": "2026-06-28T19:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2ba61cc3a8_bc343188_20260628.png?v=bc343188",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "bg-ba2f001512",
           "name": "Pháp vs Nhật Bản | 22:00 28/06",
           "type": "single",
@@ -731,6 +802,219 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-ba2f001512_a0a9db94_20260628.png?v=a0a9db94",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-cf5530d9e4",
+          "name": "Poland - Argentina | 01:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf5530d9e4",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-cf5530d9e4",
+                  "name": "Poland - Argentina",
+                  "streams": [
+                    {
+                      "id": "st-cf5530d9e4",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Poland ",
+            "team_b": "Argentina",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/yTS_Piy3M1wUBnqU0n5aAw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1xBWyjjkA6vEWopPK3lIPA_96x96.png",
+            "start_time": "2026-06-29T01:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cf5530d9e4_2dc8efb7_20260628.png?v=2dc8efb7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-4f714c73db",
+          "name": "Serbia - USA | 01:30 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f714c73db",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4f714c73db",
+                  "name": "Serbia - USA",
+                  "streams": [
+                    {
+                      "id": "st-4f714c73db",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Serbia",
+            "team_b": "USA",
+            "logo_a": "https://static.flashscore.com/res/image/data/pxo9wfYg-prStpyTu.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2yAduHCa-MPdHoKT3.png",
+            "start_time": "2026-06-29T01:30:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4f714c73db_02a3f006_20260628.png?v=02a3f006",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-8dd291cbea",
+          "name": "Slovenia-Italy | 01:30 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8dd291cbea",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-8dd291cbea",
+                  "name": "Slovenia-Italy",
+                  "streams": [
+                    {
+                      "id": "st-8dd291cbea",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Men's",
+            "team_a": "Slovenia",
+            "team_b": "Italy",
+            "logo_a": "https://static.flashscore.com/res/image/data/j3eRbMyS-dWxvhZJm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/lM3slHEG-nZlXitYn.png",
+            "start_time": "2026-06-29T01:30:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-8dd291cbea_7707fc6b_20260628.png?v=7707fc6b",
             "width": 1600,
             "height": 1200
           }
