@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-fd0a5a5e36",
-          "name": "Italy U19 vs Serbia U19 | 22:00 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd0a5a5e36",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-fd0a5a5e36",
-                  "name": "Italy U19 vs Serbia U19",
-                  "streams": [
-                    {
-                      "id": "st-fd0a5a5e36",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad68922ab2",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U19 Championship",
-            "team_a": "Italy U19",
-            "team_b": "Serbia U19",
-            "logo_a": "https://media.api-sports.io/football/teams/10338.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10346.png",
-            "start_time": "2026-06-29T22:00:00",
-            "blv": "BLV Max",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-fd0a5a5e36_77c41e95_20260629.png?v=77c41e95",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-b5c24ab1dd",
           "name": "Brazil vs Japan | 00:00 30/06",
@@ -153,7 +82,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b5c24ab1dd_20f5dece_20260629.png?v=20f5dece",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b5c24ab1dd_20f5dece_20260630.png?v=20f5dece",
             "width": 1600,
             "height": 1200
           }
@@ -224,7 +153,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7261925973_20f5dece_20260629.png?v=20f5dece",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7261925973_20f5dece_20260630.png?v=20f5dece",
             "width": 1600,
             "height": 1200
           }
@@ -295,7 +224,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-78719f11fa_20f5dece_20260629.png?v=20f5dece",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-78719f11fa_20f5dece_20260630.png?v=20f5dece",
             "width": 1600,
             "height": 1200
           }
@@ -366,7 +295,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-78679495fe_6c767f42_20260629.png?v=6c767f42",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-78679495fe_6c767f42_20260630.png?v=6c767f42",
             "width": 1600,
             "height": 1200
           }
@@ -437,7 +366,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4cfe94fcc9_0a3db274_20260629.png?v=0a3db274",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4cfe94fcc9_0a3db274_20260630.png?v=0a3db274",
             "width": 1600,
             "height": 1200
           }
@@ -508,7 +437,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7ec0dbeee4_0a3db274_20260629.png?v=0a3db274",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-7ec0dbeee4_0a3db274_20260630.png?v=0a3db274",
             "width": 1600,
             "height": 1200
           }
@@ -588,7 +517,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d5cec10270_ff6048a1_20260629.png?v=ff6048a1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d5cec10270_ff6048a1_20260630.png?v=ff6048a1",
             "width": 1600,
             "height": 1200
           }
@@ -659,7 +588,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4f3d7d38d2_649a1fc3_20260629.png?v=649a1fc3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4f3d7d38d2_649a1fc3_20260630.png?v=649a1fc3",
             "width": 1600,
             "height": 1200
           }
