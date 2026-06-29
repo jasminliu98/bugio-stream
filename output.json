@@ -372,6 +372,157 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-d5cec10270",
+          "name": "Iran vs Philippines | 10:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5cec10270",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d5cec10270",
+                  "name": "Iran vs Philippines",
+                  "streams": [
+                    {
+                      "id": "st-d5cec10270",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Châu Á",
+            "team_a": "Iran ",
+            "team_b": "Philippines",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1oq8Fy7ETpBpZNaCA22ArQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/SMAJOAEhYfXLrR5oOCzaYg_96x96.png",
+            "start_time": "2026-07-01T10:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d5cec10270_ff6048a1_20260629.png?v=ff6048a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-4f3d7d38d2",
+          "name": "Hàn Quốc vs Ấn Độ | 13:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f3d7d38d2",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-4f3d7d38d2",
+                  "name": "Hàn Quốc vs Ấn Độ",
+                  "streams": [
+                    {
+                      "id": "st-4f3d7d38d2",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Châu Á",
+            "team_a": "Hàn Quốc ",
+            "team_b": "Ấn Độ",
+            "logo_a": "https://static.flashscore.com/res/image/data/zTP55fFG-bL62vc24.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/500px-Flag_of_India.svg.png",
+            "start_time": "2026-07-01T13:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4f3d7d38d2_649a1fc3_20260629.png?v=649a1fc3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
