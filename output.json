@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-6c468ec5a4",
-          "name": "Al Nejmeh vs Racing | 20:00 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c468ec5a4",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-6c468ec5a4",
-                  "name": "Al Nejmeh vs Racing",
-                  "streams": [
-                    {
-                      "id": "st-6c468ec5a4",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51a73d71ba",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Al Nejmeh",
-            "team_b": "Racing",
-            "logo_a": "https://media.api-sports.io/football/teams/4570.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4572.png",
-            "start_time": "2026-06-29T20:00:00",
-            "blv": "BLV Mao Từn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6c468ec5a4_dd6903ac_20260629.png?v=dd6903ac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-fd0a5a5e36",
           "name": "Italy U19 vs Serbia U19 | 22:00 29/06",
