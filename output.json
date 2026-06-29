@@ -441,6 +441,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-78679495fe",
+          "name": "Croatia U19 vs Ukraine U19 | 02:00 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78679495fe",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-78679495fe",
+                  "name": "Croatia U19 vs Ukraine U19",
+                  "streams": [
+                    {
+                      "id": "st-78679495fe",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship",
+            "team_a": "Croatia U19",
+            "team_b": "Ukraine U19",
+            "logo_a": "https://media.api-sports.io/football/teams/10329.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10352.png",
+            "start_time": "2026-06-30T02:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-78679495fe_6c767f42_20260629.png?v=6c767f42",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
