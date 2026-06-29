@@ -86,6 +86,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-b32e876041",
+          "name": "Nữ Guangxi Pingguo vs Nữ Beijing Beikong | 18:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b32e876041",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b32e876041",
+                  "name": "Nữ Guangxi Pingguo vs Nữ Beijing Beikong",
+                  "streams": [
+                    {
+                      "id": "st-b32e876041",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Women Super League",
+            "team_a": "Nữ Guangxi Pingguo",
+            "team_b": "Nữ Beijing Beikong",
+            "logo_a": "https://static.flashscore.com/res/image/data/6eLwTbFa-6sdVtRxN.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/lf5prHcM-bLWUCs5t.png",
+            "start_time": "2026-06-29T18:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b32e876041_5be80660_20260629.png?v=5be80660",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
