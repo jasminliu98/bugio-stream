@@ -441,6 +441,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-82debd8a12",
+          "name": "Netherlands vs Morocco | 08:00 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-82debd8a12",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-82debd8a12",
+                  "name": "Netherlands vs Morocco",
+                  "streams": [
+                    {
+                      "id": "st-82debd8a12",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad68922ab2",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_max/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Netherlands",
+            "team_b": "Morocco",
+            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
+            "logo_b": "https://media.api-sports.io/football/teams/31.png",
+            "start_time": "2026-06-30T08:00:00",
+            "blv": "BLV Max",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-82debd8a12_e03b1341_20260630.png?v=e03b1341",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-3a246af267",
+          "name": "Netherlands vs Morocco | 08:00 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a246af267",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-3a246af267",
+                  "name": "Netherlands vs Morocco",
+                  "streams": [
+                    {
+                      "id": "st-3a246af267",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Netherlands",
+            "team_b": "Morocco",
+            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
+            "logo_b": "https://media.api-sports.io/football/teams/31.png",
+            "start_time": "2026-06-30T08:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3a246af267_e03b1341_20260630.png?v=e03b1341",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
