@@ -8,5 +8,86 @@
     "type": "cover",
     "url": "https://sv1.bugio9.live/favicon.ico"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "bg-48e95c45c8",
+          "name": "Hà Nội W vs Hồ Chí Minh W | 16:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48e95c45c8",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-48e95c45c8",
+                  "name": "Hà Nội W vs Hồ Chí Minh W",
+                  "streams": [
+                    {
+                      "id": "st-48e95c45c8",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnamese Women's National League",
+            "team_a": "Hà Nội W ",
+            "team_b": "Hồ Chí Minh W",
+            "logo_a": "https://static.flashscore.com/res/image/data/rsS3dewS-WKZXwKyb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bBNLVvgl-tEmn70ao.png",
+            "start_time": "2026-06-29T16:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-48e95c45c8_536073d8_20260629.png?v=536073d8",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
