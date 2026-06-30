@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -88,38 +88,38 @@
           }
         },
         {
-          "id": "bg-3a246af267",
-          "name": "Netherlands vs Morocco | 08:00 30/06",
+          "id": "bg-662a2e9616",
+          "name": "SD Raiders vs Sydney FC U23 | 17:00 30/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-3a246af267",
+              "id": "src-662a2e9616",
               "name": "BugioTV",
               "contents": [
                 {
-                  "id": "ct-3a246af267",
-                  "name": "Netherlands vs Morocco",
+                  "id": "ct-662a2e9616",
+                  "name": "SD Raiders vs Sydney FC U23",
                   "streams": [
                     {
-                      "id": "st-3a246af267",
+                      "id": "st-662a2e9616",
                       "name": "BG",
                       "stream_links": [
                         {
-                          "id": "lnk-0ba3f9d037",
+                          "id": "lnk-d5c8f635fc",
                           "name": "Link FHD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -139,21 +139,21 @@
             }
           ],
           "org_metadata": {
-            "league": "World Cup",
-            "team_a": "Netherlands",
-            "team_b": "Morocco",
-            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
-            "logo_b": "https://media.api-sports.io/football/teams/31.png",
-            "start_time": "2026-06-30T08:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
+            "league": "New South Wales NPL",
+            "team_a": "SD Raiders",
+            "team_b": "Sydney FC U23",
+            "logo_a": "https://media.api-sports.io/football/teams/16777.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3773.png",
+            "start_time": "2026-06-30T17:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
             "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3a246af267_e03b1341_20260630.png?v=e03b1341",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-662a2e9616_ce02480c_20260630.png?v=ce02480c",
             "width": 1600,
             "height": 1200
           }
