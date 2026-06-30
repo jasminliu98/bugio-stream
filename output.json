@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-662a2e9616",
-          "name": "SD Raiders vs Sydney FC U23 | 17:00 30/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-662a2e9616",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-662a2e9616",
-                  "name": "SD Raiders vs Sydney FC U23",
-                  "streams": [
-                    {
-                      "id": "st-662a2e9616",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5c8f635fc",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "New South Wales NPL",
-            "team_a": "SD Raiders",
-            "team_b": "Sydney FC U23",
-            "logo_a": "https://media.api-sports.io/football/teams/16777.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3773.png",
-            "start_time": "2026-06-30T17:00:00",
-            "blv": "BLV Phi MC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-662a2e9616_ce02480c_20260630.png?v=ce02480c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-4c4e5249f4",
           "name": "Mashujaa vs Tanzania Prisons | 20:00 30/06",
