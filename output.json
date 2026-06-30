@@ -370,6 +370,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-c1a3d34711",
+          "name": "Mexico vs Ecuador | 08:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c1a3d34711",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-c1a3d34711",
+                  "name": "Mexico vs Ecuador",
+                  "streams": [
+                    {
+                      "id": "st-c1a3d34711",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Mexico",
+            "team_b": "Ecuador",
+            "logo_a": "https://media.api-sports.io/football/teams/16.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2382.png",
+            "start_time": "2026-07-01T08:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-c1a3d34711_9ab63027_20260701.png?v=9ab63027",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-f461285987",
+          "name": "Mexico vs Ecuador | 08:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f461285987",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-f461285987",
+                  "name": "Mexico vs Ecuador",
+                  "streams": [
+                    {
+                      "id": "st-f461285987",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5c8f635fc",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phimc/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "Mexico",
+            "team_b": "Ecuador",
+            "logo_a": "https://media.api-sports.io/football/teams/16.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2382.png",
+            "start_time": "2026-07-01T08:00:00",
+            "blv": "BLV Phi MC",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-f461285987_9ab63027_20260701.png?v=9ab63027",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
