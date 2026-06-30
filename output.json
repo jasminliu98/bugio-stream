@@ -228,6 +228,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-b105e5a192",
+          "name": "France vs Sweden | 04:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b105e5a192",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b105e5a192",
+                  "name": "France vs Sweden",
+                  "streams": [
+                    {
+                      "id": "st-b105e5a192",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ba3f9d037",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "France",
+            "team_b": "Sweden",
+            "logo_a": "https://media.api-sports.io/football/teams/2.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5.png",
+            "start_time": "2026-07-01T04:00:00",
+            "blv": "BLV Tiểu Trà Đá",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b105e5a192_d738ede3_20260630.png?v=d738ede3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-2c79b73d27",
+          "name": "France vs Sweden | 04:00 01/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c79b73d27",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-2c79b73d27",
+                  "name": "France vs Sweden",
+                  "streams": [
+                    {
+                      "id": "st-2c79b73d27",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup",
+            "team_a": "France",
+            "team_b": "Sweden",
+            "logo_a": "https://media.api-sports.io/football/teams/2.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5.png",
+            "start_time": "2026-07-01T04:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-2c79b73d27_d738ede3_20260630.png?v=d738ede3",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
