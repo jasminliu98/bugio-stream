@@ -450,6 +450,361 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-03227b9507",
+          "name": "Hàn Quốc vs Việt Nam | 13:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03227b9507",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-03227b9507",
+                  "name": "Hàn Quốc vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-03227b9507",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Châu Á",
+            "team_a": "Hàn Quốc ",
+            "team_b": " Việt Nam",
+            "logo_a": "https://static.flashscore.com/res/image/data/dSNHCvdM-8bI9alnP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nsORfhdM-AeUnl0mG.png",
+            "start_time": "2026-07-02T13:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-03227b9507_a6a2bdd4_20260701.png?v=a6a2bdd4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-cf9819df26",
+          "name": "Indonesia vs Iran | 16:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf9819df26",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-cf9819df26",
+                  "name": "Indonesia vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-cf9819df26",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Châu Á",
+            "team_a": "Indonesia ",
+            "team_b": "Iran",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/kErkaIWGPh_VGrd4T6NwUA_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1oq8Fy7ETpBpZNaCA22ArQ_96x96.png",
+            "start_time": "2026-07-02T16:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-cf9819df26_aace3ad2_20260701.png?v=aace3ad2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-6740526b78",
+          "name": "Trung Quốc vs Hồng Kông | 16:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6740526b78",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-6740526b78",
+                  "name": "Trung Quốc vs Hồng Kông",
+                  "streams": [
+                    {
+                      "id": "st-6740526b78",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Châu Á",
+            "team_a": "Trung Quốc ",
+            "team_b": "Hồng Kông",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/8Cr5Gw-79PpIX2rIEZ7Pvg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/clVmlDCDO7GWBc-a97NfZQ_96x96.png",
+            "start_time": "2026-07-02T16:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-6740526b78_b7b5f7a2_20260701.png?v=b7b5f7a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-57e4f98889",
+          "name": "Thái Lan vs Úc | 19:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-57e4f98889",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-57e4f98889",
+                  "name": "Thái Lan vs Úc",
+                  "streams": [
+                    {
+                      "id": "st-57e4f98889",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Châu Á",
+            "team_a": "Thái Lan ",
+            "team_b": "Úc",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/QYCU22ymggIHGp6LW4EQVg_96x96.png",
+            "start_time": "2026-07-02T19:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-57e4f98889_c45a008d_20260701.png?v=c45a008d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-49265d2447",
+          "name": "Đài Bắc Trung Hoa vs Ấn Độ | 19:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49265d2447",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-49265d2447",
+                  "name": "Đài Bắc Trung Hoa vs Ấn Độ",
+                  "streams": [
+                    {
+                      "id": "st-49265d2447",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21936c1c94",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_tieumeo/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Châu Á",
+            "team_a": "Đài Bắc Trung Hoa ",
+            "team_b": "Ấn Độ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Chinese_Taipei_for_Olympic_Games.svg/960px-Flag_of_Chinese_Taipei_for_Olympic_Games.svg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/SnYeRNCr-0EYShBaD.png",
+            "start_time": "2026-07-02T19:00:00",
+            "blv": "BLV Tiểu Mèo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-49265d2447_215dc673_20260701.png?v=215dc673",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
