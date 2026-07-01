@@ -805,6 +805,148 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-3ab6be46e1",
+          "name": "Nhật Bản vs Iran | 10:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ab6be46e1",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-3ab6be46e1",
+                  "name": "Nhật Bản vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-3ab6be46e1",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-970b2a547c",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_phaothan/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Châu Á",
+            "team_a": "Nhật Bản ",
+            "team_b": "Iran",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1oq8Fy7ETpBpZNaCA22ArQ_96x96.png",
+            "start_time": "2026-07-03T10:00:00",
+            "blv": "BLV Pháo",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-3ab6be46e1_c3a986eb_20260701.png?v=c3a986eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "bg-d1359f9934",
+          "name": "Ấn Độ vs Việt Nam | 13:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d1359f9934",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-d1359f9934",
+                  "name": "Ấn Độ vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-d1359f9934",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-378f040fcb",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng chuyền U18 Châu Á",
+            "team_a": "Ấn Độ ",
+            "team_b": "Việt Nam",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/mlXOOB9HXxLpoeS2dHSgGA_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
+            "start_time": "2026-07-03T13:00:00",
+            "blv": "BLV Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-d1359f9934_46f93c73_20260701.png?v=46f93c73",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
