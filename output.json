@@ -157,6 +157,77 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "bg-b62d343d76",
+          "name": "Wales U19 vs Germany U19 | 02:00 02/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b62d343d76",
+              "name": "BugioTV",
+              "contents": [
+                {
+                  "id": "ct-b62d343d76",
+                  "name": "Wales U19 vs Germany U19",
+                  "streams": [
+                    {
+                      "id": "st-b62d343d76",
+                      "name": "BG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51a73d71ba",
+                          "name": "Link FHD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_mason/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://sv1.bugio9.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U19 Championship",
+            "team_a": "Wales U19",
+            "team_b": "Germany U19",
+            "logo_a": "https://media.api-sports.io/football/teams/10353.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10336.png",
+            "start_time": "2026-07-02T02:00:00",
+            "blv": "BLV Mao Từn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-b62d343d76_aed0cf00_20260701.png?v=aed0cf00",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
