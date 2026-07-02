@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-03227b9507",
-          "name": "Hàn Quốc vs Việt Nam | 13:00 02/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03227b9507",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-03227b9507",
-                  "name": "Hàn Quốc vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-03227b9507",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-378f040fcb",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_cuccu/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bóng chuyền U18 Châu Á",
-            "team_a": "Hàn Quốc ",
-            "team_b": " Việt Nam",
-            "logo_a": "https://static.flashscore.com/res/image/data/dSNHCvdM-8bI9alnP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nsORfhdM-AeUnl0mG.png",
-            "start_time": "2026-07-02T13:00:00",
-            "blv": "BLV Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-03227b9507_a6a2bdd4_20260702.png?v=a6a2bdd4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-cf9819df26",
           "name": "Indonesia vs Iran | 16:00 02/07",
