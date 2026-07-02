@@ -11,82 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "bg-4e5046fc8d",
-          "name": "Nữ Latvia U17 vs Nữ Faroe Islands U17 | 21:00 02/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4e5046fc8d",
-              "name": "BugioTV",
-              "contents": [
-                {
-                  "id": "ct-4e5046fc8d",
-                  "name": "Nữ Latvia U17 vs Nữ Faroe Islands U17",
-                  "streams": [
-                    {
-                      "id": "st-4e5046fc8d",
-                      "name": "BG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ba3f9d037",
-                          "name": "Link FHD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://bglive.yarncdn.live/live/bgtv_blv_trada/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://sv1.bugio9.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women Baltic Cup",
-            "team_a": "Nữ Latvia U17 ",
-            "team_b": "Nữ Faroe Islands U17",
-            "logo_a": "https://static.flashscore.com/res/image/data/K2unp7wS-6DGuWIk0.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/04RJ2SWg-SA99Swp1.png",
-            "start_time": "2026-07-02T21:00:00",
-            "blv": "BLV Tiểu Trà Đá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/bugio-stream/refs/heads/main/thumbs/bg-4e5046fc8d_6ad7e02b_20260702.png?v=6ad7e02b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "bg-7836009139",
           "name": "Lyn vs Asane | 23:00 02/07",
